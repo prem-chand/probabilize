@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" fill="none">
+  <rect width="400" height="320" fill="var(--surface-sunken, #07090c)" rx="14"/>
+  <!-- Root state -->
+  <rect x="160" y="16" width="80" height="32" rx="6" fill="var(--brand, #5879fb)" opacity="0.85"/>
+  <text x="200" y="36" text-anchor="middle" fill="#fff" font-family="monospace" font-size="13" font-weight="600">s</text>
+  <!-- Action nodes -->
+  <rect x="80" y="80" width="60" height="28" rx="6" fill="var(--amber, #f5a623)" opacity="0.8"/>
+  <text x="110" y="98" text-anchor="middle" fill="#fff" font-family="monospace" font-size="11">a</text>
+  <rect x="260" y="80" width="60" height="28" rx="6" fill="var(--amber, #f5a623)" opacity="0.8"/>
+  <text x="290" y="98" text-anchor="middle" fill="#fff" font-family="monospace" font-size="11">a</text>
+  <!-- Connect root to actions -->
+  <line x1="200" y1="48" x2="110" y2="80" stroke="var(--border-default, #343a48)" stroke-width="1.5"/>
+  <line x1="200" y1="48" x2="290" y2="80" stroke="var(--border-default, #343a48)" stroke-width="1.5"/>
+  <!-- Episode trajectory -->
+  <path d="M110 108 L80 140" stroke="var(--success, #16a36b)" stroke-width="2" stroke-dasharray="4 2"/>
+  <text x="60" y="144" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">trajectory</text>
+  <!-- Reward nodes -->
+  <rect x="40" y="160" width="60" height="24" rx="4" fill="var(--text-subtle, #4b5263)" opacity="0.5"/>
+  <text x="70" y="176" text-anchor="middle" fill="var(--text-strong, #ffffff)" font-family="monospace" font-size="10">r₁</text>
+  <rect x="120" y="200" width="60" height="24" rx="4" fill="var(--text-subtle, #4b5263)" opacity="0.5"/>
+  <text x="150" y="216" text-anchor="middle" fill="var(--text-strong, #ffffff)" font-family="monospace" font-size="10">r₂</text>
+  <rect x="200" y="240" width="60" height="24" rx="4" fill="var(--text-subtle, #4b5263)" opacity="0.5"/>
+  <text x="230" y="256" text-anchor="middle" fill="var(--text-strong, #ffffff)" font-family="monospace" font-size="10">r₃</text>
+  <rect x="280" y="280" width="60" height="24" rx="4" fill="var(--success, #16a36b)" opacity="0.3"/>
+  <text x="310" y="296" text-anchor="middle" fill="var(--text-strong, #ffffff)" font-family="monospace" font-size="10">G₀</text>
+  <!-- Connecting arrows -->
+  <line x1="70" y1="184" x2="150" y2="200" stroke="var(--border-subtle, #21262f)" stroke-width="1"/>
+  <line x1="150" y1="224" x2="230" y2="240" stroke="var(--border-subtle, #21262f)" stroke-width="1"/>
+  <line x1="230" y1="264" x2="310" y2="280" stroke="var(--border-subtle, #21262f)" stroke-width="1"/>
+  <!-- Label -->
+  <text x="200" y="312" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">MC: wait for episode end, update using full return G₀</text>
+</svg>

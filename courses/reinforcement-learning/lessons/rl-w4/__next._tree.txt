@@ -1,0 +1,7 @@
+:HL["/_next/static/chunks/20_jc8857_346.css","style"]
+:HC["/",""]
+:HL["/img/monte-carlo-backup.svg","image"]
+:HL["/img/td-zero-backup.svg","image"]
+:HL["/img/eligibility-trace.svg","image"]
+:HL["/img/sarsa-vs-qlearning.svg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":24,"slots":{"children":{"name":"courses","param":null,"prefetchHints":8,"slots":{"children":{"name":"courseSlug","param":{"type":"d","key":"reinforcement-learning","siblings":null},"prefetchHints":8,"slots":{"children":{"name":"lessons","param":null,"prefetchHints":8,"slots":{"children":{"name":"lessonSlug","param":{"type":"d","key":"rl-w4","siblings":null},"prefetchHints":4,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}}}},"staleTime":300,"buildId":"cJZa-Qq75jv5Lmub7zHUT"}
