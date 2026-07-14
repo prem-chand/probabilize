@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 260" fill="none">
+  <rect width="500" height="260" fill="var(--surface-sunken, #07090c)" rx="14"/>
+  <!-- Left: SARSA -->
+  <text x="125" y="24" text-anchor="middle" fill="var(--text-strong, #ffffff)" font-family="monospace" font-size="11" font-weight="600">SARSA (on-policy)</text>
+  <rect x="85" y="36" width="80" height="28" rx="6" fill="var(--brand, #5879fb)" opacity="0.85"/>
+  <text x="125" y="54" text-anchor="middle" fill="#fff" font-family="monospace" font-size="11">s, a</text>
+  <rect x="85" y="84" width="80" height="28" rx="6" fill="var(--amber, #f5a623)" opacity="0.8"/>
+  <text x="125" y="102" text-anchor="middle" fill="#fff" font-family="monospace" font-size="11">r, s'</text>
+  <line x1="125" y1="64" x2="125" y2="84" stroke="var(--border-default, #343a48)" stroke-width="1.5"/>
+  <rect x="85" y="130" width="80" height="28" rx="6" fill="var(--success, #16a36b)" opacity="0.7"/>
+  <text x="125" y="148" text-anchor="middle" fill="#fff" font-family="monospace" font-size="11">a' (actual)</text>
+  <line x1="125" y1="112" x2="125" y2="130" stroke="var(--border-default, #343a48)" stroke-width="1.5"/>
+  <text x="125" y="196" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">Q(s,a) ← Q(s,a) + α[r + γQ(s',a') − Q(s,a)]</text>
+
+  <!-- Right: Q-learning -->
+  <text x="375" y="24" text-anchor="middle" fill="var(--text-strong, #ffffff)" font-family="monospace" font-size="11" font-weight="600">Q-learning (off-policy)</text>
+  <rect x="335" y="36" width="80" height="28" rx="6" fill="var(--brand, #5879fb)" opacity="0.85"/>
+  <text x="375" y="54" text-anchor="middle" fill="#fff" font-family="monospace" font-size="11">s, a</text>
+  <rect x="335" y="84" width="80" height="28" rx="6" fill="var(--amber, #f5a623)" opacity="0.8"/>
+  <text x="375" y="102" text-anchor="middle" fill="#fff" font-family="monospace" font-size="11">r, s'</text>
+  <line x1="375" y1="64" x2="375" y2="84" stroke="var(--border-default, #343a48)" stroke-width="1.5"/>
+  <rect x="335" y="130" width="80" height="28" rx="6" fill="var(--teal, #16a394)" opacity="0.7"/>
+  <text x="375" y="148" text-anchor="middle" fill="#fff" font-family="monospace" font-size="11">max a'</text>
+  <line x1="375" y1="112" x2="375" y2="130" stroke="var(--border-default, #343a48)" stroke-width="1.5"/>
+  <text x="375" y="196" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">Q(s,a) ← Q(s,a) + α[r + γ max_a' Q(s',a') − Q(s,a)]</text>
+
+  <!-- Separator -->
+  <line x1="250" y1="8" x2="250" y2="200" stroke="var(--border-subtle, #21262f)" stroke-width="1" stroke-dasharray="4 4"/>
+  <!-- Caption -->
+  <text x="250" y="244" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">SARSA uses actual next action a'; Q-learning uses max over all actions</text>
+</svg>
