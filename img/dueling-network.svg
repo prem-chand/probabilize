@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" fill="none">
+  <rect width="500" height="300" fill="var(--surface-sunken, #07090c)" rx="14"/>
+  <!-- Input -->
+  <rect x="180" y="16" width="140" height="40" rx="8" fill="var(--gray-800, #21262f)"/>
+  <text x="250" y="40" text-anchor="middle" fill="var(--text-strong, #ffffff)" font-family="monospace" font-size="13" font-weight="600">Shared CNN Trunk</text>
+  <!-- Branch arrows -->
+  <line x1="200" y1="56" x2="100" y2="90" stroke="var(--border-default, #343a48)" stroke-width="1.5"/>
+  <line x1="300" y1="56" x2="400" y2="108" stroke="var(--border-default, #343a48)" stroke-width="1.5"/>
+  <!-- V(s) stream -->
+  <rect x="40" y="80" width="120" height="60" rx="8" fill="var(--brand, #5879fb)" opacity="0.8"/>
+  <text x="100" y="104" text-anchor="middle" fill="#fff" font-family="monospace" font-size="12" font-weight="600">V(s)</text>
+  <text x="100" y="124" text-anchor="middle" fill="#fff" font-family="monospace" font-size="10">1 unit</text>
+  <!-- A(s,a) stream -->
+  <rect x="350" y="100" width="120" height="60" rx="8" fill="var(--amber, #f5a623)" opacity="0.8"/>
+  <text x="410" y="124" text-anchor="middle" fill="#fff" font-family="monospace" font-size="12" font-weight="600">A(s,a)</text>
+  <text x="410" y="144" text-anchor="middle" fill="#fff" font-family="monospace" font-size="10">|actions| units</text>
+  <!-- Combine -->
+  <line x1="100" y1="140" x2="200" y2="190" stroke="var(--border-default, #343a48)" stroke-width="1.5"/>
+  <line x1="410" y1="160" x2="320" y2="190" stroke="var(--border-default, #343a48)" stroke-width="1.5"/>
+  <!-- Q output -->
+  <rect x="180" y="190" width="140" height="50" rx="8" fill="var(--success, #16a36b)" opacity="0.6"/>
+  <text x="250" y="214" text-anchor="middle" fill="#fff" font-family="monospace" font-size="12" font-weight="600">Q(s,a)</text>
+  <text x="250" y="230" text-anchor="middle" fill="#fff" font-family="monospace" font-size="10">= V(s) + A(s,a) − mean(A)</text>
+  <!-- Caption -->
+  <text x="250" y="278" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">Dueling architecture: separate advantage and value streams</text>
+</svg>
