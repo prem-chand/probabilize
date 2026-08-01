@@ -1,0 +1,7 @@
+:HL["/_next/static/chunks/17oiqxgzqe9b3.css","style"]
+:HL["/_next/static/chunks/3c4-ozf1dxam2.css","style"]
+:HC["/",""]
+:HL["/fonts/cousine-nerd/CousineNerdFontMono-Regular.woff2","font",{"crossOrigin":"anonymous","type":"font/woff2"}]
+:HL["/fonts/cousine-nerd/CousineNerdFontMono-Bold.woff2","font",{"crossOrigin":"anonymous","type":"font/woff2"}]
+:HL["/fonts/cousine-nerd/CousineNerdFontMono-Italic.woff2","font",{"crossOrigin":"anonymous","type":"font/woff2"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":24,"slots":{"children":{"name":"courses","param":null,"prefetchHints":8,"slots":{"children":{"name":"courseSlug","param":{"type":"d","key":"optimization","siblings":null},"prefetchHints":8,"slots":{"children":{"name":"lessons","param":null,"prefetchHints":8,"slots":{"children":{"name":"lessonSlug","param":{"type":"d","key":"opt-w11","siblings":null},"prefetchHints":4,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}}}},"staleTime":300,"buildId":"p_chh7cghmloDLH-5tJIz"}
