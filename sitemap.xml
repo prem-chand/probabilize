@@ -475,6 +475,30 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-agents-rewards-and-mdps/</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-exploration-and-regret/</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-returns-and-value/</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-ucb-and-thompson/</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w1/</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
