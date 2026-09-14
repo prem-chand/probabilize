@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" fill="none">
-  <rect width="420" height="280" fill="var(--surface-sunken, #07090c)" rx="14"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 288" fill="none">
+  <rect width="420" height="288" fill="var(--surface-sunken, #07090c)" rx="14"/>
   <line x1="40" y1="242" x2="380" y2="242" stroke="var(--border-default, #343a48)" stroke-width="1.5" stroke-dasharray="6 4"/>
   <rect x="70" y="210" width="52" height="30" rx="4" fill="var(--border-default, #343a48)"/>
   <line x1="96" y1="205" x2="186" y2="126" stroke="#5879fb" stroke-width="7" stroke-linecap="round"/>

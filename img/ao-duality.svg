@@ -12,6 +12,6 @@
   <circle cx="260" cy="182" r="4.5" fill="#16a36b"/>
   <text x="260" y="52" text-anchor="middle" fill="#16a36b" font-family="monospace" font-size="10">x* optimum</text>
   <text x="120" y="88" fill="#f5a623" font-family="monospace" font-size="10">dual lower bounds g(λ)</text>
-  <text x="196" y="216" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">the dual is the best linear lower bound; strong duality closes the gap</text>
+  <text x="225" y="216" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">the dual is the best linear lower bound; strong duality closes the gap</text>
   <text x="225" y="30" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">Lagrangian duality: maximise a lower bound on the primal</text>
 </svg>

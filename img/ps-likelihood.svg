@@ -9,6 +9,6 @@
   <text x="235" y="46" text-anchor="middle" fill="#16a36b" font-family="monospace" font-size="10">MLE: p̂</text>
   <text x="300" y="186" text-anchor="middle" fill="#f5a623" font-family="monospace" font-size="10">true p</text>
   <text x="150" y="150" fill="#5879fb" font-family="monospace" font-size="10">ℓ(p) = log L(p)</text>
-  <text x="225" y="26" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">maximum likelihood: the parameter that makes the data most probable</text>
-  <text x="225" y="210" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">the peak is the estimator; the curvature around it sets the uncertainty</text>
+  <text x="225" y="26" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">maximum likelihood: the parameter that makes data most probable</text>
+  <text x="225" y="205" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">the peak is the estimator; the curvature around it sets the uncertainty</text>
 </svg>

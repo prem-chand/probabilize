@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" fill="none">
   <rect width="480" height="240" fill="var(--surface-sunken, #07090c)" rx="14"/>
   <defs>
-    <marker id="rlRlhfArrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#9aa3b2"/></marker>
-    <marker id="rlRlhfKl" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#e5484d"/></marker>
+    <marker id="rlRlhfArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#9aa3b2"/></marker>
+    <marker id="rlRlhfKl" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#e5484d"/></marker>
   </defs>
   <rect x="20" y="64" width="130" height="76" rx="8" fill="#5879fb" fill-opacity="0.2" stroke="#5879fb" stroke-width="1.6"/>
   <text x="85" y="92" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="11">1. SFT</text>
@@ -20,5 +20,5 @@
   <line x1="305" y1="102" x2="330" y2="102" stroke="#9aa3b2" stroke-width="2" marker-end="url(#rlRlhfArrow)"/>
   <path d="M395 140 L395 190 L85 190 L85 140" stroke="#e5484d" stroke-width="1.6" stroke-dasharray="5 4" fill="none" marker-end="url(#rlRlhfKl)"/>
   <text x="240" y="206" text-anchor="middle" fill="#e5484d" font-family="monospace" font-size="10">KL(π_θ ‖ π_ref) keeps the policy near the SFT model</text>
-  <text x="240" y="30" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">RLHF in three stages: format → learn preferences → optimize under a leash</text>
+  <text x="240" y="30" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">RLHF in three stages: format → learn → optimize under a leash</text>
 </svg>

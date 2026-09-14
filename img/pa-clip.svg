@@ -18,7 +18,7 @@
   </g>
   <line x1="140" y1="68" x2="300" y2="60" stroke="#5879fb" stroke-width="2"/>
   <line x1="140" y1="168" x2="300" y2="176" stroke="#f5a623" stroke-width="2"/>
-  <text x="375" y="222" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">similarity matrix: bright diagonal = matched pairs</text>
+  <text x="375" y="214" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">diagonal = matched pairs</text>
   <text x="220" y="24" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">CLIP: map images and text into one shared space</text>
-  <text x="220" y="222" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">train the diagonal high, everything else low (InfoNCE)</text>
+  <text x="220" y="225" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">train the diagonal high, everything else low (InfoNCE)</text>
 </svg>

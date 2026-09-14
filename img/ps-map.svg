@@ -9,7 +9,7 @@
   <text x="196" y="66" text-anchor="middle" fill="#16a36b" font-family="monospace" font-size="10">MAP: argmax</text>
   <text x="330" y="86" fill="#5879fb" font-family="monospace" font-size="10">likelihood</text>
   <text x="330" y="132" fill="#f5a623" font-family="monospace" font-size="10">prior</text>
-  <text x="330" y="150" fill="#16a36b" font-family="monospace" font-size="10">posterior ∝ prior × likelihood</text>
+  <text x="230" y="186" text-anchor="middle" fill="#16a36b" font-family="monospace" font-size="10">posterior ∝ prior × likelihood</text>
   <text x="230" y="26" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">MAP adds a prior, pulling the estimate away from the MLE</text>
-  <text x="230" y="202" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">a prior is regularisation: it shrinks toward prior belief, not away from it</text>
+  <text x="230" y="202" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">a prior is regularisation: it shrinks toward prior belief</text>
 </svg>

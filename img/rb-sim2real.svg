@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 210" fill="none">
   <rect width="480" height="210" fill="var(--surface-sunken, #07090c)" rx="14"/>
   <defs>
-    <marker id="rbS2rArrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#9aa3b2"/></marker>
-    <marker id="rbS2rGap" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#e5484d"/></marker>
+    <marker id="rbS2rArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#9aa3b2"/></marker>
+    <marker id="rbS2rGap" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#e5484d"/></marker>
   </defs>
   <rect x="15" y="62" width="96" height="60" rx="8" fill="#5879fb" fill-opacity="0.2" stroke="#5879fb" stroke-width="1.5"/>
   <text x="63" y="88" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">physics</text>

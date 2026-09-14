@@ -13,5 +13,5 @@
   <text x="306" y="90" fill="#f5a623" font-family="monospace" font-size="10">eigvec λ₁</text>
   <text x="246" y="182" fill="#16a36b" font-family="monospace" font-size="10">eigvec λ₂</text>
   <text x="220" y="26" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">a multivariate Gaussian is a mean plus a covariance ellipsoid</text>
-  <text x="220" y="216" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">the eigenvectors of Σ give the axes; the eigenvalues give their lengths</text>
+  <text x="220" y="216" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">the eigenvectors of Σ give the axes, the eigenvalues the lengths</text>
 </svg>

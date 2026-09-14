@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 250" fill="none">
   <rect width="460" height="250" fill="var(--surface-sunken, #07090c)" rx="14"/>
   <defs>
-    <marker id="aoAdmmArrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#9aa3b2"/></marker>
+    <marker id="aoAdmmArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#9aa3b2"/></marker>
   </defs>
   <rect x="30" y="60" width="120" height="60" rx="8" fill="#5879fb" fill-opacity="0.2" stroke="#5879fb" stroke-width="1.6"/>
   <text x="90" y="86" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="11">x-update</text>
@@ -18,6 +18,6 @@
   </g>
   <path d="M385 120 L385 178 L90 178 L90 120" stroke="#9aa3b2" stroke-width="2" fill="none" marker-end="url(#aoAdmmArrow)"/>
   <text x="237" y="196" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">repeat until consensus: x = z</text>
-  <text x="230" y="30" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">ADMM splits a hard problem into two easy proximal steps plus a dual nudge</text>
+  <text x="230" y="30" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">ADMM: two easy proximal steps plus a dual nudge</text>
   <text x="230" y="228" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">min f(x) + g(z) s.t. x = z</text>
 </svg>

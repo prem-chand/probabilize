@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" fill="none">
   <rect width="420" height="280" fill="var(--surface-sunken, #07090c)" rx="14"/>
   <defs>
-    <marker id="optProjBrand" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#5879fb"/></marker>
-    <marker id="optProjAmber" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#f5a623"/></marker>
+    <marker id="optProjBrand" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#5879fb"/></marker>
+    <marker id="optProjAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#f5a623"/></marker>
   </defs>
   <circle cx="150" cy="160" r="80" fill="#5879fb" fill-opacity="0.12" stroke="#5879fb" stroke-width="2"/>
   <line x1="150" y1="240" x2="150" y2="60" stroke="var(--border-subtle, #21262f)" stroke-width="1" stroke-dasharray="4 4"/>

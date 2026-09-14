@@ -7,6 +7,6 @@
   <circle cx="295" cy="148" r="26" fill="none" stroke="#16a36b" stroke-width="1.4" stroke-dasharray="3 3"/>
   <text x="120" y="48" text-anchor="middle" fill="#e5484d" font-family="monospace" font-size="10">sharp minimum</text>
   <text x="295" y="196" text-anchor="middle" fill="#16a36b" font-family="monospace" font-size="10">flat minimum</text>
-  <text x="225" y="30" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">sharpness-aware minimisation prefers wide basins to narrow spikes</text>
-  <text x="225" y="224" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">SAM minimises the worst loss in a neighbourhood, not the loss at a single point</text>
+  <text x="225" y="30" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">sharpness-aware minimisation prefers wide basins</text>
+  <text x="225" y="224" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">SAM minimises the worst loss nearby, not the loss at one point</text>
 </svg>

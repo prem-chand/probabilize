@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" fill="none">
-  <rect width="400" height="320" fill="var(--surface-sunken, #07090c)" rx="14"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 326" fill="none">
+  <rect width="400" height="326" fill="var(--surface-sunken, #07090c)" rx="14"/>
   <!-- Root state -->
   <rect x="160" y="16" width="80" height="32" rx="6" fill="var(--brand, #5879fb)" opacity="0.85"/>
   <text x="200" y="36" text-anchor="middle" fill="#fff" font-family="monospace" font-size="13" font-weight="600">s</text>

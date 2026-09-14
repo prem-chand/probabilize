@@ -16,7 +16,6 @@
   <text x="133" y="110" text-anchor="middle" fill="#5879fb" font-family="monospace" font-size="10">chunk 1: H actions from o_t</text>
   <text x="333" y="110" text-anchor="middle" fill="#f5a623" font-family="monospace" font-size="10">chunk 2: re-planned from o_t+H</text>
   <text x="232" y="80" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">executed open-loop, no per-step inference</text>
-  <text x="460" y="150" fill="none" font-family="monospace" font-size="1">t</text>
   <text x="230" y="26" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">action chunking: one forward pass predicts a horizon of actions</text>
   <text x="230" y="44" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">fewer decisions per trajectory — so fewer places for error to compound</text>
 </svg>
