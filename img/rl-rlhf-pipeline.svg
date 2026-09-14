@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" fill="none">
+  <rect width="480" height="240" fill="var(--surface-sunken, #07090c)" rx="14"/>
+  <defs>
+    <marker id="rlRlhfArrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#9aa3b2"/></marker>
+    <marker id="rlRlhfKl" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#e5484d"/></marker>
+  </defs>
+  <rect x="20" y="64" width="130" height="76" rx="8" fill="#5879fb" fill-opacity="0.2" stroke="#5879fb" stroke-width="1.6"/>
+  <text x="85" y="92" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="11">1. SFT</text>
+  <text x="85" y="110" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">fine-tune base model</text>
+  <text x="85" y="126" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">π_SFT = π_ref</text>
+  <rect x="175" y="64" width="130" height="76" rx="8" fill="#f5a623" fill-opacity="0.18" stroke="#f5a623" stroke-width="1.6"/>
+  <text x="240" y="92" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="11">2. Reward model</text>
+  <text x="240" y="110" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">pairwise preferences</text>
+  <text x="240" y="126" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">r_φ(x, y)</text>
+  <rect x="330" y="64" width="130" height="76" rx="8" fill="#16a36b" fill-opacity="0.2" stroke="#16a36b" stroke-width="1.6"/>
+  <text x="395" y="92" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="11">3. PPO</text>
+  <text x="395" y="110" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">maximize r_φ</text>
+  <text x="395" y="126" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">− β·KL penalty</text>
+  <line x1="150" y1="102" x2="175" y2="102" stroke="#9aa3b2" stroke-width="2" marker-end="url(#rlRlhfArrow)"/>
+  <line x1="305" y1="102" x2="330" y2="102" stroke="#9aa3b2" stroke-width="2" marker-end="url(#rlRlhfArrow)"/>
+  <path d="M395 140 L395 190 L85 190 L85 140" stroke="#e5484d" stroke-width="1.6" stroke-dasharray="5 4" fill="none" marker-end="url(#rlRlhfKl)"/>
+  <text x="240" y="206" text-anchor="middle" fill="#e5484d" font-family="monospace" font-size="10">KL(π_θ ‖ π_ref) keeps the policy near the SFT model</text>
+  <text x="240" y="30" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">RLHF in three stages: format → learn preferences → optimize under a leash</text>
+</svg>
