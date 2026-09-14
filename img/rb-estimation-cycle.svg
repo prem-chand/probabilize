@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" fill="none">
+  <rect width="480" height="320" fill="var(--surface-sunken, #07090c)" rx="14"/>
+  <defs>
+    <marker id="rbEstArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#9aa3b2"/></marker>
+  </defs>
+  <text x="240" y="26" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">predict, measure, combine - every step</text>
+
+  <!-- prediction -->
+  <rect x="24" y="58" width="186" height="74" rx="8" fill="#5879fb" fill-opacity="0.2" stroke="#5879fb" stroke-width="1.6"/>
+  <text x="117" y="82" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="12">prediction</text>
+  <text x="117" y="101" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">last estimate + commanded motion</text>
+  <text x="117" y="118" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">about the world, but not new</text>
+
+  <!-- measurement -->
+  <rect x="270" y="58" width="186" height="74" rx="8" fill="#f5a623" fill-opacity="0.18" stroke="#f5a623" stroke-width="1.6"/>
+  <text x="363" y="82" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="12">measurement</text>
+  <text x="363" y="101" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">what the sensor reports now</text>
+  <text x="363" y="118" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">current, but jittery</text>
+
+  <!-- estimate -->
+  <rect x="130" y="186" width="220" height="72" rx="8" fill="#16a36b" fill-opacity="0.2" stroke="#16a36b" stroke-width="1.6"/>
+  <text x="240" y="210" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="12">estimate</text>
+  <text x="240" y="231" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">prediction + gain*(reading - prediction)</text>
+  <text x="240" y="248" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">gain = share of the correction accepted</text>
+
+  <!-- arrows into the estimate -->
+  <g stroke="#9aa3b2" stroke-width="1.8">
+    <line x1="103" y1="134" x2="176" y2="186" marker-end="url(#rbEstArrow)"/>
+    <line x1="377" y1="134" x2="304" y2="186" marker-end="url(#rbEstArrow)"/>
+  </g>
+  <text x="358" y="163" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">gain</text>
+
+  <!-- loop back to the next prediction -->
+  <path d="M130 222 L14 222 L14 95 L24 95" fill="none" stroke="#9aa3b2" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#rbEstArrow)"/>
+  <text x="72" y="240" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">next step</text>
+</svg>

@@ -397,6 +397,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://probabilize.dev/courses/robot-learning/lessons/rb-b2/</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://probabilize.dev/courses/robot-learning/lessons/rb-w2/</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
