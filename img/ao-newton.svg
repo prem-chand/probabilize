@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 240" fill="none">
+  <rect width="450" height="240" fill="var(--surface-sunken, #07090c)" rx="14"/>
+  <g stroke="var(--border-subtle, #21262f)" stroke-width="1.3">
+    <ellipse cx="225" cy="120" rx="180" ry="46"/><ellipse cx="225" cy="120" rx="130" ry="34"/>
+    <ellipse cx="225" cy="120" rx="80" ry="22"/><ellipse cx="225" cy="120" rx="30" ry="10"/>
+  </g>
+  <polyline points="400,86 340,150 300,92 268,148 248,98 236,142 229,112 226,134 225,120"
+    stroke="#f5a623" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+  <polyline points="400,86 300,124 246,122 225,120" stroke="#5879fb" stroke-width="2.4" fill="none"/>
+  <g fill="#5879fb"><circle cx="400" cy="86" r="4"/><circle cx="300" cy="124" r="4"/><circle cx="246" cy="122" r="4"/></g>
+  <circle cx="225" cy="120" r="5" fill="#16a36b"/>
+  <text x="230" y="30" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">Newton rescales by the Hessian, so it does not zigzag</text>
+  <text x="300" y="62" fill="#f5a623" font-family="monospace" font-size="10">gradient descent</text>
+  <text x="316" y="150" fill="#5879fb" font-family="monospace" font-size="10">Newton</text>
+  <text x="225" y="212" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">cost per step is higher (solve with the Hessian) but far fewer steps are needed</text>
+</svg>
