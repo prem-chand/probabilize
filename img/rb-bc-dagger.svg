@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 240" fill="none">
+  <rect width="440" height="240" fill="var(--surface-sunken, #07090c)" rx="14"/>
+  <line x1="220" y1="24" x2="220" y2="216" stroke="var(--border-subtle, #21262f)" stroke-width="1"/>
+  <path d="M30 190 Q120 150 200 70" stroke="#16a36b" stroke-width="2" stroke-dasharray="6 4" fill="none"/>
+  <path d="M30 190 Q120 190 200 150" stroke="#e5484d" stroke-width="2" fill="none"/>
+  <path d="M120 190 Q170 175 200 150" stroke="#e5484d" stroke-width="0" fill="#e5484d" fill-opacity="0.12"/>
+  <text x="110" y="42" text-anchor="middle" fill="#e5484d" font-family="monospace" font-size="11">behavior cloning</text>
+  <text x="112" y="200" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">small error leaves the expert</text>
+  <text x="112" y="214" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">trajectory and compounds</text>
+  <text x="200" y="62" fill="#16a36b" font-family="monospace" font-size="9">expert</text>
+  <text x="196" y="158" fill="#e5484d" font-family="monospace" font-size="9">BC</text>
+  <path d="M250 190 Q330 150 400 70" stroke="#16a36b" stroke-width="2" stroke-dasharray="6 4" fill="none"/>
+  <path d="M250 190 Q330 178 400 140" stroke="#5879fb" stroke-width="2" fill="none"/>
+  <rect x="290" y="150" width="120" height="34" rx="6" fill="#f5a623" fill-opacity="0.18" stroke="#f5a623" stroke-width="1.4"/>
+  <text x="350" y="171" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="9">add corrections to D</text>
+  <path d="M400 140 L360 158" stroke="#5879fb" stroke-width="1.4" marker-end="url(#rbDaggerArrow)"/>
+  <defs>
+    <marker id="rbDaggerArrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#5879fb"/></marker>
+  </defs>
+  <text x="330" y="42" text-anchor="middle" fill="#5879fb" font-family="monospace" font-size="11">DAgger</text>
+  <text x="325" y="206" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">expert labels the states the policy actually visits</text>
+  <text x="220" y="232" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">the fix for compounding error is to train on the policy's own state distribution</text>
+</svg>

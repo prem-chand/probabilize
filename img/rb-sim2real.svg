@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 210" fill="none">
+  <rect width="480" height="210" fill="var(--surface-sunken, #07090c)" rx="14"/>
+  <defs>
+    <marker id="rbS2rArrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#9aa3b2"/></marker>
+    <marker id="rbS2rGap" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#e5484d"/></marker>
+  </defs>
+  <rect x="15" y="62" width="96" height="60" rx="8" fill="#5879fb" fill-opacity="0.2" stroke="#5879fb" stroke-width="1.5"/>
+  <text x="63" y="88" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">physics</text>
+  <text x="63" y="104" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">simulator</text>
+  <rect x="135" y="62" width="96" height="60" rx="8" fill="#f5a623" fill-opacity="0.18" stroke="#f5a623" stroke-width="1.5"/>
+  <text x="183" y="88" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">domain</text>
+  <text x="183" y="104" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">randomization</text>
+  <rect x="255" y="62" width="96" height="60" rx="8" fill="#5879fb" fill-opacity="0.2" stroke="#5879fb" stroke-width="1.5"/>
+  <text x="303" y="88" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">policy</text>
+  <text x="303" y="104" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">training</text>
+  <rect x="375" y="62" width="96" height="60" rx="8" fill="#16a36b" fill-opacity="0.2" stroke="#16a36b" stroke-width="1.5"/>
+  <text x="423" y="88" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">real</text>
+  <text x="423" y="104" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">robot</text>
+  <g stroke="#9aa3b2" stroke-width="2">
+    <line x1="111" y1="92" x2="135" y2="92" marker-end="url(#rbS2rArrow)"/>
+    <line x1="231" y1="92" x2="255" y2="92" marker-end="url(#rbS2rArrow)"/>
+    <line x1="351" y1="92" x2="375" y2="92" marker-end="url(#rbS2rArrow)"/>
+  </g>
+  <path d="M63 140 L63 168 L423 168 L423 122" stroke="#e5484d" stroke-width="1.5" stroke-dasharray="5 4" fill="none"/>
+  <text x="243" y="186" text-anchor="middle" fill="#e5484d" font-family="monospace" font-size="10">reality gap: randomize until the real world is in-distribution</text>
+  <text x="240" y="26" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">sim2real pipeline: randomize simulation so reality transfers</text>
+</svg>

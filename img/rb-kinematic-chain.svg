@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" fill="none">
+  <rect width="420" height="280" fill="var(--surface-sunken, #07090c)" rx="14"/>
+  <line x1="40" y1="242" x2="380" y2="242" stroke="var(--border-default, #343a48)" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="70" y="210" width="52" height="30" rx="4" fill="var(--border-default, #343a48)"/>
+  <line x1="96" y1="205" x2="186" y2="126" stroke="#5879fb" stroke-width="7" stroke-linecap="round"/>
+  <line x1="186" y1="126" x2="266" y2="96" stroke="#5879fb" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="96" cy="205" r="7" fill="#f5a623"/>
+  <circle cx="186" cy="126" r="7" fill="#f5a623"/>
+  <rect x="258" y="88" width="16" height="16" rx="2" fill="#16a36b"/>
+  <path d="M104 213 A18 18 0 0 1 118 197" stroke="#f5a623" stroke-width="1.4" fill="none"/>
+  <path d="M194 134 A18 18 0 0 1 207 118" stroke="#f5a623" stroke-width="1.4" fill="none"/>
+  <text x="210" y="26" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">joint angles θ map to an end-effector pose x</text>
+  <text x="128" y="196" fill="#f5a623" font-family="monospace" font-size="11">θ1</text>
+  <text x="198" y="136" fill="#f5a623" font-family="monospace" font-size="11">θ2</text>
+  <text x="80" y="260" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">base</text>
+  <text x="280" y="86" fill="#16a36b" font-family="monospace" font-size="11">x ∈ SE(3)</text>
+  <text x="210" y="272" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">forward kinematics: θ → x; inverse kinematics: x → θ</text>
+</svg>
