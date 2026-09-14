@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 330" fill="none">
+  <rect width="440" height="330" fill="var(--surface-sunken, #07090c)" rx="14"/>
+  <defs>
+    <marker id="rbFkArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="var(--border-default, #343a48)"/></marker>
+  </defs>
+  <text x="220" y="24" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">each link contributes (length × cos θ, length × sin θ)</text>
+  <line x1="90" y1="262" x2="400" y2="262" stroke="var(--border-default, #343a48)" stroke-width="1.5" marker-end="url(#rbFkArrow)"/>
+  <line x1="90" y1="262" x2="90" y2="40" stroke="var(--border-default, #343a48)" stroke-width="1.5" marker-end="url(#rbFkArrow)"/>
+  <line x1="186.8" y1="112.8" x2="186.8" y2="262" stroke="var(--text-subtle, #6b7482)" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="186.8" y1="112.8" x2="90" y2="112.8" stroke="var(--text-subtle, #6b7482)" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="172.7" y1="192.6" x2="172.7" y2="262" stroke="var(--border-default, #343a48)" stroke-width="1" stroke-dasharray="3 5"/>
+  <line x1="90" y1="262" x2="172.7" y2="192.6" stroke="#5879fb" stroke-width="7" stroke-linecap="round"/>
+  <line x1="172.7" y1="192.6" x2="186.8" y2="112.8" stroke="#5879fb" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="90" cy="262" r="6" fill="#f5a623"/>
+  <circle cx="172.7" cy="192.6" r="6" fill="#f5a623"/>
+  <circle cx="186.8" cy="112.8" r="6" fill="#16a36b"/>
+  <path d="M136 262 A46 46 0 0 0 125.2 232.4" stroke="#f5a623" stroke-width="1.4" fill="none"/>
+  <path d="M200.3 169.5 A36 36 0 0 0 179 157.1" stroke="#f5a623" stroke-width="1.4" fill="none"/>
+  <text x="150" y="250" fill="#f5a623" font-family="monospace" font-size="11">θ1</text>
+  <text x="206" y="164" fill="#f5a623" font-family="monospace" font-size="11">θ2</text>
+  <text x="200" y="108" fill="#16a36b" font-family="monospace" font-size="10">hand (x, y)</text>
+  <text x="150" y="186" text-anchor="end" fill="#f5a623" font-family="monospace" font-size="10">elbow</text>
+  <text x="396" y="280" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">x</text>
+  <text x="76" y="48" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">y</text>
+  <text x="96" y="282" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">base (origin)</text>
+</svg>
