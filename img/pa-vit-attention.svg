@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 240" fill="none">
+  <rect width="460" height="240" fill="var(--surface-sunken, #07090c)" rx="14"/>
+  <rect x="20" y="60" width="96" height="96" rx="6" fill="#5879fb" fill-opacity="0.14" stroke="#5879fb" stroke-width="1.5"/>
+  <g stroke="var(--border-default, #343a48)" stroke-width="1">
+    <line x1="52" y1="60" x2="52" y2="156"/><line x1="84" y1="60" x2="84" y2="156"/>
+    <line x1="20" y1="92" x2="116" y2="92"/><line x1="20" y1="124" x2="116" y2="124"/>
+  </g>
+  <text x="68" y="178" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">image → patches</text>
+  <g fill="#f5a623" fill-opacity="0.85">
+    <rect x="180" y="46" width="18" height="18" rx="3"/><rect x="204" y="46" width="18" height="18" rx="3"/>
+    <rect x="228" y="46" width="18" height="18" rx="3"/><rect x="252" y="46" width="18" height="18" rx="3"/>
+    <rect x="276" y="46" width="18" height="18" rx="3"/>
+  </g>
+  <text x="240" y="34" text-anchor="middle" fill="#f5a623" font-family="monospace" font-size="10">patch tokens (+ position)</text>
+  <rect x="330" y="72" width="104" height="72" rx="8" fill="#5879fb" fill-opacity="0.2" stroke="#5879fb" stroke-width="1.6"/>
+  <text x="382" y="102" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="11">Transformer</text>
+  <text x="382" y="120" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">self-attention</text>
+  <line x1="116" y1="108" x2="180" y2="60" stroke="#9aa3b2" stroke-width="2"/>
+  <line x1="298" y1="55" x2="330" y2="95" stroke="#9aa3b2" stroke-width="2"/>
+  <path d="M195 76 C 220 110, 250 110, 272 76" stroke="#16a36b" stroke-width="1.6" fill="none"/>
+  <text x="234" y="132" text-anchor="middle" fill="#16a36b" font-family="monospace" font-size="10">every patch attends to every other</text>
+  <text x="230" y="24" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">ViT: split the image into patches and run attention over them</text>
+  <text x="230" y="210" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">global receptive field from layer one — unlike a CNN's local kernels</text>
+  <text x="230" y="228" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">this is why ViTs scale with data and pair so well with language</text>
+</svg>
