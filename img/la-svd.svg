@@ -1,24 +1,111 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 230" fill="none">
-  <rect width="480" height="230" fill="var(--surface-sunken, #07090c)" rx="14"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" fill="none" role="img" aria-labelledby="laSvdTitle laSvdDesc">
+  <title id="laSvdTitle">The singular value decomposition as three geometric stages</title>
+  <desc id="laSvdDesc">A tracked vector moves through V transpose, an axis-aligned Sigma stretch, and a final U rotation to become Ax.</desc>
+
+  <style>
+    .title { fill: var(--text-muted, #9aa3b2); font-family: monospace; font-size: 13px; }
+    .stage { fill: var(--text-strong, #ffffff); font-family: monospace; font-size: 14px; font-weight: 700; }
+    .annotation { fill: var(--text-muted, #9aa3b2); font-family: monospace; font-size: 11px; }
+    .axis-label { fill: var(--text-muted, #9aa3b2); font-family: monospace; font-size: 10px; }
+    .label-blue { fill: #5879fb; }
+    .label-green { fill: #16a36b; }
+    .label-amber { fill: #f5a623; }
+    .basis { stroke: var(--border-default, #343a48); stroke-width: 1.5; }
+    .basis-rotated { stroke: #f5a623; stroke-width: 1.5; opacity: 0.8; }
+    .ghost { stroke: var(--border-subtle, #21262f); stroke-width: 1.5; stroke-dasharray: 5 4; }
+    .panel { fill: var(--surface-raised, #10151d); stroke: var(--border-subtle, #21262f); stroke-width: 1; }
+    @media (max-width: 560px) {
+      .title { font-size: 14px; }
+      .stage { font-size: 16px; }
+      .annotation { font-size: 12px; }
+      .axis-label { font-size: 11px; }
+    }
+  </style>
+
   <defs>
-    <marker id="laSvdBrand" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#5879fb"/></marker>
+    <marker id="laSvdBlueArrow" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L9 3.5 L0 7 Z" fill="#5879fb"/>
+    </marker>
+    <marker id="laSvdAmberArrow" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L9 3.5 L0 7 Z" fill="#f5a623"/>
+    </marker>
+    <marker id="laSvdGreenArrow" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L9 3.5 L0 7 Z" fill="#16a36b"/>
+    </marker>
   </defs>
-  <text x="240" y="26" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">A = U Σ Vᵀ is rotate, then stretch, then rotate</text>
-  <g stroke="var(--border-subtle, #21262f)" stroke-width="1">
-    <line x1="48" y1="110" x2="96" y2="110"/>
-    <line x1="72" y1="86" x2="72" y2="134"/>
+
+  <rect width="720" height="300" rx="14" fill="var(--surface-sunken, #07090c)"/>
+  <text x="360" y="25" text-anchor="middle" class="title">A = UΣVᵀ: change basis → stretch → change basis</text>
+
+  <!-- Vᵀ: make the otherwise invisible orthogonal step observable with a tracked vector and bases. -->
+  <g id="stage-vt">
+    <rect x="18" y="46" width="198" height="226" rx="10" class="panel"/>
+    <text x="117" y="68" text-anchor="middle" class="stage">Vᵀ</text>
+    <text x="117" y="84" text-anchor="middle" class="annotation">input basis change</text>
+    <g transform="translate(117 163)">
+      <line x1="-74" y1="0" x2="74" y2="0" class="basis"/>
+      <line x1="0" y1="-62" x2="0" y2="62" class="basis"/>
+      <line x1="-67" y1="38" x2="67" y2="-38" class="basis-rotated"/>
+      <line x1="-38" y1="-67" x2="38" y2="67" class="basis-rotated"/>
+      <circle r="54" stroke="#5879fb" stroke-width="2"/>
+      <line x1="0" y1="0" x2="46" y2="-25" stroke="#5879fb" stroke-width="2.5" stroke-dasharray="5 4"/>
+      <circle cx="46" cy="-25" r="3.5" fill="#5879fb"/>
+      <line x1="0" y1="0" x2="43" y2="22" stroke="#16a36b" stroke-width="2.5" marker-end="url(#laSvdGreenArrow)"/>
+      <circle cx="43" cy="22" r="3.5" fill="#16a36b"/>
+      <text x="50" y="-28" class="axis-label label-blue">x</text>
+      <text x="48" y="35" class="axis-label label-green">Vᵀx</text>
+      <text x="63" y="-7" class="axis-label">e₁</text>
+      <text x="7" y="-57" class="axis-label">e₂</text>
+    </g>
+    <text x="117" y="249" text-anchor="middle" class="annotation">same circle, new axes</text>
+    <text x="117" y="264" text-anchor="middle" fill="#16a36b" font-family="monospace" font-size="11">‖Vᵀx‖ = ‖x‖</text>
   </g>
-  <circle cx="72" cy="110" r="42" stroke="#5879fb" stroke-width="2"/>
-  <text x="72" y="170" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="11">x</text>
-  <text x="72" y="188" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">unit circle</text>
-  <line x1="126" y1="110" x2="166" y2="110" stroke="#5879fb" stroke-width="2" marker-end="url(#laSvdBrand)"/>
-  <text x="146" y="100" text-anchor="middle" fill="#5879fb" font-family="monospace" font-size="11">Vᵀ</text>
-  <ellipse cx="230" cy="110" rx="52" ry="24" stroke="#5879fb" stroke-width="2"/>
-  <text x="230" y="170" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="11">Σ</text>
-  <text x="230" y="188" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">axis-aligned stretch</text>
-  <line x1="286" y1="110" x2="326" y2="110" stroke="#5879fb" stroke-width="2" marker-end="url(#laSvdBrand)"/>
-  <text x="306" y="100" text-anchor="middle" fill="#5879fb" font-family="monospace" font-size="11">U</text>
-  <ellipse cx="400" cy="110" rx="52" ry="24" transform="rotate(-30 400 110)" stroke="#5879fb" stroke-width="2"/>
-  <text x="400" y="170" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="11">Ax</text>
-  <text x="400" y="188" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">ellipse</text>
+
+  <line x1="222" y1="159" x2="252" y2="159" stroke="#5879fb" stroke-width="2" marker-end="url(#laSvdBlueArrow)"/>
+
+  <!-- Σ: stretch only along the visible coordinate axes. -->
+  <g id="stage-sigma">
+    <rect x="261" y="46" width="198" height="226" rx="10" class="panel"/>
+    <text x="360" y="68" text-anchor="middle" class="stage">Σ</text>
+    <text x="360" y="84" text-anchor="middle" class="annotation">axis-aligned stretch</text>
+    <g transform="translate(360 163)">
+      <line x1="-84" y1="0" x2="84" y2="0" class="basis"/>
+      <line x1="0" y1="-64" x2="0" y2="64" class="basis"/>
+      <circle r="54" class="ghost"/>
+      <ellipse rx="81" ry="32" fill="#5879fb" fill-opacity="0.10" stroke="#5879fb" stroke-width="2"/>
+      <line x1="0" y1="0" x2="47" y2="-24" stroke="#16a36b" stroke-width="2" stroke-dasharray="5 4"/>
+      <line x1="0" y1="0" x2="71" y2="-14" stroke="#f5a623" stroke-width="2.5" marker-end="url(#laSvdAmberArrow)"/>
+      <circle cx="71" cy="-14" r="3.5" fill="#f5a623"/>
+      <text x="27" y="28" class="axis-label label-green">Vᵀx</text>
+      <text x="50" y="-20" class="axis-label label-amber">ΣVᵀx</text>
+      <text x="65" y="-7" class="axis-label">σ₁</text>
+      <text x="7" y="-49" class="axis-label">σ₂</text>
+    </g>
+    <text x="360" y="249" text-anchor="middle" class="annotation">x × σ₁, y × σ₂</text>
+    <text x="360" y="264" text-anchor="middle" fill="#f5a623" font-family="monospace" font-size="11">lengths change here</text>
+  </g>
+
+  <line x1="465" y1="159" x2="495" y2="159" stroke="#5879fb" stroke-width="2" marker-end="url(#laSvdBlueArrow)"/>
+
+  <!-- U: rotate the stretched ellipse into the output basis and retain the tracked endpoint. -->
+  <g id="stage-u">
+    <rect x="504" y="46" width="198" height="226" rx="10" class="panel"/>
+    <text x="603" y="68" text-anchor="middle" class="stage">U</text>
+    <text x="603" y="84" text-anchor="middle" class="annotation">output basis rotation</text>
+    <g transform="translate(603 163)">
+      <line x1="-88" y1="0" x2="88" y2="0" class="ghost"/>
+      <line x1="0" y1="-67" x2="0" y2="67" class="ghost"/>
+      <ellipse rx="81" ry="32" class="ghost"/>
+      <line x1="-79" y1="42" x2="79" y2="-42" class="basis-rotated"/>
+      <line x1="-38" y1="-70" x2="38" y2="70" class="basis-rotated"/>
+      <ellipse rx="81" ry="32" fill="#16a36b" fill-opacity="0.10" stroke="#16a36b" stroke-width="2.5" transform="rotate(-28)"/>
+      <line x1="0" y1="0" x2="64" y2="-42" stroke="#16a36b" stroke-width="2.5" marker-end="url(#laSvdGreenArrow)"/>
+      <circle cx="64" cy="-42" r="3.5" fill="#16a36b"/>
+      <text x="68" y="-47" class="axis-label label-green">Ax</text>
+      <text x="67" y="-8" class="axis-label">u₁</text>
+      <text x="-5" y="-57" class="axis-label">u₂</text>
+    </g>
+    <text x="603" y="249" text-anchor="middle" class="annotation">final orientation</text>
+    <text x="603" y="264" text-anchor="middle" fill="#16a36b" font-family="monospace" font-size="11">Ax = UΣVᵀx</text>
+  </g>
 </svg>
