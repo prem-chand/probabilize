@@ -1,22 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 250" fill="none">
-  <rect width="440" height="250" fill="var(--surface-sunken, #07090c)" rx="14"/>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="460" height="300" viewBox="0 0 460 300">
+<rect width="460" height="300" rx="10" fill="var(--surface-sunken)"/>
+<g transform="translate(10 25)">
+  
   <defs>
-    <marker id="paConPull" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#16a36b"/></marker>
-    <marker id="paConPush" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#e5484d"/></marker>
+    <marker id="paConPull" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="var(--figure-flow)"/></marker>
+    <marker id="paConPush" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="var(--figure-alert)"/></marker>
   </defs>
-  <circle cx="180" cy="120" r="9" fill="#16a36b"/>
-  <circle cx="225" cy="106" r="9" fill="#16a36b"/>
-  <circle cx="330" cy="70" r="9" fill="#e5484d"/>
-  <circle cx="352" cy="150" r="9" fill="#e5484d"/>
-  <circle cx="300" cy="196" r="9" fill="#e5484d"/>
-  <line x1="180" y1="120" x2="225" y2="106" stroke="#16a36b" stroke-width="2"/>
-  <g stroke="#e5484d" stroke-width="1.6" stroke-dasharray="5 4">
+  <circle cx="180" cy="120" r="9" fill="var(--figure-flow)"/>
+  <circle cx="225" cy="106" r="9" fill="var(--figure-flow)"/>
+  <circle cx="330" cy="70" r="9" fill="var(--figure-alert)"/>
+  <circle cx="352" cy="150" r="9" fill="var(--figure-alert)"/>
+  <circle cx="300" cy="196" r="9" fill="var(--figure-alert)"/>
+  <line x1="180" y1="120" x2="225" y2="106" stroke="var(--figure-flow)" stroke-width="2"/>
+  <g stroke="var(--figure-alert)" stroke-width="1.5" stroke-dasharray="5 4">
     <line x1="180" y1="120" x2="330" y2="70" marker-end="url(#paConPush)"/>
     <line x1="180" y1="120" x2="352" y2="150" marker-end="url(#paConPush)"/>
     <line x1="180" y1="120" x2="300" y2="196" marker-end="url(#paConPush)"/>
   </g>
-  <text x="230" y="24" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">contrastive pretraining: pull positives, push negatives</text>
-  <text x="196" y="96" fill="#16a36b" font-family="monospace" font-size="10">positive pair</text>
-  <text x="356" y="62" fill="#e5484d" font-family="monospace" font-size="10">negatives</text>
-  <text x="225" y="228" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">no labels needed — augmentations define what stays invariant</text>
+  <text x="230" y="24" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="11">contrastive pretraining: pull positives, push negatives</text>
+  <text x="196" y="96" fill="var(--figure-flow)" font-family="var(--font-mono)" font-size="10">positive pair</text>
+  <text x="356" y="62" fill="var(--figure-alert)" font-family="var(--font-mono)" font-size="10">negatives</text>
+  <text x="225" y="228" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">no labels needed — augmentations define what stays invariant</text>
+</g>
 </svg>

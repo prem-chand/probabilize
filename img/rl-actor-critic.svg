@@ -1,25 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" fill="none">
-  <rect width="440" height="280" fill="var(--surface-sunken, #07090c)" rx="14"/>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="460" height="300" viewBox="0 0 460 300">
+<rect width="460" height="300" rx="10" fill="var(--surface-sunken)"/>
+<g transform="translate(10 10)">
+  
   <defs>
-    <marker id="rlAcBlue" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#5879fb"/></marker>
-    <marker id="rlAcAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#f5a623"/></marker>
-    <marker id="rlAcGreen" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#16a36b"/></marker>
+    <marker id="rlAcBlue" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="var(--figure-structure)"/></marker>
+    <marker id="rlAcAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="var(--figure-accent)"/></marker>
+    <marker id="rlAcGreen" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="var(--figure-flow)"/></marker>
   </defs>
-  <rect x="30" y="45" width="140" height="64" rx="8" fill="#5879fb" fill-opacity="0.2" stroke="#5879fb" stroke-width="1.6"/>
-  <text x="100" y="72" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="12">Actor</text>
-  <text x="100" y="90" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">π_θ(a|s)</text>
-  <rect x="30" y="171" width="140" height="64" rx="8" fill="#f5a623" fill-opacity="0.18" stroke="#f5a623" stroke-width="1.6"/>
-  <text x="100" y="198" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="12">Critic</text>
-  <text x="100" y="216" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">V_φ(s)</text>
-  <rect x="290" y="95" width="130" height="90" rx="8" fill="#16a36b" fill-opacity="0.2" stroke="#16a36b" stroke-width="1.6"/>
-  <text x="355" y="132" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="12">Environment</text>
-  <text x="355" y="150" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">P(s'|s,a), R</text>
-  <line x1="170" y1="80" x2="290" y2="112" stroke="#5879fb" stroke-width="2" marker-end="url(#rlAcBlue)"/>
-  <text x="238" y="88" text-anchor="middle" fill="#5879fb" font-family="monospace" font-size="10">action a</text>
-  <line x1="290" y1="168" x2="170" y2="200" stroke="#16a36b" stroke-width="2" marker-end="url(#rlAcGreen)"/>
-  <text x="232" y="196" text-anchor="middle" fill="#16a36b" font-family="monospace" font-size="10">reward r, state s'</text>
-  <line x1="100" y1="171" x2="100" y2="109" stroke="#f5a623" stroke-width="2" marker-end="url(#rlAcAmber)"/>
-  <text x="120" y="144" fill="#f5a623" font-family="monospace" font-size="10">TD error δ</text>
-  <text x="220" y="26" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">actor–critic: the critic feeds back a low-variance TD advantage</text>
-  <text x="220" y="262" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">the actor updates every step instead of waiting for the full return</text>
+  <rect x="30" y="45" width="140" height="64" rx="8" fill="var(--figure-structure)" fill-opacity="0.2" stroke="var(--figure-structure)" stroke-width="1.5"/>
+  <text x="100" y="72" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="12">Actor</text>
+  <text x="100" y="90" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">π_θ(a|s)</text>
+  <rect x="30" y="171" width="140" height="64" rx="8" fill="var(--figure-accent)" fill-opacity="0.18" stroke="var(--figure-accent)" stroke-width="1.5"/>
+  <text x="100" y="198" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="12">Critic</text>
+  <text x="100" y="216" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">V_φ(s)</text>
+  <rect x="290" y="95" width="130" height="90" rx="8" fill="var(--figure-flow)" fill-opacity="0.2" stroke="var(--figure-flow)" stroke-width="1.5"/>
+  <text x="355" y="132" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="12">Environment</text>
+  <text x="355" y="150" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">P(s'|s,a), R</text>
+  <line x1="170" y1="80" x2="290" y2="112" stroke="var(--figure-structure)" stroke-width="2" marker-end="url(#rlAcBlue)"/>
+  <text x="238" y="88" text-anchor="middle" fill="var(--figure-structure)" font-family="var(--font-mono)" font-size="10">action a</text>
+  <line x1="290" y1="168" x2="170" y2="200" stroke="var(--figure-flow)" stroke-width="2" marker-end="url(#rlAcGreen)"/>
+  <text x="232" y="196" text-anchor="middle" fill="var(--figure-flow)" font-family="var(--font-mono)" font-size="10">reward r, state s'</text>
+  <line x1="100" y1="171" x2="100" y2="109" stroke="var(--figure-accent)" stroke-width="2" marker-end="url(#rlAcAmber)"/>
+  <text x="120" y="144" fill="var(--figure-accent)" font-family="var(--font-mono)" font-size="10">TD error δ</text>
+  <text x="220" y="26" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="11">actor–critic: the critic feeds back a low-variance TD advantage</text>
+  <text x="220" y="262" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">the actor updates every step instead of waiting for the full return</text>
+</g>
 </svg>

@@ -1,27 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 300" fill="none">
-  <rect width="460" height="300" fill="var(--surface-sunken, #07090c)" rx="14"/>
+  <rect width="460" height="300" fill="var(--surface-sunken)" rx="14"/>
   <defs>
-    <marker id="rbLoopArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#9aa3b2"/></marker>
+    <marker id="rbLoopArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="var(--text-muted)"/></marker>
   </defs>
-  <text x="230" y="26" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">sense, decide, act - then sense again</text>
-  <rect x="30" y="52" width="150" height="58" rx="8" fill="#5879fb" fill-opacity="0.2" stroke="#5879fb" stroke-width="1.6"/>
-  <text x="105" y="78" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="12">sense</text>
-  <text x="105" y="96" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">distance, wheels, camera</text>
-  <rect x="280" y="52" width="150" height="58" rx="8" fill="#f5a623" fill-opacity="0.18" stroke="#f5a623" stroke-width="1.6"/>
-  <text x="355" y="78" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="12">decide</text>
-  <text x="355" y="96" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">policy: what to do next</text>
-  <rect x="280" y="200" width="150" height="58" rx="8" fill="#16a36b" fill-opacity="0.2" stroke="#16a36b" stroke-width="1.6"/>
-  <text x="355" y="226" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="12">act</text>
-  <text x="355" y="244" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">motors: joints, wheels</text>
-  <rect x="30" y="200" width="150" height="58" rx="8" fill="var(--border-default, #343a48)" fill-opacity="0.45" stroke="var(--border-default, #343a48)" stroke-width="1.4"/>
-  <text x="105" y="226" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="12">world changes</text>
-  <text x="105" y="244" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">the reading is now stale</text>
-  <g stroke="#9aa3b2" stroke-width="1.8">
+  <text x="230" y="26" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="11">sense, decide, act - then sense again</text>
+  <rect x="30" y="52" width="150" height="58" rx="8" fill="var(--figure-structure)" fill-opacity="0.2" stroke="var(--figure-structure)" stroke-width="1.5"/>
+  <text x="105" y="78" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="12">sense</text>
+  <text x="105" y="96" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">distance, wheels, camera</text>
+  <rect x="280" y="52" width="150" height="58" rx="8" fill="var(--figure-accent)" fill-opacity="0.18" stroke="var(--figure-accent)" stroke-width="1.5"/>
+  <text x="355" y="78" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="12">decide</text>
+  <text x="355" y="96" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">policy: what to do next</text>
+  <rect x="280" y="200" width="150" height="58" rx="8" fill="var(--figure-flow)" fill-opacity="0.2" stroke="var(--figure-flow)" stroke-width="1.5"/>
+  <text x="355" y="226" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="12">act</text>
+  <text x="355" y="244" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">motors: joints, wheels</text>
+  <rect x="30" y="200" width="150" height="58" rx="8" fill="var(--border-default)" fill-opacity="0.45" stroke="var(--border-default)" stroke-width="1.5"/>
+  <text x="105" y="226" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="12">world changes</text>
+  <text x="105" y="244" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">the reading is now stale</text>
+  <g stroke="var(--text-muted)" stroke-width="2">
     <line x1="184" y1="81" x2="276" y2="81" marker-end="url(#rbLoopArrow)"/>
     <line x1="355" y1="114" x2="355" y2="196" marker-end="url(#rbLoopArrow)"/>
     <line x1="276" y1="229" x2="184" y2="229" marker-end="url(#rbLoopArrow)"/>
     <line x1="105" y1="196" x2="105" y2="114" marker-end="url(#rbLoopArrow)"/>
   </g>
-  <text x="230" y="152" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">acting changes the world,</text>
-  <text x="230" y="170" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">so the next decision needs a new reading</text>
+  <text x="230" y="152" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">acting changes the world,</text>
+  <text x="230" y="170" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">so the next decision needs a new reading</text>
 </svg>

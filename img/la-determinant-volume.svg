@@ -1,12 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" fill="none">
-  <rect width="420" height="260" fill="var(--surface-sunken, #07090c)" rx="14"/>
-  <line x1="50" y1="210" x2="400" y2="210" stroke="var(--border-default, #343a48)" stroke-width="1.5"/>
-  <line x1="90" y1="250" x2="90" y2="20" stroke="var(--border-default, #343a48)" stroke-width="1.5"/>
-  <polygon points="90,210 145,210 145,155 90,155" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5 4"/>
-  <polygon points="90,210 200,155 255,45 145,100" fill="#5879fb" fill-opacity="0.16" stroke="#5879fb" stroke-width="2"/>
-  <text x="210" y="26" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">|det A| scales area: unit square 1 to parallelogram 3</text>
-  <text x="185" y="197" text-anchor="middle" fill="#5879fb" font-family="monospace" font-size="11">a1 = (2,1)</text>
-  <text x="140" y="76" text-anchor="middle" fill="#5879fb" font-family="monospace" font-size="11">a2 = (1,2)</text>
-  <text x="117" y="228" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">area 1</text>
-  <text x="245" y="138" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">area 3</text>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="460" height="300" viewBox="0 0 460 300">
+<rect width="460" height="300" rx="10" fill="var(--surface-sunken)"/>
+<g transform="translate(20 20)">
+  
+  <line x1="50" y1="210" x2="400" y2="210" stroke="var(--border-default)" stroke-width="1.5"/>
+  <line x1="90" y1="250" x2="90" y2="20" stroke="var(--border-default)" stroke-width="1.5"/>
+  <polygon points="90,210 145,210 145,155 90,155" stroke="var(--text-muted)" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <polygon points="90,210 200,155 255,45 145,100" fill="var(--figure-structure)" fill-opacity="0.16" stroke="var(--figure-structure)" stroke-width="2"/>
+  <text x="210" y="26" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="11">|det A| scales area: unit square 1 to parallelogram 3</text>
+  <text x="185" y="197" text-anchor="middle" fill="var(--figure-structure)" font-family="var(--font-mono)" font-size="11">a1 = (2,1)</text>
+  <text x="140" y="76" text-anchor="middle" fill="var(--figure-structure)" font-family="var(--font-mono)" font-size="11">a2 = (1,2)</text>
+  <text x="117" y="228" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">area 1</text>
+  <text x="245" y="138" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">area 3</text>
+</g>
 </svg>

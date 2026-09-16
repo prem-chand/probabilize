@@ -1,25 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 200" fill="none">
-  <rect width="460" height="200" fill="var(--surface-sunken, #07090c)" rx="14"/>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="460" height="240" viewBox="0 0 460 240">
+<rect width="460" height="240" rx="10" fill="var(--surface-sunken)"/>
+<g transform="translate(0 20)">
+  
   <defs>
-    <marker id="rbDpArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#9aa3b2"/></marker>
-    <marker id="rbDpCond" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#16a36b"/></marker>
+    <marker id="rbDpArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="var(--text-muted)"/></marker>
+    <marker id="rbDpCond" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="var(--figure-flow)"/></marker>
   </defs>
-  <circle cx="60" cy="95" r="26" fill="#e5484d" fill-opacity="0.18" stroke="#e5484d" stroke-width="1.6"/>
-  <text x="60" y="99" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">x_T</text>
-  <circle cx="185" cy="95" r="22" fill="#5879fb" fill-opacity="0.16" stroke="#5879fb" stroke-width="1.4"/>
-  <text x="185" y="99" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">x_{T-1}</text>
-  <circle cx="300" cy="95" r="22" fill="#5879fb" fill-opacity="0.2" stroke="#5879fb" stroke-width="1.4"/>
-  <text x="300" y="99" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">x_1</text>
-  <rect x="352" y="72" width="86" height="46" rx="8" fill="#16a36b" fill-opacity="0.2" stroke="#16a36b" stroke-width="1.6"/>
-  <text x="395" y="92" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">x_0</text>
-  <text x="395" y="107" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="8">action chunk</text>
-  <g stroke="#9aa3b2" stroke-width="2">
+  <circle cx="60" cy="95" r="26" fill="var(--figure-alert)" fill-opacity="0.18" stroke="var(--figure-alert)" stroke-width="1.5"/>
+  <text x="60" y="99" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="10">x_T</text>
+  <circle cx="185" cy="95" r="22" fill="var(--figure-structure)" fill-opacity="0.16" stroke="var(--figure-structure)" stroke-width="1.5"/>
+  <text x="185" y="99" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">x_{T-1}</text>
+  <circle cx="300" cy="95" r="22" fill="var(--figure-structure)" fill-opacity="0.2" stroke="var(--figure-structure)" stroke-width="1.5"/>
+  <text x="300" y="99" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">x_1</text>
+  <rect x="352" y="72" width="86" height="46" rx="8" fill="var(--figure-flow)" fill-opacity="0.2" stroke="var(--figure-flow)" stroke-width="1.5"/>
+  <text x="395" y="92" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="10">x_0</text>
+  <text x="395" y="107" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">action chunk</text>
+  <g stroke="var(--text-muted)" stroke-width="2">
     <line x1="88" y1="95" x2="161" y2="95" marker-end="url(#rbDpArrow)"/>
     <line x1="209" y1="95" x2="276" y2="95" marker-end="url(#rbDpArrow)"/>
     <line x1="324" y1="95" x2="352" y2="95" marker-end="url(#rbDpArrow)"/>
   </g>
-  <text x="220" y="70" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">reverse diffusion: K denoising steps</text>
-  <line x1="60" y1="150" x2="395" y2="150" stroke="#16a36b" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#rbDpCond)"/>
-  <text x="228" y="172" text-anchor="middle" fill="#16a36b" font-family="monospace" font-size="10">conditioned on observation o_t (and language)</text>
-  <text x="230" y="26" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">generative policies sample a whole action sequence by denoising</text>
+  <text x="220" y="70" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">reverse diffusion: K denoising steps</text>
+  <line x1="60" y1="150" x2="395" y2="150" stroke="var(--figure-flow)" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#rbDpCond)"/>
+  <text x="228" y="172" text-anchor="middle" fill="var(--figure-flow)" font-family="var(--font-mono)" font-size="10">conditioned on observation o_t (and language)</text>
+  <text x="230" y="26" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="11">generative policies sample a whole action sequence by denoising</text>
+</g>
 </svg>

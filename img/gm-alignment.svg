@@ -1,27 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" fill="none">
-  <rect width="480" height="220" fill="var(--surface-sunken, #07090c)" rx="14"/>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="460" height="240" viewBox="0 0 460 240">
+<rect width="460" height="240" rx="10" fill="var(--surface-sunken)"/>
+<g transform="translate(0 14.58) scale(0.9583)">
+  
   <defs>
-    <marker id="gmAlArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#9aa3b2"/></marker>
+    <marker id="gmAlArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="var(--text-muted)"/></marker>
   </defs>
-  <rect x="16" y="60" width="96" height="56" rx="8" fill="#5879fb" fill-opacity="0.18" stroke="#5879fb" stroke-width="1.4"/>
-  <text x="64" y="84" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="9">pretrained</text>
-  <text x="64" y="99" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="9">base model</text>
-  <rect x="132" y="60" width="96" height="56" rx="8" fill="#5879fb" fill-opacity="0.2" stroke="#5879fb" stroke-width="1.4"/>
-  <text x="180" y="90" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">SFT</text>
-  <rect x="248" y="60" width="96" height="56" rx="8" fill="#f5a623" fill-opacity="0.18" stroke="#f5a623" stroke-width="1.4"/>
-  <text x="296" y="84" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="9">reward model</text>
-  <text x="296" y="99" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="8">preferences</text>
-  <rect x="364" y="60" width="100" height="56" rx="8" fill="#16a36b" fill-opacity="0.2" stroke="#16a36b" stroke-width="1.5"/>
-  <text x="414" y="84" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">RLHF / PPO</text>
-  <text x="414" y="99" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="8">+ KL leash</text>
-  <g stroke="#9aa3b2" stroke-width="2">
+  <rect x="16" y="60" width="96" height="56" rx="8" fill="var(--figure-structure)" fill-opacity="0.18" stroke="var(--figure-structure)" stroke-width="1.5"/>
+  <text x="64" y="84" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="10">pretrained</text>
+  <text x="64" y="99" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="10">base model</text>
+  <rect x="132" y="60" width="96" height="56" rx="8" fill="var(--figure-structure)" fill-opacity="0.2" stroke="var(--figure-structure)" stroke-width="1.5"/>
+  <text x="180" y="90" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="10">SFT</text>
+  <rect x="248" y="60" width="96" height="56" rx="8" fill="var(--figure-accent)" fill-opacity="0.18" stroke="var(--figure-accent)" stroke-width="1.5"/>
+  <text x="296" y="84" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="10">reward model</text>
+  <text x="296" y="99" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">preferences</text>
+  <rect x="364" y="60" width="100" height="56" rx="8" fill="var(--figure-flow)" fill-opacity="0.2" stroke="var(--figure-flow)" stroke-width="1.5"/>
+  <text x="414" y="84" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="10">RLHF / PPO</text>
+  <text x="414" y="99" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">+ KL leash</text>
+  <g stroke="var(--text-muted)" stroke-width="2">
     <line x1="112" y1="88" x2="132" y2="88" marker-end="url(#gmAlArrow)"/>
     <line x1="228" y1="88" x2="248" y2="88" marker-end="url(#gmAlArrow)"/>
     <line x1="344" y1="88" x2="364" y2="88" marker-end="url(#gmAlArrow)"/>
   </g>
-  <rect x="230" y="152" width="132" height="46" rx="8" fill="#5879fb" fill-opacity="0.16" stroke="#5879fb" stroke-width="1.4"/>
-  <text x="296" y="172" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">DPO</text>
-  <text x="296" y="188" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="8">skips the reward model</text>
-  <path d="M248 116 L296 152" stroke="#5879fb" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#gmAlArrow)"/>
-  <text x="240" y="30" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">alignment stack: preferences turn into a policy that behaves</text>
+  <rect x="230" y="152" width="132" height="46" rx="8" fill="var(--figure-structure)" fill-opacity="0.16" stroke="var(--figure-structure)" stroke-width="1.5"/>
+  <text x="296" y="172" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="10">DPO</text>
+  <text x="296" y="188" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">skips the reward model</text>
+  <path d="M248 116 L296 152" stroke="var(--figure-structure)" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#gmAlArrow)"/>
+  <text x="240" y="30" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="11">alignment stack: preferences turn into a policy that behaves</text>
+</g>
 </svg>

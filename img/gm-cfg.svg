@@ -1,20 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 210" fill="none">
-  <rect width="460" height="210" fill="var(--surface-sunken, #07090c)" rx="14"/>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="460" height="240" viewBox="0 0 460 240">
+<rect width="460" height="240" rx="10" fill="var(--surface-sunken)"/>
+<g transform="translate(0 15)">
+  
   <defs>
-    <marker id="gmCfgArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#f5a623"/></marker>
+    <marker id="gmCfgArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="var(--figure-accent)"/></marker>
   </defs>
-  <circle cx="90" cy="120" r="9" fill="#5879fb"/>
-  <text x="90" y="150" text-anchor="middle" fill="#5879fb" font-family="monospace" font-size="10">unconditional</text>
-  <text x="90" y="164" text-anchor="middle" fill="#5879fb" font-family="monospace" font-size="10">ε_uncond</text>
-  <circle cx="330" cy="70" r="9" fill="#16a36b"/>
-  <text x="330" y="46" text-anchor="middle" fill="#16a36b" font-family="monospace" font-size="10">conditional</text>
-  <text x="330" y="60" text-anchor="middle" fill="#16a36b" font-family="monospace" font-size="10">ε_cond</text>
-  <line x1="99" y1="118" x2="321" y2="72" stroke="#f5a623" stroke-width="2" marker-end="url(#gmCfgArrow)"/>
-  <circle cx="385" cy="96" r="9" fill="#f5a623"/>
-  <text x="430" y="100" text-anchor="middle" fill="#f5a623" font-family="monospace" font-size="10">guided</text>
-  <path d="M339 72 L385 96" stroke="#f5a623" stroke-width="2" stroke-dasharray="4 3"/>
-  <text x="220" y="120" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">extrapolate past the conditional</text>
-  <text x="230" y="188" text-anchor="middle" fill="#f5a623" font-family="monospace" font-size="11">ε_guided = ε_uncond + w · (ε_cond − ε_uncond)</text>
-  <text x="230" y="24" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">classifier-free guidance: trade diversity for prompt alignment</text>
-  <text x="230" y="40" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">larger w sharpens the condition — and shrinks sample diversity</text>
+  <circle cx="90" cy="120" r="9" fill="var(--figure-structure)"/>
+  <text x="90" y="150" text-anchor="middle" fill="var(--figure-structure)" font-family="var(--font-mono)" font-size="10">unconditional</text>
+  <text x="90" y="164" text-anchor="middle" fill="var(--figure-structure)" font-family="var(--font-mono)" font-size="10">ε_uncond</text>
+  <circle cx="330" cy="70" r="9" fill="var(--figure-flow)"/>
+  <text x="330" y="46" text-anchor="middle" fill="var(--figure-flow)" font-family="var(--font-mono)" font-size="10">conditional</text>
+  <text x="330" y="60" text-anchor="middle" fill="var(--figure-flow)" font-family="var(--font-mono)" font-size="10">ε_cond</text>
+  <line x1="99" y1="118" x2="321" y2="72" stroke="var(--figure-accent)" stroke-width="2" marker-end="url(#gmCfgArrow)"/>
+  <circle cx="385" cy="96" r="9" fill="var(--figure-accent)"/>
+  <text x="430" y="100" text-anchor="middle" fill="var(--figure-accent)" font-family="var(--font-mono)" font-size="10">guided</text>
+  <path d="M339 72 L385 96" stroke="var(--figure-accent)" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="220" y="120" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">extrapolate past the conditional</text>
+  <text x="230" y="188" text-anchor="middle" fill="var(--figure-accent)" font-family="var(--font-mono)" font-size="11">ε_guided = ε_uncond + w · (ε_cond − ε_uncond)</text>
+  <text x="230" y="24" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="11">classifier-free guidance: trade diversity for prompt alignment</text>
+  <text x="230" y="40" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">larger w sharpens the condition — and shrinks sample diversity</text>
+</g>
 </svg>

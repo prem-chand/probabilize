@@ -1,23 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 250" fill="none">
-  <rect width="460" height="250" fill="var(--surface-sunken, #07090c)" rx="14"/>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="460" height="300" viewBox="0 0 460 300">
+<rect width="460" height="300" rx="10" fill="var(--surface-sunken)"/>
+<g transform="translate(0 25)">
+  
   <defs>
-    <marker id="aoAdmmArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#9aa3b2"/></marker>
+    <marker id="aoAdmmArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="var(--text-muted)"/></marker>
   </defs>
-  <rect x="30" y="60" width="120" height="60" rx="8" fill="#5879fb" fill-opacity="0.2" stroke="#5879fb" stroke-width="1.6"/>
-  <text x="90" y="86" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="11">x-update</text>
-  <text x="90" y="104" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">prox of f</text>
-  <rect x="180" y="60" width="120" height="60" rx="8" fill="#f5a623" fill-opacity="0.18" stroke="#f5a623" stroke-width="1.6"/>
-  <text x="240" y="86" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="11">z-update</text>
-  <text x="240" y="104" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">prox of g</text>
-  <rect x="330" y="60" width="110" height="60" rx="8" fill="#16a36b" fill-opacity="0.2" stroke="#16a36b" stroke-width="1.6"/>
-  <text x="385" y="86" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="11">dual update</text>
-  <text x="385" y="104" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">u += x − z</text>
-  <g stroke="#9aa3b2" stroke-width="2">
+  <rect x="30" y="60" width="120" height="60" rx="8" fill="var(--figure-structure)" fill-opacity="0.2" stroke="var(--figure-structure)" stroke-width="1.5"/>
+  <text x="90" y="86" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="11">x-update</text>
+  <text x="90" y="104" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">prox of f</text>
+  <rect x="180" y="60" width="120" height="60" rx="8" fill="var(--figure-accent)" fill-opacity="0.18" stroke="var(--figure-accent)" stroke-width="1.5"/>
+  <text x="240" y="86" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="11">z-update</text>
+  <text x="240" y="104" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">prox of g</text>
+  <rect x="330" y="60" width="110" height="60" rx="8" fill="var(--figure-flow)" fill-opacity="0.2" stroke="var(--figure-flow)" stroke-width="1.5"/>
+  <text x="385" y="86" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="11">dual update</text>
+  <text x="385" y="104" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">u += x − z</text>
+  <g stroke="var(--text-muted)" stroke-width="2">
     <line x1="150" y1="90" x2="180" y2="90" marker-end="url(#aoAdmmArrow)"/>
     <line x1="300" y1="90" x2="330" y2="90" marker-end="url(#aoAdmmArrow)"/>
   </g>
-  <path d="M385 120 L385 178 L90 178 L90 120" stroke="#9aa3b2" stroke-width="2" fill="none" marker-end="url(#aoAdmmArrow)"/>
-  <text x="237" y="196" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">repeat until consensus: x = z</text>
-  <text x="230" y="30" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">ADMM: two easy proximal steps plus a dual nudge</text>
-  <text x="230" y="228" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">min f(x) + g(z) s.t. x = z</text>
+  <path d="M385 120 L385 178 L90 178 L90 120" stroke="var(--text-muted)" stroke-width="2" fill="none" marker-end="url(#aoAdmmArrow)"/>
+  <text x="237" y="196" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">repeat until consensus: x = z</text>
+  <text x="230" y="30" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="11">ADMM: two easy proximal steps plus a dual nudge</text>
+  <text x="230" y="228" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">min f(x) + g(z) s.t. x = z</text>
+</g>
 </svg>

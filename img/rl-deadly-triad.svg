@@ -1,14 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" fill="none">
-  <rect width="420" height="300" fill="var(--surface-sunken, #07090c)" rx="14"/>
-  <circle cx="170" cy="118" r="84" fill="#5879fb" fill-opacity="0.16" stroke="#5879fb" stroke-width="1.6"/>
-  <circle cx="250" cy="118" r="84" fill="#f5a623" fill-opacity="0.14" stroke="#f5a623" stroke-width="1.6"/>
-  <circle cx="210" cy="188" r="84" fill="#16a36b" fill-opacity="0.14" stroke="#16a36b" stroke-width="1.6"/>
-  <circle cx="210" cy="141" r="5" fill="#ffffff"/>
-  <text x="210" y="24" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">the deadly triad: all three together invite divergence</text>
-  <text x="118" y="66" text-anchor="middle" fill="#5879fb" font-family="monospace" font-size="11">function</text>
-  <text x="118" y="80" text-anchor="middle" fill="#5879fb" font-family="monospace" font-size="11">approximation</text>
-  <text x="306" y="66" text-anchor="middle" fill="#f5a623" font-family="monospace" font-size="11">bootstrapping</text>
-  <text x="210" y="252" text-anchor="middle" fill="#16a36b" font-family="monospace" font-size="11">off-policy learning</text>
-  <text x="210" y="164" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">divergence</text>
-  <text x="210" y="284" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">each pair is safe alone; the triple removes the restoring force</text>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="460" height="300" viewBox="0 0 460 300">
+<rect width="460" height="300" rx="10" fill="var(--surface-sunken)"/>
+<g transform="translate(20 0)">
+  
+  <circle cx="170" cy="118" r="84" fill="var(--figure-structure)" fill-opacity="0.16" stroke="var(--figure-structure)" stroke-width="1.5"/>
+  <circle cx="250" cy="118" r="84" fill="var(--figure-accent)" fill-opacity="0.14" stroke="var(--figure-accent)" stroke-width="1.5"/>
+  <circle cx="210" cy="188" r="84" fill="var(--figure-flow)" fill-opacity="0.14" stroke="var(--figure-flow)" stroke-width="1.5"/>
+  <circle cx="210" cy="141" r="5" fill="var(--text-strong)"/>
+  <text x="210" y="24" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="11">the deadly triad: all three together invite divergence</text>
+  <text x="118" y="66" text-anchor="middle" fill="var(--figure-structure)" font-family="var(--font-mono)" font-size="11">function</text>
+  <text x="118" y="80" text-anchor="middle" fill="var(--figure-structure)" font-family="var(--font-mono)" font-size="11">approximation</text>
+  <text x="306" y="66" text-anchor="middle" fill="var(--figure-accent)" font-family="var(--font-mono)" font-size="11">bootstrapping</text>
+  <text x="210" y="252" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="11">off-policy learning</text>
+  <text x="210" y="164" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="10">divergence</text>
+  <text x="210" y="284" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">each pair is safe alone; the triple removes the restoring force</text>
+</g>
 </svg>

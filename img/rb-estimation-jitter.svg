@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 300" fill="none">
-  <rect width="460" height="300" fill="var(--surface-sunken, #07090c)" rx="14"/>
-  <text x="230" y="24" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">the truth is a line; the readings are dots around it</text>
+  <rect width="460" height="300" fill="var(--surface-sunken)" rx="14"/>
+  <text x="230" y="24" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="11">the truth is a line; the readings are dots around it</text>
 
   <!-- plot frame -->
-  <g stroke="var(--border-default, #343a48)" stroke-width="1.2">
+  <g stroke="var(--border-default)" stroke-width="1.5">
     <line x1="56" y1="44" x2="56" y2="230"/>
     <line x1="56" y1="230" x2="440" y2="230"/>
   </g>
-  <text x="34" y="140" text-anchor="middle" transform="rotate(-90 34 140)" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">position</text>
-  <text x="248" y="254" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">time</text>
+  <text x="34" y="140" text-anchor="middle" transform="rotate(-90 34 140)" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">position</text>
+  <text x="248" y="254" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">time</text>
 
   <!-- true position (hidden from the robot) -->
-  <polyline points="60,206 120,186 180,168 240,150 300,138 360,120 430,100" fill="none" stroke="#9aa3b2" stroke-width="2.2"/>
+  <polyline points="60,206 120,186 180,168 240,150 300,138 360,120 430,100" fill="none" stroke="var(--text-muted)" stroke-width="2"/>
 
   <!-- raw readings -->
-  <g fill="#f5a623" fill-opacity="0.85">
+  <g fill="var(--figure-accent)" fill-opacity="0.85">
     <circle cx="75" cy="192" r="3"/><circle cx="95" cy="202" r="3"/><circle cx="110" cy="177" r="3"/>
     <circle cx="130" cy="192" r="3"/><circle cx="150" cy="169" r="3"/><circle cx="170" cy="182" r="3"/>
     <circle cx="190" cy="156" r="3"/><circle cx="210" cy="166" r="3"/><circle cx="230" cy="143" r="3"/>
@@ -24,13 +24,13 @@
   </g>
 
   <!-- estimate -->
-  <polyline points="60,210 120,190 180,163 240,155 300,142 360,114 430,104" fill="none" stroke="#5879fb" stroke-width="2.4"/>
+  <polyline points="60,210 120,190 180,163 240,155 300,142 360,114 430,104" fill="none" stroke="var(--figure-structure)" stroke-width="2"/>
 
   <!-- legend -->
-  <line x1="72" y1="62" x2="86" y2="62" stroke="#9aa3b2" stroke-width="2.2"/>
-  <text x="92" y="66" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">true position (only we can see it)</text>
-  <circle cx="79" cy="80" r="3" fill="#f5a623" fill-opacity="0.85"/>
-  <text x="92" y="84" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">raw readings from the noisy sensor</text>
-  <line x1="72" y1="98" x2="86" y2="98" stroke="#5879fb" stroke-width="2.4"/>
-  <text x="92" y="102" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">estimate after combining</text>
+  <line x1="72" y1="62" x2="86" y2="62" stroke="var(--text-muted)" stroke-width="2"/>
+  <text x="92" y="66" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">true position (only we can see it)</text>
+  <circle cx="79" cy="80" r="3" fill="var(--figure-accent)" fill-opacity="0.85"/>
+  <text x="92" y="84" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">raw readings from the noisy sensor</text>
+  <line x1="72" y1="98" x2="86" y2="98" stroke="var(--figure-structure)" stroke-width="2"/>
+  <text x="92" y="102" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">estimate after combining</text>
 </svg>

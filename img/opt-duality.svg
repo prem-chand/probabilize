@@ -1,24 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" fill="none">
-  <rect width="440" height="280" fill="var(--surface-sunken, #07090c)" rx="14"/>
-  <line x1="220" y1="30" x2="220" y2="240" stroke="var(--border-subtle, #21262f)" stroke-width="1"/>
-  <line x1="40" y1="220" x2="205" y2="220" stroke="var(--border-default, #343a48)" stroke-width="1.2"/>
-  <line x1="40" y1="220" x2="40" y2="45" stroke="var(--border-default, #343a48)" stroke-width="1.2"/>
-  <rect x="100" y="45" width="105" height="175" fill="#5879fb" fill-opacity="0.08"/>
-  <path d="M100 200 Q130 175 160 140 Q180 118 195 100" stroke="#5879fb" stroke-width="2.5" fill="none"/>
-  <g stroke="#16a36b" stroke-width="2.5">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="460" height="300" viewBox="0 0 460 300">
+<rect width="460" height="300" rx="10" fill="var(--surface-sunken)"/>
+<g transform="translate(10 10)">
+  
+  <line x1="220" y1="30" x2="220" y2="240" stroke="var(--border-subtle)" stroke-width="1.5"/>
+  <line x1="40" y1="220" x2="205" y2="220" stroke="var(--border-default)" stroke-width="1.5"/>
+  <line x1="40" y1="220" x2="40" y2="45" stroke="var(--border-default)" stroke-width="1.5"/>
+  <rect x="100" y="45" width="105" height="175" fill="var(--figure-structure)" fill-opacity="0.08"/>
+  <path d="M100 200 Q130 175 160 140 Q180 118 195 100" stroke="var(--figure-structure)" stroke-width="2" fill="none"/>
+  <g stroke="var(--figure-flow)" stroke-width="2">
     <line x1="95" y1="205" x2="105" y2="195"/><line x1="105" y1="205" x2="95" y2="195"/>
   </g>
-  <text x="120" y="40" text-anchor="middle" fill="#5879fb" font-family="monospace" font-size="11">primal f(x)=½x², x≥1</text>
-  <text x="118" y="180" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">x* = 1</text>
-  <text x="186" y="238" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">feasible x ≥ 1</text>
-  <line x1="245" y1="220" x2="420" y2="220" stroke="var(--border-default, #343a48)" stroke-width="1.2"/>
-  <line x1="245" y1="220" x2="245" y2="45" stroke="var(--border-default, #343a48)" stroke-width="1.2"/>
-  <path d="M245 220 Q290 186 325 172 Q360 186 415 220" stroke="#f5a623" stroke-width="2.5" fill="none"/>
-  <g stroke="#16a36b" stroke-width="2.5">
+  <text x="120" y="40" text-anchor="middle" fill="var(--figure-structure)" font-family="var(--font-mono)" font-size="11">primal f(x)=½x², x≥1</text>
+  <text x="118" y="180" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">x* = 1</text>
+  <text x="186" y="238" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">feasible x ≥ 1</text>
+  <line x1="245" y1="220" x2="420" y2="220" stroke="var(--border-default)" stroke-width="1.5"/>
+  <line x1="245" y1="220" x2="245" y2="45" stroke="var(--border-default)" stroke-width="1.5"/>
+  <path d="M245 220 Q290 186 325 172 Q360 186 415 220" stroke="var(--figure-accent)" stroke-width="2" fill="none"/>
+  <g stroke="var(--figure-flow)" stroke-width="2">
     <line x1="318" y1="178" x2="328" y2="168"/><line x1="328" y1="178" x2="318" y2="168"/>
   </g>
-  <text x="330" y="40" text-anchor="middle" fill="#f5a623" font-family="monospace" font-size="11">dual g(λ)=λ−½λ², λ≥0</text>
-  <text x="334" y="160" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">λ* = 1</text>
-  <line x1="100" y1="200" x2="415" y2="173" stroke="#16a36b" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.7"/>
-  <text x="220" y="266" text-anchor="middle" fill="#16a36b" font-family="monospace" font-size="10">at the optimum f* = g(λ*): the duality gap is zero</text>
+  <text x="330" y="40" text-anchor="middle" fill="var(--figure-accent)" font-family="var(--font-mono)" font-size="11">dual g(λ)=λ−½λ², λ≥0</text>
+  <text x="334" y="160" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">λ* = 1</text>
+  <line x1="100" y1="200" x2="415" y2="173" stroke="var(--figure-flow)" stroke-width="1.5" stroke-dasharray="5 4" opacity="0.7"/>
+  <text x="220" y="266" text-anchor="middle" fill="var(--figure-flow)" font-family="var(--font-mono)" font-size="10">at the optimum f* = g(λ*): the duality gap is zero</text>
+</g>
 </svg>

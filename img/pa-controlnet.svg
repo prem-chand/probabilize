@@ -1,19 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 230" fill="none">
-  <rect width="470" height="230" fill="var(--surface-sunken, #07090c)" rx="14"/>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="460" height="240" viewBox="0 0 460 240">
+<rect width="460" height="240" rx="10" fill="var(--surface-sunken)"/>
+<g transform="translate(0 7.45) scale(0.9787)">
+  
   <defs>
-    <marker id="paCnArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#9aa3b2"/></marker>
+    <marker id="paCnArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="var(--text-muted)"/></marker>
   </defs>
-  <rect x="255" y="60" width="180" height="96" rx="8" fill="var(--border-default, #343a48)" fill-opacity="0.45" stroke="var(--border-default, #343a48)" stroke-width="1.5"/>
-  <text x="345" y="98" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="11">frozen diffusion model</text>
-  <text x="345" y="118" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">pretrained, locked</text>
-  <rect x="35" y="60" width="170" height="96" rx="8" fill="#5879fb" fill-opacity="0.2" stroke="#5879fb" stroke-width="1.6"/>
-  <text x="120" y="94" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="11">trainable copy</text>
-  <text x="120" y="112" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">same architecture</text>
-  <text x="120" y="130" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">+ zero-conv</text>
-  <line x1="35" y1="180" x2="120" y2="156" stroke="#16a36b" stroke-width="2" marker-end="url(#paCnArrow)"/>
-  <text x="86" y="182" fill="#16a36b" font-family="monospace" font-size="10">control (edges, pose)</text>
-  <line x1="205" y1="108" x2="255" y2="108" stroke="#f5a623" stroke-width="2" marker-end="url(#paCnArrow)"/>
-  <text x="230" y="100" text-anchor="middle" fill="#f5a623" font-family="monospace" font-size="9">add</text>
-  <text x="235" y="30" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">ControlNet: a trainable copy steers a frozen generator</text>
-  <text x="235" y="206" text-anchor="middle" fill="#16a36b" font-family="monospace" font-size="10">zero-init conv means training starts as a no-op — the base is unharmed</text>
+  <rect x="255" y="60" width="180" height="96" rx="8" fill="var(--border-default)" fill-opacity="0.45" stroke="var(--border-default)" stroke-width="1.5"/>
+  <text x="345" y="98" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="11">frozen diffusion model</text>
+  <text x="345" y="118" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">pretrained, locked</text>
+  <rect x="35" y="60" width="170" height="96" rx="8" fill="var(--figure-structure)" fill-opacity="0.2" stroke="var(--figure-structure)" stroke-width="1.5"/>
+  <text x="120" y="94" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="11">trainable copy</text>
+  <text x="120" y="112" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">same architecture</text>
+  <text x="120" y="130" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">+ zero-conv</text>
+  <line x1="35" y1="180" x2="120" y2="156" stroke="var(--figure-flow)" stroke-width="2" marker-end="url(#paCnArrow)"/>
+  <text x="86" y="182" fill="var(--figure-flow)" font-family="var(--font-mono)" font-size="10">control (edges, pose)</text>
+  <line x1="205" y1="108" x2="255" y2="108" stroke="var(--figure-accent)" stroke-width="2" marker-end="url(#paCnArrow)"/>
+  <text x="230" y="100" text-anchor="middle" fill="var(--figure-accent)" font-family="var(--font-mono)" font-size="10">add</text>
+  <text x="235" y="30" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="11">ControlNet: a trainable copy steers a frozen generator</text>
+  <text x="235" y="206" text-anchor="middle" fill="var(--figure-flow)" font-family="var(--font-mono)" font-size="10">zero-init conv means training starts as a no-op — the base is unharmed</text>
+</g>
 </svg>

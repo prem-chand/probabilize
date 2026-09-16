@@ -1,22 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 210" fill="none">
-  <rect width="470" height="210" fill="var(--surface-sunken, #07090c)" rx="14"/>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="460" height="240" viewBox="0 0 460 240">
+<rect width="460" height="240" rx="10" fill="var(--surface-sunken)"/>
+<g transform="translate(0 17.23) scale(0.9787)">
+  
   <defs>
-    <marker id="paLlaArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#9aa3b2"/></marker>
+    <marker id="paLlaArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="var(--text-muted)"/></marker>
   </defs>
-  <rect x="18" y="78" width="104" height="60" rx="8" fill="#5879fb" fill-opacity="0.2" stroke="#5879fb" stroke-width="1.5"/>
-  <text x="70" y="104" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">vision encoder</text>
-  <text x="70" y="121" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">(frozen)</text>
-  <rect x="162" y="78" width="104" height="60" rx="8" fill="#f5a623" fill-opacity="0.18" stroke="#f5a623" stroke-width="1.5"/>
-  <text x="214" y="104" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">projector</text>
-  <text x="214" y="121" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">MLP → tokens</text>
-  <rect x="306" y="78" width="146" height="60" rx="8" fill="#16a36b" fill-opacity="0.2" stroke="#16a36b" stroke-width="1.6"/>
-  <text x="379" y="104" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="11">LLM</text>
-  <text x="379" y="121" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">reasoning + reply</text>
-  <g stroke="#9aa3b2" stroke-width="2">
+  <rect x="18" y="78" width="104" height="60" rx="8" fill="var(--figure-structure)" fill-opacity="0.2" stroke="var(--figure-structure)" stroke-width="1.5"/>
+  <text x="70" y="104" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="10">vision encoder</text>
+  <text x="70" y="121" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">(frozen)</text>
+  <rect x="162" y="78" width="104" height="60" rx="8" fill="var(--figure-accent)" fill-opacity="0.18" stroke="var(--figure-accent)" stroke-width="1.5"/>
+  <text x="214" y="104" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="10">projector</text>
+  <text x="214" y="121" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">MLP → tokens</text>
+  <rect x="306" y="78" width="146" height="60" rx="8" fill="var(--figure-flow)" fill-opacity="0.2" stroke="var(--figure-flow)" stroke-width="1.5"/>
+  <text x="379" y="104" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="11">LLM</text>
+  <text x="379" y="121" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">reasoning + reply</text>
+  <g stroke="var(--text-muted)" stroke-width="2">
     <line x1="122" y1="108" x2="162" y2="108" marker-end="url(#paLlaArrow)"/>
     <line x1="266" y1="108" x2="306" y2="108" marker-end="url(#paLlaArrow)"/>
   </g>
-  <text x="214" y="52" text-anchor="middle" fill="#f5a623" font-family="monospace" font-size="10">"the simple bridge"</text>
-  <text x="235" y="30" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">LLaVA: a frozen vision encoder + a small trainable projector</text>
-  <text x="235" y="178" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">stage 1 aligns the projector; stage 2 instruction-tunes</text>
+  <text x="214" y="52" text-anchor="middle" fill="var(--figure-accent)" font-family="var(--font-mono)" font-size="10">"the simple bridge"</text>
+  <text x="235" y="30" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="11">LLaVA: a frozen vision encoder + a small trainable projector</text>
+  <text x="235" y="178" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">stage 1 aligns the projector; stage 2 instruction-tunes</text>
+</g>
 </svg>

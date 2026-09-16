@@ -1,26 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 210" fill="none">
-  <rect width="480" height="210" fill="var(--surface-sunken, #07090c)" rx="14"/>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="460" height="240" viewBox="0 0 460 240">
+<rect width="460" height="240" rx="10" fill="var(--surface-sunken)"/>
+<g transform="translate(0 19.38) scale(0.9583)">
+  
   <defs>
-    <marker id="gmLdArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#9aa3b2"/></marker>
+    <marker id="gmLdArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="var(--text-muted)"/></marker>
   </defs>
-  <rect x="16" y="80" width="74" height="56" rx="6" fill="#5879fb" fill-opacity="0.18" stroke="#5879fb" stroke-width="1.4"/>
-  <text x="53" y="113" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="9">image</text>
-  <rect x="112" y="80" width="80" height="56" rx="6" fill="#5879fb" fill-opacity="0.2" stroke="#5879fb" stroke-width="1.4"/>
-  <text x="152" y="105" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="9">VAE</text>
-  <text x="152" y="120" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="8">encoder</text>
-  <rect x="214" y="72" width="120" height="72" rx="8" fill="#16a36b" fill-opacity="0.2" stroke="#16a36b" stroke-width="1.6"/>
-  <text x="274" y="100" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">diffusion U-Net / DiT</text>
-  <text x="274" y="118" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="8">in latent space</text>
-  <rect x="356" y="80" width="80" height="56" rx="6" fill="#5879fb" fill-opacity="0.2" stroke="#5879fb" stroke-width="1.4"/>
-  <text x="396" y="105" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="9">VAE</text>
-  <text x="396" y="120" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="8">decoder</text>
-  <g stroke="#9aa3b2" stroke-width="2">
+  <rect x="16" y="80" width="74" height="56" rx="6" fill="var(--figure-structure)" fill-opacity="0.18" stroke="var(--figure-structure)" stroke-width="1.5"/>
+  <text x="53" y="113" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="10">image</text>
+  <rect x="112" y="80" width="80" height="56" rx="6" fill="var(--figure-structure)" fill-opacity="0.2" stroke="var(--figure-structure)" stroke-width="1.5"/>
+  <text x="152" y="105" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="10">VAE</text>
+  <text x="152" y="120" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">encoder</text>
+  <rect x="214" y="72" width="120" height="72" rx="8" fill="var(--figure-flow)" fill-opacity="0.2" stroke="var(--figure-flow)" stroke-width="1.5"/>
+  <text x="274" y="100" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="10">diffusion U-Net / DiT</text>
+  <text x="274" y="118" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">in latent space</text>
+  <rect x="356" y="80" width="80" height="56" rx="6" fill="var(--figure-structure)" fill-opacity="0.2" stroke="var(--figure-structure)" stroke-width="1.5"/>
+  <text x="396" y="105" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="10">VAE</text>
+  <text x="396" y="120" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">decoder</text>
+  <g stroke="var(--text-muted)" stroke-width="2">
     <line x1="90" y1="108" x2="112" y2="108" marker-end="url(#gmLdArrow)"/>
     <line x1="192" y1="108" x2="214" y2="108" marker-end="url(#gmLdArrow)"/>
     <line x1="334" y1="108" x2="356" y2="108" marker-end="url(#gmLdArrow)"/>
   </g>
-  <line x1="274" y1="28" x2="274" y2="72" stroke="#f5a623" stroke-width="1.6" marker-end="url(#gmLdArrow)"/>
-  <text x="274" y="20" text-anchor="middle" fill="#f5a623" font-family="monospace" font-size="9">text (cross-attention)</text>
-  <text x="240" y="176" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">denoise in a compressed latent — far cheaper than pixel space</text>
-  <text x="240" y="196" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">text conditioning enters through cross-attention at every block</text>
+  <line x1="274" y1="28" x2="274" y2="72" stroke="var(--figure-accent)" stroke-width="1.5" marker-end="url(#gmLdArrow)"/>
+  <text x="274" y="20" text-anchor="middle" fill="var(--figure-accent)" font-family="var(--font-mono)" font-size="10">text (cross-attention)</text>
+  <text x="240" y="176" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">denoise in a compressed latent — far cheaper than pixel space</text>
+  <text x="240" y="196" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">text conditioning enters through cross-attention at every block</text>
+</g>
 </svg>

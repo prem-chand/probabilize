@@ -1,11 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 240" fill="none">
-  <rect width="450" height="240" fill="var(--surface-sunken, #07090c)" rx="14"/>
-  <path d="M120 190 L200 60 L280 190" stroke="#5879fb" stroke-width="1.8" fill="#5879fb" fill-opacity="0.1"/>
-  <line x1="60" y1="120" x2="390" y2="120" stroke="var(--border-default, #343a48)" stroke-width="1.4" stroke-dasharray="5 4"/>
-  <ellipse cx="200" cy="120" rx="52" ry="18" fill="#16a36b" fill-opacity="0.2" stroke="#16a36b" stroke-width="1.6"/>
-  <text x="200" y="52" text-anchor="middle" fill="#5879fb" font-family="monospace" font-size="10">PSD cone: X ⪰ 0</text>
-  <text x="300" y="112" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">trace(X) = 1 slice</text>
-  <text x="200" y="124" text-anchor="middle" fill="#16a36b" font-family="monospace" font-size="9">spectrahedron</text>
-  <text x="200" y="214" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">constraint X ⪰ 0 means every eigenvalue λᵢ(X) ≥ 0</text>
-  <text x="225" y="26" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">semidefinite programming: linear objective over the PSD cone</text>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="460" height="240" viewBox="0 0 460 240">
+<rect width="460" height="240" rx="10" fill="var(--surface-sunken)"/>
+<g transform="translate(5 0)">
+  
+  <path d="M120 190 L200 60 L280 190" stroke="var(--figure-structure)" stroke-width="2" fill="var(--figure-structure)" fill-opacity="0.1"/>
+  <line x1="60" y1="120" x2="390" y2="120" stroke="var(--border-default)" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <ellipse cx="200" cy="120" rx="52" ry="18" fill="var(--figure-flow)" fill-opacity="0.2" stroke="var(--figure-flow)" stroke-width="1.5"/>
+  <text x="200" y="52" text-anchor="middle" fill="var(--figure-structure)" font-family="var(--font-mono)" font-size="10">PSD cone: X ⪰ 0</text>
+  <text x="300" y="112" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">trace(X) = 1 slice</text>
+  <text x="200" y="124" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="10">spectrahedron</text>
+  <text x="200" y="214" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">constraint X ⪰ 0 means every eigenvalue λᵢ(X) ≥ 0</text>
+  <text x="225" y="26" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="11">semidefinite programming: linear objective over the PSD cone</text>
+</g>
 </svg>

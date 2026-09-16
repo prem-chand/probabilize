@@ -1,23 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 290" fill="none">
-  <rect width="420" height="290" fill="var(--surface-sunken, #07090c)" rx="14"/>
-  <text x="210" y="24" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">the workspace: every point within l1 + l2 of the base</text>
-  <circle cx="160" cy="155" r="120" fill="#5879fb" fill-opacity="0.06" stroke="var(--text-subtle, #6b7482)" stroke-width="1.4" stroke-dasharray="6 5"/>
-  <line x1="30" y1="155" x2="400" y2="155" stroke="var(--border-default, #343a48)" stroke-width="1.2" stroke-dasharray="3 5"/>
-  <line x1="160" y1="55" x2="160" y2="265" stroke="var(--border-default, #343a48)" stroke-width="1.2" stroke-dasharray="3 5"/>
-  <rect x="150" y="155" width="20" height="12" rx="3" fill="var(--border-default, #343a48)"/>
-  <line x1="160" y1="155" x2="220" y2="155" stroke="#5879fb" stroke-width="7" stroke-linecap="round"/>
-  <line x1="220" y1="155" x2="280" y2="155" stroke="#5879fb" stroke-width="7" stroke-linecap="round"/>
-  <circle cx="160" cy="155" r="6" fill="#f5a623"/>
-  <circle cx="220" cy="155" r="6" fill="#f5a623"/>
-  <circle cx="280" cy="155" r="6" fill="#16a36b"/>
-  <circle cx="220" cy="95" r="5" fill="#16a36b"/>
-  <circle cx="260" cy="75" r="7" fill="none" stroke="#e5484d" stroke-width="2"/>
-  <path d="M255 70 L265 80 M265 70 L255 80" stroke="#e5484d" stroke-width="2"/>
-  <text x="166" y="185" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">base</text>
-  <text x="284" y="173" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">hand at full stretch</text>
-  <text x="284" y="191" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">(distance l1 + l2)</text>
-  <circle cx="292" cy="221" r="5" fill="#16a36b"/>
-  <text x="304" y="225" fill="#16a36b" font-family="monospace" font-size="10">reachable target</text>
-  <path d="M287 240 L297 250 M297 240 L287 250" stroke="#e5484d" stroke-width="2"/>
-  <text x="304" y="253" fill="#e5484d" font-family="monospace" font-size="10">unreachable target</text>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="460" height="300" viewBox="0 0 460 300">
+<rect width="460" height="300" rx="10" fill="var(--surface-sunken)"/>
+<g transform="translate(20 5)">
+  
+  <text x="210" y="24" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="11">the workspace: every point within l1 + l2 of the base</text>
+  <circle cx="160" cy="155" r="120" fill="var(--figure-structure)" fill-opacity="0.06" stroke="var(--text-muted)" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <line x1="30" y1="155" x2="400" y2="155" stroke="var(--border-default)" stroke-width="1.5" stroke-dasharray="3 5"/>
+  <line x1="160" y1="55" x2="160" y2="265" stroke="var(--border-default)" stroke-width="1.5" stroke-dasharray="3 5"/>
+  <rect x="150" y="155" width="20" height="12" rx="3" fill="var(--border-default)"/>
+  <line x1="160" y1="155" x2="220" y2="155" stroke="var(--figure-structure)" stroke-width="6" stroke-linecap="round"/>
+  <line x1="220" y1="155" x2="280" y2="155" stroke="var(--figure-structure)" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="160" cy="155" r="6" fill="var(--figure-accent)"/>
+  <circle cx="220" cy="155" r="6" fill="var(--figure-accent)"/>
+  <circle cx="280" cy="155" r="6" fill="var(--figure-flow)"/>
+  <circle cx="220" cy="95" r="5" fill="var(--figure-flow)"/>
+  <circle cx="260" cy="75" r="7" fill="none" stroke="var(--figure-alert)" stroke-width="2"/>
+  <path d="M255 70 L265 80 M265 70 L255 80" stroke="var(--figure-alert)" stroke-width="2"/>
+  <text x="166" y="185" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">base</text>
+  <text x="284" y="173" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">hand at full stretch</text>
+  <text x="284" y="191" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">(distance l1 + l2)</text>
+  <circle cx="292" cy="221" r="5" fill="var(--figure-flow)"/>
+  <text x="304" y="225" fill="var(--figure-flow)" font-family="var(--font-mono)" font-size="10">reachable target</text>
+  <path d="M287 240 L297 250 M297 240 L287 250" stroke="var(--figure-alert)" stroke-width="2"/>
+  <text x="304" y="253" fill="var(--figure-alert)" font-family="var(--font-mono)" font-size="10">unreachable target</text>
+</g>
 </svg>

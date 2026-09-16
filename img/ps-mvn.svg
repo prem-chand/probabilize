@@ -1,17 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 230" fill="none">
-  <rect width="440" height="230" fill="var(--surface-sunken, #07090c)" rx="14"/>
-  <line x1="60" y1="130" x2="380" y2="130" stroke="var(--border-subtle, #21262f)" stroke-width="1"/>
-  <line x1="220" y1="40" x2="220" y2="200" stroke="var(--border-subtle, #21262f)" stroke-width="1"/>
-  <g stroke="#5879fb" fill="none">
-    <ellipse cx="220" cy="130" rx="130" ry="52" stroke-width="1.4" opacity="0.5" transform="rotate(-24 220 130)"/>
-    <ellipse cx="220" cy="130" rx="92" ry="37" stroke-width="1.6" opacity="0.7" transform="rotate(-24 220 130)"/>
-    <ellipse cx="220" cy="130" rx="54" ry="22" stroke-width="1.8" transform="rotate(-24 220 130)"/>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="460" height="240" viewBox="0 0 460 240">
+<rect width="460" height="240" rx="10" fill="var(--surface-sunken)"/>
+<g transform="translate(10 5)">
+  
+  <line x1="60" y1="130" x2="380" y2="130" stroke="var(--border-subtle)" stroke-width="1.5"/>
+  <line x1="220" y1="40" x2="220" y2="200" stroke="var(--border-subtle)" stroke-width="1.5"/>
+  <g stroke="var(--figure-structure)" fill="none">
+    <ellipse cx="220" cy="130" rx="130" ry="52" stroke-width="1.5" opacity="0.5" transform="rotate(-24 220 130)"/>
+    <ellipse cx="220" cy="130" rx="92" ry="37" stroke-width="1.5" opacity="0.7" transform="rotate(-24 220 130)"/>
+    <ellipse cx="220" cy="130" rx="54" ry="22" stroke-width="2" transform="rotate(-24 220 130)"/>
   </g>
-  <line x1="220" y1="130" x2="300" y2="94" stroke="#f5a623" stroke-width="2"/>
-  <line x1="220" y1="130" x2="238" y2="172" stroke="#16a36b" stroke-width="2"/>
-  <circle cx="220" cy="130" r="4" fill="#ffffff"/>
-  <text x="306" y="90" fill="#f5a623" font-family="monospace" font-size="10">eigvec λ₁</text>
-  <text x="246" y="182" fill="#16a36b" font-family="monospace" font-size="10">eigvec λ₂</text>
-  <text x="220" y="26" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">a multivariate Gaussian is a mean plus a covariance ellipsoid</text>
-  <text x="220" y="216" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">the eigenvectors of Σ give the axes, the eigenvalues the lengths</text>
+  <line x1="220" y1="130" x2="300" y2="94" stroke="var(--figure-accent)" stroke-width="2"/>
+  <line x1="220" y1="130" x2="238" y2="172" stroke="var(--figure-flow)" stroke-width="2"/>
+  <circle cx="220" cy="130" r="4" fill="var(--text-strong)"/>
+  <text x="306" y="90" fill="var(--figure-accent)" font-family="var(--font-mono)" font-size="10">eigvec λ₁</text>
+  <text x="246" y="182" fill="var(--figure-flow)" font-family="var(--font-mono)" font-size="10">eigvec λ₂</text>
+  <text x="220" y="26" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="11">a multivariate Gaussian is a mean plus a covariance ellipsoid</text>
+  <text x="220" y="216" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">the eigenvectors of Σ give the axes, the eigenvalues the lengths</text>
+</g>
 </svg>

@@ -1,24 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 240" fill="none">
-  <rect width="470" height="240" fill="var(--surface-sunken, #07090c)" rx="14"/>
-  <rect x="20" y="40" width="120" height="56" rx="8" fill="#5879fb" fill-opacity="0.2" stroke="#5879fb" stroke-width="1.5"/>
-  <text x="80" y="66" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="11">image encoder</text>
-  <text x="80" y="84" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">ViT</text>
-  <rect x="20" y="140" width="120" height="56" rx="8" fill="#f5a623" fill-opacity="0.18" stroke="#f5a623" stroke-width="1.5"/>
-  <text x="80" y="166" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="11">text encoder</text>
-  <text x="80" y="184" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="9">transformer</text>
-  <rect x="300" y="40" width="150" height="156" rx="8" fill="none" stroke="var(--border-default, #343a48)" stroke-width="1.4"/>
-  <g stroke="var(--border-subtle, #21262f)" stroke-width="1">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="460" height="240" viewBox="0 0 460 240">
+<rect width="460" height="240" rx="10" fill="var(--surface-sunken)"/>
+<g transform="translate(0 2.55) scale(0.9787)">
+  
+  <rect x="20" y="40" width="120" height="56" rx="8" fill="var(--figure-structure)" fill-opacity="0.2" stroke="var(--figure-structure)" stroke-width="1.5"/>
+  <text x="80" y="66" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="11">image encoder</text>
+  <text x="80" y="84" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">ViT</text>
+  <rect x="20" y="140" width="120" height="56" rx="8" fill="var(--figure-accent)" fill-opacity="0.18" stroke="var(--figure-accent)" stroke-width="1.5"/>
+  <text x="80" y="166" text-anchor="middle" fill="var(--text-strong)" font-family="var(--font-mono)" font-size="11">text encoder</text>
+  <text x="80" y="184" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">transformer</text>
+  <rect x="300" y="40" width="150" height="156" rx="8" fill="none" stroke="var(--border-default)" stroke-width="1.5"/>
+  <g stroke="var(--border-subtle)" stroke-width="1.5">
     <line x1="300" y1="79" x2="450" y2="79"/><line x1="300" y1="118" x2="450" y2="118"/><line x1="300" y1="157" x2="450" y2="157"/>
     <line x1="350" y1="40" x2="350" y2="196"/><line x1="400" y1="40" x2="400" y2="196"/>
   </g>
-  <g fill="#16a36b"><rect x="303" y="43" width="44" height="33" rx="3"/></g>
-  <g fill="#16a36b" fill-opacity="0.35">
+  <g fill="var(--figure-flow)"><rect x="303" y="43" width="44" height="33" rx="3"/></g>
+  <g fill="var(--figure-flow)" fill-opacity="0.35">
     <rect x="353" y="82" width="44" height="33" rx="3"/><rect x="403" y="43" width="44" height="33" rx="3"/>
     <rect x="303" y="160" width="44" height="33" rx="3"/><rect x="403" y="121" width="44" height="33" rx="3"/>
   </g>
-  <line x1="140" y1="68" x2="300" y2="60" stroke="#5879fb" stroke-width="2"/>
-  <line x1="140" y1="168" x2="300" y2="176" stroke="#f5a623" stroke-width="2"/>
-  <text x="375" y="214" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">diagonal = matched pairs</text>
-  <text x="220" y="24" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">CLIP: map images and text into one shared space</text>
-  <text x="220" y="225" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">train the diagonal high, everything else low (InfoNCE)</text>
+  <line x1="140" y1="68" x2="300" y2="60" stroke="var(--figure-structure)" stroke-width="2"/>
+  <line x1="140" y1="168" x2="300" y2="176" stroke="var(--figure-accent)" stroke-width="2"/>
+  <text x="375" y="214" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">diagonal = matched pairs</text>
+  <text x="220" y="24" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="11">CLIP: map images and text into one shared space</text>
+  <text x="220" y="225" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">train the diagonal high, everything else low (InfoNCE)</text>
+</g>
 </svg>

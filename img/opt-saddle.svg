@@ -1,27 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 308" fill="none">
-  <rect width="420" height="308" fill="var(--surface-sunken, #07090c)" rx="14"/>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="460" height="360" viewBox="0 0 460 360">
+<rect width="460" height="360" rx="10" fill="var(--surface-sunken)"/>
+<g transform="translate(20 26)">
+  
   <defs>
-    <marker id="optSaddleRed" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#e5484d"/></marker>
-    <marker id="optSaddleBlue" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="#5879fb"/></marker>
+    <marker id="optSaddleRed" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="var(--figure-alert)"/></marker>
+    <marker id="optSaddleBlue" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 3.5 L0 7 Z" fill="var(--figure-structure)"/></marker>
   </defs>
-  <g stroke="var(--border-subtle, #21262f)" stroke-width="1" stroke-dasharray="4 4">
+  <g stroke="var(--border-subtle)" stroke-width="1.5" stroke-dasharray="4 4">
     <line x1="80" y1="70" x2="340" y2="230"/>
     <line x1="80" y1="230" x2="340" y2="70"/>
   </g>
-  <g stroke="#5879fb" stroke-width="1.6" opacity="0.7" fill="none">
+  <g stroke="var(--figure-structure)" stroke-width="1.5" opacity="0.7" fill="none">
     <path d="M250 80 C 300 110, 300 190, 250 220"/>
     <path d="M170 80 C 120 110, 120 190, 170 220"/>
     <path d="M165 95 C 195 55, 245 55, 275 95"/>
     <path d="M165 205 C 195 245, 245 245, 275 205"/>
   </g>
-  <line x1="210" y1="150" x2="320" y2="150" stroke="#e5484d" stroke-width="2" marker-end="url(#optSaddleRed)"/>
-  <line x1="210" y1="150" x2="100" y2="150" stroke="#e5484d" stroke-width="2" marker-end="url(#optSaddleRed)"/>
-  <line x1="210" y1="150" x2="210" y2="90" stroke="#5879fb" stroke-width="2" marker-end="url(#optSaddleBlue)"/>
-  <line x1="210" y1="150" x2="210" y2="210" stroke="#5879fb" stroke-width="2" marker-end="url(#optSaddleBlue)"/>
-  <circle cx="210" cy="150" r="5" fill="#ffffff"/>
-  <text x="210" y="26" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="11">at a saddle, ∇f = 0 but curvature changes sign</text>
-  <text x="292" y="176" fill="#e5484d" font-family="monospace" font-size="10">escape</text>
-  <text x="222" y="84" fill="#5879fb" font-family="monospace" font-size="10">attract</text>
-  <text x="210" y="276" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">in high dimensions, most critical points are saddles</text>
-  <text x="210" y="290" text-anchor="middle" fill="var(--text-muted, #9aa3b2)" font-family="monospace" font-size="10">gradient flow slides off them</text>
+  <line x1="210" y1="150" x2="320" y2="150" stroke="var(--figure-alert)" stroke-width="2" marker-end="url(#optSaddleRed)"/>
+  <line x1="210" y1="150" x2="100" y2="150" stroke="var(--figure-alert)" stroke-width="2" marker-end="url(#optSaddleRed)"/>
+  <line x1="210" y1="150" x2="210" y2="90" stroke="var(--figure-structure)" stroke-width="2" marker-end="url(#optSaddleBlue)"/>
+  <line x1="210" y1="150" x2="210" y2="210" stroke="var(--figure-structure)" stroke-width="2" marker-end="url(#optSaddleBlue)"/>
+  <circle cx="210" cy="150" r="5" fill="var(--text-strong)"/>
+  <text x="210" y="26" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="11">at a saddle, ∇f = 0 but curvature changes sign</text>
+  <text x="292" y="176" fill="var(--figure-alert)" font-family="var(--font-mono)" font-size="10">escape</text>
+  <text x="222" y="84" fill="var(--figure-structure)" font-family="var(--font-mono)" font-size="10">attract</text>
+  <text x="210" y="276" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">in high dimensions, most critical points are saddles</text>
+  <text x="210" y="290" text-anchor="middle" fill="var(--text-muted)" font-family="var(--font-mono)" font-size="10">gradient flow slides off them</text>
+</g>
 </svg>
