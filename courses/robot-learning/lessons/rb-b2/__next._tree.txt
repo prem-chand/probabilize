@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/3-ub8mwyytbn_.css","style"]
+:HL["/_next/static/chunks/12lp4a1xsu8pz.css","style"]
 :HL["/_next/static/chunks/3c4-ozf1dxam2.css","style"]
 :HC["/",""]
 :HL["/fonts/cousine-nerd/CousineNerdFontMono-Regular.woff2","font",{"crossOrigin":"anonymous","type":"font/woff2"}]
@@ -8,4 +8,4 @@
 :HL["/img/rb-estimation-jitter.svg","image"]
 :HL["/img/rb-estimation-cycle.svg","image"]
 :HL["/img/rb-estimation-weight.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":24,"slots":{"children":{"name":"courses","param":null,"prefetchHints":8,"slots":{"children":{"name":"courseSlug","param":{"type":"d","key":"robot-learning","siblings":null},"prefetchHints":8,"slots":{"children":{"name":"lessons","param":null,"prefetchHints":8,"slots":{"children":{"name":"lessonSlug","param":{"type":"d","key":"rb-b2","siblings":null},"prefetchHints":4,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}}}},"staleTime":300,"buildId":"92804d2"}
+0:{"tree":{"name":"","param":null,"prefetchHints":24,"slots":{"children":{"name":"courses","param":null,"prefetchHints":8,"slots":{"children":{"name":"courseSlug","param":{"type":"d","key":"robot-learning","siblings":null},"prefetchHints":8,"slots":{"children":{"name":"lessons","param":null,"prefetchHints":8,"slots":{"children":{"name":"lessonSlug","param":{"type":"d","key":"rb-b2","siblings":null},"prefetchHints":4,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}}}},"staleTime":300,"buildId":"714a501"}
