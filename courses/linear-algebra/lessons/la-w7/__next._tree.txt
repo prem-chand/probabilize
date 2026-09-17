@@ -1,8 +1,8 @@
-:HL["/_next/static/chunks/1-65qayvy05-y.css","style"]
+:HL["/_next/static/chunks/2rgyrtwr1x7c2.css","style"]
 :HL["/_next/static/chunks/3c4-ozf1dxam2.css","style"]
 :HC["/",""]
 :HL["/fonts/cousine-nerd/CousineNerdFontMono-Regular.woff2","font",{"crossOrigin":"anonymous","type":"font/woff2"}]
 :HL["/fonts/cousine-nerd/CousineNerdFontMono-Bold.woff2","font",{"crossOrigin":"anonymous","type":"font/woff2"}]
 :HL["/fonts/cousine-nerd/CousineNerdFontMono-Italic.woff2","font",{"crossOrigin":"anonymous","type":"font/woff2"}]
 :HL["/fonts/libertinus-serif/LibertinusSerif-Regular.woff2","font",{"crossOrigin":"anonymous","type":"font/woff2"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":24,"slots":{"children":{"name":"courses","param":null,"prefetchHints":8,"slots":{"children":{"name":"courseSlug","param":{"type":"d","key":"linear-algebra","siblings":null},"prefetchHints":8,"slots":{"children":{"name":"lessons","param":null,"prefetchHints":8,"slots":{"children":{"name":"lessonSlug","param":{"type":"d","key":"la-w7","siblings":null},"prefetchHints":4,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}}}},"staleTime":300,"buildId":"f7b4305"}
+0:{"tree":{"name":"","param":null,"prefetchHints":24,"slots":{"children":{"name":"courses","param":null,"prefetchHints":8,"slots":{"children":{"name":"courseSlug","param":{"type":"d","key":"linear-algebra","siblings":null},"prefetchHints":8,"slots":{"children":{"name":"lessons","param":null,"prefetchHints":8,"slots":{"children":{"name":"lessonSlug","param":{"type":"d","key":"la-w7","siblings":null},"prefetchHints":4,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}}}},"staleTime":300,"buildId":"eea1dc8"}
