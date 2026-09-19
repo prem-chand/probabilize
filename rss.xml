@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>ePowerAI</title>
+    <link>https://probabilize.dev/</link>
+    <description>Project-based courses from Linear Algebra and Optimization through RL, Robot Learning, Physical AI, Generative Models, Probability &amp; Statistics, and Advanced Optimization — short concepts paired with hands-on builds.</description>
+    <lastBuildDate>Sat, 19 Sep 2026 15:15:52 GMT</lastBuildDate>
+  <item>
+    <title>Start Here: Python and the Math the Labs Use</title>
+    <link>https://probabilize.dev/courses/linear-algebra/lessons/start-here/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/start-here/</guid>
+    <description>Your first step in the Guided Foundations Path: run a browser Python cell, read its output and a traceback, use variables, lists, loops, if/else and functions, build numpy arrays, and read a sum, an average, an area under a curve, and a slope.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 1: Vectors and Linear Combinations</title>
+    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w1/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w1/</guid>
+    <description>Represent vectors in R^n, combine them linearly, and use the dot product to measure length, angle, and orthogonality.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 2: Linear Transformations and Matrices</title>
+    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w2/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w2/</guid>
+    <description>See matrices as linear transformations, matrix-vector multiplication as applying one, and matrix multiplication as composing two.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 3: Elimination and LU Factorization</title>
+    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w3/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w3/</guid>
+    <description>Solve linear systems by Gaussian elimination, see elimination as matrix multiplication, and factor A = LU.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 4: Determinants</title>
+    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w4/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w4/</guid>
+    <description>Learn the defining properties of the determinant, compute it by cofactor expansion, and use it to test invertibility and measure volume.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 5: Vector Spaces, Independence, and Basis</title>
+    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w5/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w5/</guid>
+    <description>Test vector sets for linear independence, and learn how a basis pins down the dimension of a vector space.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 6: The Four Fundamental Subspaces</title>
+    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w6/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w6/</guid>
+    <description>Meet the column space, null space, row space, and left null space of a matrix, and the rank-nullity formula that ties their dimensions together.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 7: Orthogonality and Projections</title>
+    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w7/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w7/</guid>
+    <description>Project a vector onto a line or a subspace, and build the projection matrix that does it automatically.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 8: Least Squares and QR</title>
+    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w8/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w8/</guid>
+    <description>Fit lines to noisy data with least squares, build orthonormal bases with Gram-Schmidt, and factor A = QR.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 9: Eigenvalues and Eigenvectors</title>
+    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w9/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w9/</guid>
+    <description>Find the directions a matrix only stretches, not rotates — eigenvalues and eigenvectors via the characteristic equation.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 10: Diagonalization and Markov Matrices</title>
+    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w10/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w10/</guid>
+    <description>Diagonalize a matrix to compute powers efficiently, and use eigenvalues to find the steady state of a Markov chain.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 11: Differential Equations</title>
+    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w11/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w11/</guid>
+    <description>Solve systems of linear differential equations using eigenvalues and eigenvectors, and read off stability from their signs.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 12: Symmetric and Positive Definite Matrices</title>
+    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w12/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w12/</guid>
+    <description>Meet the spectral theorem for symmetric matrices, and learn three equivalent tests for positive definiteness.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 13: The SVD and Complex Matrices</title>
+    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w13/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w13/</guid>
+    <description>Generalize eigendecomposition to any matrix with the singular value decomposition, and meet the complex analogues of symmetric and orthogonal matrices.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 14: The Fourier Matrix, FFT, and PCA</title>
+    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w14/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w14/</guid>
+    <description>Meet the Fourier matrix and the FFT that makes it fast, then close the course with PCA — variance-maximizing directions found via the SVD.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 1: Optimization for Learning</title>
+    <link>https://probabilize.dev/courses/optimization/lessons/opt-w1/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/optimization/lessons/opt-w1/</guid>
+    <description>Formulate empirical risk minimization, define loss landscapes, and implement gradient descent on a simple quadratic using multivariable calculus.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 2: Convex Sets and Functions</title>
+    <link>https://probabilize.dev/courses/optimization/lessons/opt-w2/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/optimization/lessons/opt-w2/</guid>
+    <description>Recognize convex sets and functions, and understand why a local minimum of a convex function is automatically global.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 3: Gradient Descent Theory</title>
+    <link>https://probabilize.dev/courses/optimization/lessons/opt-w3/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/optimization/lessons/opt-w3/</guid>
+    <description>Understand why GD converges: L-smoothness, convexity, and step-size rules that guarantee monotonic progress.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 4: Least Squares and Conditioning</title>
+    <link>https://probabilize.dev/courses/optimization/lessons/opt-w4/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/optimization/lessons/opt-w4/</guid>
+    <description>Solve least squares iteratively with GD and see how the condition number of the design matrix controls convergence speed.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 5: Classification Losses</title>
+    <link>https://probabilize.dev/courses/optimization/lessons/opt-w5/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/optimization/lessons/opt-w5/</guid>
+    <description>Differentiate logistic, softmax, and cross-entropy losses, and see why convexity extends from regression to classification.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 6: Stochastic Gradient Descent</title>
+    <link>https://probabilize.dev/courses/optimization/lessons/opt-w6/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/optimization/lessons/opt-w6/</guid>
+    <description>Replace full-batch gradients with mini-batch estimates, trade noise for speed, and tune learning rates under stochasticity.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 7: Momentum and Acceleration</title>
+    <link>https://probabilize.dev/courses/optimization/lessons/opt-w7/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/optimization/lessons/opt-w7/</guid>
+    <description>Add velocity to gradient steps with heavy-ball momentum and see why Nesterov acceleration improves convergence on convex problems.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 8: Adaptive First-Order Methods</title>
+    <link>https://probabilize.dev/courses/optimization/lessons/opt-w8/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/optimization/lessons/opt-w8/</guid>
+    <description>Let each parameter learn at its own rate with AdaGrad, RMSProp, and Adam — the methods that train deep neural networks.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 9: Practical Training Dynamics</title>
+    <link>https://probabilize.dev/courses/optimization/lessons/opt-w9/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/optimization/lessons/opt-w9/</guid>
+    <description>Diagnose training runs with learning rate schedules, warmup, gradient clipping, and the art of reading loss curves.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 10: Nonsmooth and Composite Objectives</title>
+    <link>https://probabilize.dev/courses/optimization/lessons/opt-w10/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/optimization/lessons/opt-w10/</guid>
+    <description>Handle ReLU, L1, and other nondifferentiable losses with subgradients, and see how early stopping acts as implicit regularization.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 11: Constraints: Projections and Penalties</title>
+    <link>https://probabilize.dev/courses/optimization/lessons/opt-w11/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/optimization/lessons/opt-w11/</guid>
+    <description>Enforce constraints with projected gradient descent and soft penalties, and glimpse Lagrange multipliers as constraint pricing.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 12: Duality for Practitioners</title>
+    <link>https://probabilize.dev/courses/optimization/lessons/opt-w12/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/optimization/lessons/opt-w12/</guid>
+    <description>Build the Lagrangian dual, state weak and strong duality, and compute the soft-margin SVM dual as a concrete ML example.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 13: Nonconvex Deep Learning</title>
+    <link>https://probabilize.dev/courses/optimization/lessons/opt-w13/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/optimization/lessons/opt-w13/</guid>
+    <description>Cross from convex land into the reality of deep net training: saddles, overparameterization, initialization, and normalization.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 14: Capstone — Theory Meets Training</title>
+    <link>https://probabilize.dev/courses/optimization/lessons/opt-w14/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/optimization/lessons/opt-w14/</guid>
+    <description>Diagnose a full training pipeline, choose methods and learning rates from first principles, and map course tools onto RL and generative model training.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Reinforcement Learning: Agents, Rewards, and MDPs</title>
+    <link>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-agents-rewards-and-mdps/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/reinforcement-learning/lessons/rl-agents-rewards-and-mdps/</guid>
+    <description>Meet the reinforcement-learning loop in plain language — an agent acts, the world answers with a reward and a next state — and learn the five ingredients that make the problem solvable.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Bandits: Exploration, Exploitation, and Regret</title>
+    <link>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-exploration-and-regret/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/reinforcement-learning/lessons/rl-exploration-and-regret/</guid>
+    <description>The simplest reinforcement-learning problem: a row of slot machines, no states, and one unavoidable trade-off. Learn why always choosing the current best is not enough — and how to measure the reward that exploring costs you.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Returns, Value, and the Bellman Equation</title>
+    <link>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-returns-and-value/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/reinforcement-learning/lessons/rl-returns-and-value/</guid>
+    <description>Turn a stream of rewards into a single number: discounting, the return, value functions, and the one recursive equation that makes infinite-horizon problems solvable.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Bandits: UCB1 and Thompson Sampling</title>
+    <link>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-ucb-and-thompson/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/reinforcement-learning/lessons/rl-ucb-and-thompson/</guid>
+    <description>Two principled answers to the exploration problem: trust the optimistic edge of what you know (UCB1), or sample from what you believe (Thompson sampling). Both explore automatically, with no rate to tune.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 1: Reinforcement Learning Problem Formulation</title>
+    <link>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w1/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w1/</guid>
+    <description>Formalize sequential decision making as Markov Decision Processes, derive value functions and the Bellman equations, and understand the reward hypothesis and its limits.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 2: Multi-Armed Bandits</title>
+    <link>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w2/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w2/</guid>
+    <description>Formalize the exploration-exploitation trade-off as a multi-armed bandit problem, derive the Lai-Robbins lower bound, and implement UCB1 and Thompson Sampling from first principles.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 3: Dynamic Programming for Finite MDPs</title>
+    <link>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w3/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w3/</guid>
+    <description>Master policy evaluation, policy iteration, and value iteration for finite MDPs. Understand the contraction mapping property that guarantees DP convergence, and trace the precise mappings from DP to Q-learning, actor-critic, and RLHF.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 4: Monte Carlo and Temporal-Difference Learning</title>
+    <link>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w4/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w4/</guid>
+    <description>Master Monte Carlo and Temporal-Difference methods for learning value functions from experience. Understand the bias-variance tradeoff that defines every modern deep RL algorithm, from SARSA and Q-learning to PPO and DQN.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 5: Function Approximation in Reinforcement Learning</title>
+    <link>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w5/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w5/</guid>
+    <description>How function approximation breaks tabular RL convergence — the MSVE objective, the deadly triad mechanism, Baird's counterexample, overestimation bias, and the neural network instabilities that DQN's target networks fix.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 6: Deep Q-Learning and Variants</title>
+    <link>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w6/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w6/</guid>
+    <description>How DQN stabilizes deep RL with experience replay, target networks, and reward clipping, plus Double DQN, Dueling, Prioritized Replay, Distributional RL, and Rainbow.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 7: Policy Gradient and Actor–Critic Methods</title>
+    <link>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w7/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w7/</guid>
+    <description>Derive the policy gradient theorem from first principles, build REINFORCE to actor-critic, develop GAE, and connect PPO to RLHF — the algorithmic backbone of modern language model alignment.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 8: Modern Deep Reinforcement Learning Algorithms</title>
+    <link>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w8/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w8/</guid>
+    <description>Explore the off-policy actor-critic family — DDPG, TD3, and SAC — from deterministic policy gradients to maximum-entropy RL, with practical guidance on choosing algorithms for real-robot deployment.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 9: Exploration, Partial Observability, and Multi-Agent Reinforcement Learning</title>
+    <link>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w9/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w9/</guid>
+    <description>Exploration strategies (count-based, ICM, RND), partial observability via POMDPs and recurrent policies, and multi-agent RL with CTDE — connecting all three to modern agentic AI systems.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 10: Model-Based Reinforcement Learning and Planning</title>
+    <link>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w10/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w10/</guid>
+    <description>From Dyna to Dreamer to MuZero — the model-based RL design space: learned world models, receding-horizon MPC, latent-space planning, and how these connect to tree-of-thought reasoning in modern LLMs.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 11: Offline Reinforcement Learning</title>
+    <link>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w11/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w11/</guid>
+    <description>Why standard RL fails on fixed datasets — and how conservative Q-learning (CQL), implicit Q-learning (IQL), behavior regularization, and doubly robust off-policy evaluation enable learning from offline data without environment interaction.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 12: Reinforcement Learning from Human Feedback</title>
+    <link>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w12/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w12/</guid>
+    <description>RLHF pipeline: supervised fine-tuning, reward modeling via Bradley-Terry preferences, and KL-regularized PPO for aligning language models with human values.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 13: Direct Preference Optimization and GRPO</title>
+    <link>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w13/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w13/</guid>
+    <description>DPO eliminates the reward model by inverting the KL-regularized optimal policy; GRPO replaces the value critic with a group-normalized empirical baseline for verifiable reasoning tasks.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 14: Agentic Systems and Course Capstone</title>
+    <link>https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w14/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/reinforcement-learning/lessons/rl-w14/</guid>
+    <description>Capstone: map agentic AI architectures (ReAct, Reflexion, plan-and-execute) onto the MDP formalism, covering memory, safety constraints, process rewards, and open problems.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Robotics Foundations: Sensors, Actions, and Motion</title>
+    <link>https://probabilize.dev/courses/robot-learning/lessons/rb-b1/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/robot-learning/lessons/rb-b1/</guid>
+    <description>The sense → decide → act loop, the parts of a robot arm, and how two joint angles decide where the hand lands — a beginner robotics lesson with a runnable 2-DOF arm lab.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 1: Robot Modeling and Kinematics</title>
+    <link>https://probabilize.dev/courses/robot-learning/lessons/rb-w1/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/robot-learning/lessons/rb-w1/</guid>
+    <description>Configuration spaces, forward and inverse kinematics, and the Jacobian — the geometric foundations that map joint angles to end-effector pose in SE(3).</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Robots Under Uncertainty: Estimating Position from Noisy Sensors</title>
+    <link>https://probabilize.dev/courses/robot-learning/lessons/rb-b2/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/robot-learning/lessons/rb-b2/</guid>
+    <description>Why a sensor reading is not the truth: prediction, measurement and the weighted estimate that combines them, explained in plain language with a runnable 1-D position-tracking lab.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 2: Dynamics and State Estimation</title>
+    <link>https://probabilize.dev/courses/robot-learning/lessons/rb-w2/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/robot-learning/lessons/rb-w2/</guid>
+    <description>From geometry to forces: rigid-body dynamics and state estimation, including the Kalman and extended Kalman filter for tracking robot state under noise.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 3: Control Fundamentals</title>
+    <link>https://probabilize.dev/courses/robot-learning/lessons/rb-w3/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/robot-learning/lessons/rb-w3/</guid>
+    <description>Feedback control for robots — PID, computed-torque, and the trajectory-tracking foundations that turn desired motions into stable actuator commands.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 4: Teleoperation and Data Collection</title>
+    <link>https://probabilize.dev/courses/robot-learning/lessons/rb-w4/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/robot-learning/lessons/rb-w4/</guid>
+    <description>How expert demonstration data is gathered — teleoperation interfaces, synchronized state-action logging, and the data-quality choices that determine what a policy can learn.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 5: Imitation Learning</title>
+    <link>https://probabilize.dev/courses/robot-learning/lessons/rb-w5/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/robot-learning/lessons/rb-w5/</guid>
+    <description>Learning controllers from demonstration — behavior cloning, its compounding-error failure mode, and the foundations of imitation learning from state-action trajectories.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 6: Reinforcement Learning for Robotics</title>
+    <link>https://probabilize.dev/courses/robot-learning/lessons/rb-w6/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/robot-learning/lessons/rb-w6/</guid>
+    <description>Connecting RL theory to physical robots — why imitation alone is insufficient, and how policy-gradient methods let robots improve beyond demonstrated behavior.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 7: Sim2Real Pipelines and IsaacLab</title>
+    <link>https://probabilize.dev/courses/robot-learning/lessons/rb-w7/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/robot-learning/lessons/rb-w7/</guid>
+    <description>Bridging the simulation-to-reality gap with domain randomization and the IsaacLab pipeline for training transferable robot policies at scale.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 8: Foundation Models for Manipulation — ACT and Action Chunking</title>
+    <link>https://probabilize.dev/courses/robot-learning/lessons/rb-w8/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/robot-learning/lessons/rb-w8/</guid>
+    <description>Why reactive per-timestep policies fail on long-horizon manipulation, and how Action Chunking Transformers (ACT) predict coherent sequences of future actions.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 9: Flow Matching and Diffusion for Robot Policies</title>
+    <link>https://probabilize.dev/courses/robot-learning/lessons/rb-w9/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/robot-learning/lessons/rb-w9/</guid>
+    <description>Generative robot policies — diffusion and flow-matching models that sample multimodal action trajectories for dexterous manipulation.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 10: Vision–Language–Action Models</title>
+    <link>https://probabilize.dev/courses/robot-learning/lessons/rb-w10/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/robot-learning/lessons/rb-w10/</guid>
+    <description>Vision-Language-Action models that fuse perception, language, and action into a single policy — architecture, training, and how language grounds robot behavior.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 11: Fine-Tuning and Adaptation</title>
+    <link>https://probabilize.dev/courses/robot-learning/lessons/rb-w11/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/robot-learning/lessons/rb-w11/</guid>
+    <description>Adapting pretrained VLA models to new robots and tasks — fine-tuning strategies that preserve broad manipulation priors while specializing behavior.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 12: Safety, Constraints, and Reliability</title>
+    <link>https://probabilize.dev/courses/robot-learning/lessons/rb-w12/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/robot-learning/lessons/rb-w12/</guid>
+    <description>Formal safety for learned controllers — control barrier functions, constraint enforcement, and reliability guarantees for robots acting near people.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 13: Multi-Robot and Multi-Task Learning</title>
+    <link>https://probabilize.dev/courses/robot-learning/lessons/rb-w13/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/robot-learning/lessons/rb-w13/</guid>
+    <description>Scaling beyond a single robot and task — multi-task policy learning and coordination strategies across multiple robots.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 14: Sim2Real Capstone</title>
+    <link>https://probabilize.dev/courses/robot-learning/lessons/rb-w14/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/robot-learning/lessons/rb-w14/</guid>
+    <description>A capstone synthesizing modeling, control, imitation, RL, and sim2real into an end-to-end pipeline for training and deploying a real robot policy.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 1: Modern Vision Backbones</title>
+    <link>https://probabilize.dev/courses/physical-ai/lessons/pa-w1/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/physical-ai/lessons/pa-w1/</guid>
+    <description>Trace the evolution from convolutional networks to Vision Transformers, formalize self-attention over image patches, and survey native 3D representations (NeRF, Gaussian Splatting) that ground vision models in physical space.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 2: Self-Supervised Representation Learning for Vision</title>
+    <link>https://probabilize.dev/courses/physical-ai/lessons/pa-w2/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/physical-ai/lessons/pa-w2/</guid>
+    <description>How VLM vision encoders are pretrained without labels — contrastive learning, masked autoencoding (MAE), and self-distillation (DINO), and why each objective yields representations with different geometric properties.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 3: Contrastive Vision–Language Learning (CLIP)</title>
+    <link>https://probabilize.dev/courses/physical-ai/lessons/pa-w3/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/physical-ai/lessons/pa-w3/</guid>
+    <description>Derive the CLIP architecture and its symmetric contrastive objective, see how zero-shot classification emerges from vector similarity, and understand the limits that motivated later vision-language models.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 4: Beyond CLIP — Captioning and Grounding</title>
+    <link>https://probabilize.dev/courses/physical-ai/lessons/pa-w4/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/physical-ai/lessons/pa-w4/</guid>
+    <description>Move from discriminative to generative perception: encoder-decoder captioning and cross-attention grounding that let models describe what they see and localize where objects are.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 5: BLIP, BLIP-2, and Related Models</title>
+    <link>https://probabilize.dev/courses/physical-ai/lessons/pa-w5/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/physical-ai/lessons/pa-w5/</guid>
+    <description>Unify contrastive alignment with generative captioning through BLIP, then meet the Q-Former — the low-parameter bottleneck bridging frozen vision encoders and frozen LLMs without catastrophic forgetting.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 6: LLaVA and Multimodal Instruction Tuning</title>
+    <link>https://probabilize.dev/courses/physical-ai/lessons/pa-w6/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/physical-ai/lessons/pa-w6/</guid>
+    <description>Multimodal instruction tuning — how LLaVA's minimalist projector design and supervised instruction-response pairs turn a captioner into a conversational visual assistant.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 7: Alternative VLM Architectures</title>
+    <link>https://probabilize.dev/courses/physical-ai/lessons/pa-w7/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/physical-ai/lessons/pa-w7/</guid>
+    <description>Beyond projector-based VLMs: Flamingo's gated cross-attention, the Perceiver's latent bottleneck, PaLI's unified encoder-decoder, and extensions to tactile and non-visual modalities.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 8: Fine-Tuning and Parameter-Efficient Methods</title>
+    <link>https://probabilize.dev/courses/physical-ai/lessons/pa-w8/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/physical-ai/lessons/pa-w8/</guid>
+    <description>Parameter-efficient fine-tuning for billion-parameter VLMs — the mathematics of LoRA and QLoRA, memory budgeting, and continuous learning on edge robotics hardware.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 9: Evaluation and Robustness</title>
+    <link>https://probabilize.dev/courses/physical-ai/lessons/pa-w9/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/physical-ai/lessons/pa-w9/</guid>
+    <description>Why benchmark accuracy misleads — captioning, VQA, and grounding metrics, distribution shift and spurious correlations, and the adversarial testing needed before physical deployment.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 10: ControlNet and Controlled Generation</title>
+    <link>https://probabilize.dev/courses/physical-ai/lessons/pa-w10/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/physical-ai/lessons/pa-w10/</guid>
+    <description>Precise geometric control over diffusion models via ControlNet and zero-initialized convolutions, and how VLMs act as System-2 controllers translating language into structured conditioning signals.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 11: Multimodal Agents and Tool Use</title>
+    <link>https://probabilize.dev/courses/physical-ai/lessons/pa-w11/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/physical-ai/lessons/pa-w11/</guid>
+    <description>From passive perception to action — VLMs as the policy engine of a POMDP, grounding language intentions into tool calls and affordances to complete multi-step tasks.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 12: Vision-Language Models for Robotics</title>
+    <link>https://probabilize.dev/courses/physical-ai/lessons/pa-w12/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/physical-ai/lessons/pa-w12/</guid>
+    <description>Embodying VLMs in robots: perceiving unstructured environments, interpreting natural-language instructions, and producing continuous motor commands under real-time and safety constraints.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 13: Bias, Fairness, and Safety in VLMs</title>
+    <link>https://probabilize.dev/courses/physical-ai/lessons/pa-w13/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/physical-ai/lessons/pa-w13/</guid>
+    <description>How web-scale training imprints systematic representation bias, how text-to-image models amplify stereotypes, and the alignment methods (RLHF, DPO) used to constrain VLM behavior before deployment.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 14: Vision-Language Capstone</title>
+    <link>https://probabilize.dev/courses/physical-ai/lessons/pa-w14/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/physical-ai/lessons/pa-w14/</guid>
+    <description>Integrate thirteen weeks of perception, generation, and embodiment into a coherent vision-language system design — architecture, alignment, and safety for a deployed VLM.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 1: Probabilistic Foundations</title>
+    <link>https://probabilize.dev/courses/generative-models/lessons/gm-w1/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/generative-models/lessons/gm-w1/</guid>
+    <description>The probabilistic vocabulary shared by every generative model — maximum likelihood, latent-variable models, the evidence lower bound, amortized inference, and score functions — and where each model class sits on the expressiveness–tractability frontier.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 2: Variational Autoencoders</title>
+    <link>https://probabilize.dev/courses/generative-models/lessons/gm-w2/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/generative-models/lessons/gm-w2/</guid>
+    <description>The VAE operationalizes the ELBO — the reparameterization trick, posterior collapse and its mitigations, β-VAE disentanglement, VQ-VAE, and hierarchical variants — the template for every latent-variable generative model.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 3: Generative Adversarial Networks</title>
+    <link>https://probabilize.dev/courses/generative-models/lessons/gm-w3/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/generative-models/lessons/gm-w3/</guid>
+    <description>The adversarial game and its divergence geometry — the min-max objective and its Jensen-Shannon interpretation, mode collapse and training instability, the Wasserstein reformulation with gradient penalty, spectral normalization, conditional and StyleGAN architectures, and FID/precision/recall evaluation.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 4: Energy-Based Models and Score Matching</title>
+    <link>https://probabilize.dev/courses/generative-models/lessons/gm-w4/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/generative-models/lessons/gm-w4/</guid>
+    <description>Energy-based models and the partition-function problem — contrastive divergence, Langevin dynamics sampling and the mixing challenge, score matching and denoising score matching, and NCSN multi-scale score estimation as the direct mathematical precursor to diffusion models.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 5: Normalizing Flows</title>
+    <link>https://probabilize.dev/courses/generative-models/lessons/gm-w5/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/generative-models/lessons/gm-w5/</guid>
+    <description>Exact-likelihood generative modeling through invertible maps — the change-of-variables formula, affine coupling layers (RealNVP, Glow), autoregressive flows and the training/sampling speed duality, continuous normalizing flows via neural ODEs, and the link to Schrödinger bridges and flow matching.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 6: Denoising Diffusion Probabilistic Models</title>
+    <link>https://probabilize.dev/courses/generative-models/lessons/gm-w6/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/generative-models/lessons/gm-w6/</guid>
+    <description>Denoising diffusion from first principles — the fixed Gaussian forward process, the variational bound on the reverse process, the simplified noise-prediction objective, the time-conditioned U-Net, ancestral and accelerated DDIM sampling, and the SDE/ODE unification with score matching.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 7: Flow Matching and Consistency Models</title>
+    <link>https://probabilize.dev/courses/generative-models/lessons/gm-w7/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/generative-models/lessons/gm-w7/</guid>
+    <description>Generative modeling as regression on a vector field — conditional flow matching, rectified flow and straight-line trajectories, optimal-transport coupling via mini-batch Sinkhorn, stochastic interpolants unifying flow matching and DDPM, and consistency models for single-step generation.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 8: Conditioning and Control</title>
+    <link>https://probabilize.dev/courses/generative-models/lessons/gm-w8/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/generative-models/lessons/gm-w8/</guid>
+    <description>Steering diffusion generation — classifier and classifier-free guidance, the implicit energy-model view and manifold-departure artifacts, cross-attention for text conditioning and its memory advantage, ControlNet structural conditioning with zero convolutions, and adaptive layer normalization.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 9: Latent Diffusion and Multimodal Generation</title>
+    <link>https://probabilize.dev/courses/generative-models/lessons/gm-w9/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/generative-models/lessons/gm-w9/</guid>
+    <description>Scaling diffusion to high resolution and beyond images — latent diffusion (Stable Diffusion), text conditioning via cross-attention, the diffusion transformer (DiT), and extensions to audio (CLAP), video (temporal attention, 3D convolutions), and multimodal generation.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 10: Evaluating Generative Models</title>
+    <link>https://probabilize.dev/courses/generative-models/lessons/gm-w10/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/generative-models/lessons/gm-w10/</guid>
+    <description>How to tell whether a generative model is good — bits-per-dimension, FID and its finite-sample bias, Inception Score, precision/recall, text-to-image faithfulness metrics (TIFA, VQAScore), task-success evaluation for robotics, and Goodhart's-law failure modes.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 11: Representation Learning with Generative Models</title>
+    <link>https://probabilize.dev/courses/generative-models/lessons/gm-w11/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/generative-models/lessons/gm-w11/</guid>
+    <description>What generative models learn internally — generative vs. contrastive self-supervision, masked autoencoders, diffusion-feature correspondence (DIFT), feature-extraction protocols, and why spatially-detailed generative representations excel at robotics perception and planning.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 12: World Models and Reinforcement Learning</title>
+    <link>https://probabilize.dev/courses/generative-models/lessons/gm-w12/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/generative-models/lessons/gm-w12/</guid>
+    <description>Generative models as learned simulators — the world-model architecture, the recurrent state-space model (RSSM), Dreamer-style latent imagination for policy optimization, latent-space model predictive control, and the sample-efficiency tradeoffs of model-based vs. model-free RL.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 13: Safety, Misuse, and Alignment</title>
+    <link>https://probabilize.dev/courses/generative-models/lessons/gm-w13/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/generative-models/lessons/gm-w13/</guid>
+    <description>The dual-use risks of generative models — deepfakes and detection, training-data memorization and extraction, differential privacy (DP-SGD), red-teaming and adversarial robustness, and the RLHF/DPO alignment techniques that steer model behavior.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 14: Generative AI Capstone</title>
+    <link>https://probabilize.dev/courses/generative-models/lessons/gm-w14/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/generative-models/lessons/gm-w14/</guid>
+    <description>Building and evaluating generative systems with scientific rigor — the generative pipeline as a system, controlled ablations and baselines, scaling laws, multi-dimensional and failure-mode evaluation, deployment engineering, and capstone project tracks.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 1: Probability Spaces and Events</title>
+    <link>https://probabilize.dev/courses/probability-statistics/lessons/ps-w1/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/probability-statistics/lessons/ps-w1/</guid>
+    <description>Build probability from sample spaces, events, and Kolmogorov's axioms, and set up discrete vs continuous models.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 2: Random Variables and Distributions</title>
+    <link>https://probabilize.dev/courses/probability-statistics/lessons/ps-w2/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/probability-statistics/lessons/ps-w2/</guid>
+    <description>Map outcomes to numbers with random variables, and work with PMFs, PDFs, CDFs, and four named distributions.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 3: Expectation, Variance, and Covariance</title>
+    <link>https://probabilize.dev/courses/probability-statistics/lessons/ps-w3/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/probability-statistics/lessons/ps-w3/</guid>
+    <description>Compute expectation, variance, and covariance, and use linearity of expectation without requiring independence.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 4: Conditioning and Independence</title>
+    <link>https://probabilize.dev/courses/probability-statistics/lessons/ps-w4/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/probability-statistics/lessons/ps-w4/</guid>
+    <description>Condition on information, factor joints with the chain rule, and separate independence from conditional independence.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 5: Bayes' Rule and Generative Classification</title>
+    <link>https://probabilize.dev/courses/probability-statistics/lessons/ps-w5/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/probability-statistics/lessons/ps-w5/</guid>
+    <description>Update beliefs with Bayes' rule and make MAP decisions in simple generative classification settings.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 6: Multivariate Gaussians</title>
+    <link>https://probabilize.dev/courses/probability-statistics/lessons/ps-w6/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/probability-statistics/lessons/ps-w6/</guid>
+    <description>Parameterize joint Gaussians with mean and covariance, and compute marginals, conditionals, and whitening transforms.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 7: Laws of Large Numbers and the CLT</title>
+    <link>https://probabilize.dev/courses/probability-statistics/lessons/ps-w7/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/probability-statistics/lessons/ps-w7/</guid>
+    <description>See sample averages concentrate with the LLN and become approximately normal with the central limit theorem.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 8: Point Estimation — Maximum Likelihood</title>
+    <link>https://probabilize.dev/courses/probability-statistics/lessons/ps-w8/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/probability-statistics/lessons/ps-w8/</guid>
+    <description>Form the likelihood, maximize it for Bernoulli and Gaussian models, and connect MLE to empirical risk.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 9: Bayesian Estimation and MAP</title>
+    <link>https://probabilize.dev/courses/probability-statistics/lessons/ps-w9/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/probability-statistics/lessons/ps-w9/</guid>
+    <description>Treat parameters as uncertain, update posteriors, and compare MAP estimates to MLE with conjugate examples.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 10: Bias, Variance, and Uncertainty</title>
+    <link>https://probabilize.dev/courses/probability-statistics/lessons/ps-w10/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/probability-statistics/lessons/ps-w10/</guid>
+    <description>Decompose estimation error into bias and variance, form simple confidence intervals, and use the bootstrap as a computational uncertainty tool.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 11: Information Theory for ML</title>
+    <link>https://probabilize.dev/courses/probability-statistics/lessons/ps-w11/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/probability-statistics/lessons/ps-w11/</guid>
+    <description>Define entropy, cross-entropy, and KL divergence, and connect them to maximum likelihood and classification losses.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 12: Exponential Families (lite)</title>
+    <link>https://probabilize.dev/courses/probability-statistics/lessons/ps-w12/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/probability-statistics/lessons/ps-w12/</guid>
+    <description>See Bernoulli, Gaussian, and categorical models as exponential families with natural parameters and sufficient statistics.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 13: Graphical Models (lite)</title>
+    <link>https://probabilize.dev/courses/probability-statistics/lessons/ps-w13/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/probability-statistics/lessons/ps-w13/</guid>
+    <description>Factor joint distributions with directed and undirected graphs, and read conditional independence from graph structure at a cartoon level.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 14: Capstone — Probabilistic Language of ML</title>
+    <link>https://probabilize.dev/courses/probability-statistics/lessons/ps-w14/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/probability-statistics/lessons/ps-w14/</guid>
+    <description>Map probability tools onto reinforcement learning and generative modeling, and audit common probabilistic modeling mistakes.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 1: Optimality Conditions Revisited</title>
+    <link>https://probabilize.dev/courses/advanced-optimization/lessons/ao-w1/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/advanced-optimization/lessons/ao-w1/</guid>
+    <description>Elevate intermediate first-order intuition into rigorous stationarity conditions and constraint qualifications that unlock KKT and duality.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 2: Lagrangian Duality in Depth</title>
+    <link>https://probabilize.dev/courses/advanced-optimization/lessons/ao-w2/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/advanced-optimization/lessons/ao-w2/</guid>
+    <description>Build the Lagrangian dual function, prove weak duality, and state Slater's condition for strong duality.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 3: KKT and Sensitivity</title>
+    <link>https://probabilize.dev/courses/advanced-optimization/lessons/ao-w3/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/advanced-optimization/lessons/ao-w3/</guid>
+    <description>State the full KKT system, use complementary slackness, and read dual variables as shadow prices.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 4: LP, QP, and Conic Form</title>
+    <link>https://probabilize.dev/courses/advanced-optimization/lessons/ao-w4/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/advanced-optimization/lessons/ao-w4/</guid>
+    <description>Write linear and quadratic programs in standard form and see second-order cone constraints as a modeling tool.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 5: Semidefinite Programming</title>
+    <link>https://probabilize.dev/courses/advanced-optimization/lessons/ao-w5/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/advanced-optimization/lessons/ao-w5/</guid>
+    <description>Formulate semidefinite programs, visualise spectrahedra at a high level, and see SDP relaxations for hard combinatorial problems.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 6: Interior-Point Methods</title>
+    <link>https://probabilize.dev/courses/advanced-optimization/lessons/ao-w6/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/advanced-optimization/lessons/ao-w6/</guid>
+    <description>Follow the central path with log barriers, sketch self-concordance at a practical level, and interpret commercial IPM solvers.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 7: Proximal Methods and ADMM</title>
+    <link>https://probabilize.dev/courses/advanced-optimization/lessons/ao-w7/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/advanced-optimization/lessons/ao-w7/</guid>
+    <description>Use proximal operators for composite objectives, run ISTA/FISTA, and split structure with ADMM.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 8: Newton and Quasi-Newton</title>
+    <link>https://probabilize.dev/courses/advanced-optimization/lessons/ao-w8/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/advanced-optimization/lessons/ao-w8/</guid>
+    <description>Derive the Newton step, add damping and line search, and use BFGS/L-BFGS when Hessians are unavailable.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 9: Variance Reduction</title>
+    <link>https://probabilize.dev/courses/advanced-optimization/lessons/ao-w9/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/advanced-optimization/lessons/ao-w9/</guid>
+    <description>Exploit finite-sum structure with SVRG and SAGA to reduce gradient noise without full-batch cost every step.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 10: Large-Batch and Distributed Training</title>
+    <link>https://probabilize.dev/courses/advanced-optimization/lessons/ao-w10/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/advanced-optimization/lessons/ao-w10/</guid>
+    <description>Scale minibatches across workers with data-parallel gradients, and separate solid theory from large-batch learning-rate folklore.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 11: Automatic Differentiation</title>
+    <link>https://probabilize.dev/courses/advanced-optimization/lessons/ao-w11/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/advanced-optimization/lessons/ao-w11/</guid>
+    <description>Contrast forward and reverse mode AD, build vector-Jacobian products on a tiny graph, and cost out reverse mode for deep nets.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 12: Sharpness and SAM</title>
+    <link>https://probabilize.dev/courses/advanced-optimization/lessons/ao-w12/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/advanced-optimization/lessons/ao-w12/</guid>
+    <description>Define sharpness of minima, connect large-batch geometry, and implement a SAM-style ascent-descent step.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 13: Landscapes and Implicit Bias</title>
+    <link>https://probabilize.dev/courses/advanced-optimization/lessons/ao-w13/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/advanced-optimization/lessons/ao-w13/</guid>
+    <description>Navigate nonconvex landscapes, saddles, and overparameterisation, and see how GD/SGD prefer particular solutions among many minimisers.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 14: Capstone — Structure Meets Scale</title>
+    <link>https://probabilize.dev/courses/advanced-optimization/lessons/ao-w14/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/advanced-optimization/lessons/ao-w14/</guid>
+    <description>Diagnose a hard problem and choose either a convex cone reformulation path or a large-scale first/second-order training recipe.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  </channel>
+</rss>
