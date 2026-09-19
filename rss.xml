@@ -4,7 +4,7 @@
     <title>ePowerAI</title>
     <link>https://probabilize.dev/</link>
     <description>Project-based courses from Linear Algebra and Optimization through RL, Robot Learning, Physical AI, Generative Models, Probability &amp; Statistics, and Advanced Optimization — short concepts paired with hands-on builds.</description>
-    <lastBuildDate>Sat, 19 Sep 2026 17:48:53 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 18:13:47 GMT</lastBuildDate>
   <item>
     <title>Start Here: Python and the Math the Labs Use</title>
     <link>https://probabilize.dev/courses/linear-algebra/lessons/start-here/</link>
@@ -114,7 +114,7 @@
     <title>Week 1: Optimization for Learning</title>
     <link>https://probabilize.dev/courses/optimization/lessons/opt-w1/</link>
     <guid isPermaLink="true">https://probabilize.dev/courses/optimization/lessons/opt-w1/</guid>
-    <description>Formulate empirical risk minimization, define loss landscapes, and implement gradient descent on a simple quadratic using multivariable calculus.</description>
+    <description>Formulate empirical risk minimization, define loss surfaces, and implement gradient descent on a simple quadratic using multivariable calculus.</description>
     <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
@@ -163,7 +163,7 @@
     <title>Week 8: Adaptive First-Order Methods</title>
     <link>https://probabilize.dev/courses/optimization/lessons/opt-w8/</link>
     <guid isPermaLink="true">https://probabilize.dev/courses/optimization/lessons/opt-w8/</guid>
-    <description>Let each parameter learn at its own rate with AdaGrad, RMSProp, and Adam — the methods that train deep neural networks.</description>
+    <description>Let each parameter learn at its own rate with AdaGrad, RMSProp, and Adam, the methods that train deep neural networks.</description>
     <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
