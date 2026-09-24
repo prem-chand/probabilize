@@ -4,7 +4,7 @@
     <title>ePowerAI</title>
     <link>https://probabilize.dev/</link>
     <description>Project-based courses from Linear Algebra and Optimization through RL, Robot Learning, Physical AI, Generative Models, Probability &amp; Statistics, and Advanced Optimization — short concepts paired with hands-on builds.</description>
-    <lastBuildDate>Thu, 24 Sep 2026 18:23:47 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 18:48:24 GMT</lastBuildDate>
   <item>
     <title>Start Here: Python and the Math the Labs Use</title>
     <link>https://probabilize.dev/courses/linear-algebra/lessons/start-here/</link>
@@ -16,7 +16,7 @@
     <title>Week 1: Vectors and Linear Combinations</title>
     <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w1/</link>
     <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w1/</guid>
-    <description>Represent vectors in R^n, combine them linearly, and use the dot product to measure length, angle, and orthogonality.</description>
+    <description>Two arrows in the plane. Drag them to see the parallelogram of addition and the scalar the dot product reports.</description>
     <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
