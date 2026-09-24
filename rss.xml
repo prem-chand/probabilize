@@ -4,7 +4,7 @@
     <title>ePowerAI</title>
     <link>https://probabilize.dev/</link>
     <description>Project-based courses from Linear Algebra and Optimization through RL, Robot Learning, Physical AI, Generative Models, Probability &amp; Statistics, and Advanced Optimization — short concepts paired with hands-on builds.</description>
-    <lastBuildDate>Thu, 24 Sep 2026 18:48:24 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 19:08:37 GMT</lastBuildDate>
   <item>
     <title>Start Here: Python and the Math the Labs Use</title>
     <link>https://probabilize.dev/courses/linear-algebra/lessons/start-here/</link>
@@ -23,7 +23,7 @@
     <title>Week 2: Linear Transformations and Matrices</title>
     <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w2/</link>
     <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w2/</guid>
-    <description>See matrices as linear transformations, matrix-vector multiplication as applying one, and matrix multiplication as composing two.</description>
+    <description>A unit grid deforms under a 2 by 2 matrix. The signed area of the unit square is the determinant, and matrix multiplication is composition.</description>
     <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
