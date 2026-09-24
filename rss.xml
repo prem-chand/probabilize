@@ -4,7 +4,7 @@
     <title>ePowerAI</title>
     <link>https://probabilize.dev/</link>
     <description>Project-based courses from Linear Algebra and Optimization through RL, Robot Learning, Physical AI, Generative Models, Probability &amp; Statistics, and Advanced Optimization — short concepts paired with hands-on builds.</description>
-    <lastBuildDate>Thu, 24 Sep 2026 16:50:07 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 18:23:47 GMT</lastBuildDate>
   <item>
     <title>Start Here: Python and the Math the Labs Use</title>
     <link>https://probabilize.dev/courses/linear-algebra/lessons/start-here/</link>
@@ -335,6 +335,13 @@
     <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
+    <title>The Position Update: Gain from Prediction and Measurement</title>
+    <link>https://probabilize.dev/courses/robot-learning/lessons/rb-position-update/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/robot-learning/lessons/rb-position-update/</guid>
+    <description>Where the sensor weight comes from. Prediction uncertainty and sensor spread set the gain, and a 1-D tracking lab shows what a shove does to the estimate.</description>
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
     <title>Robotics Foundations: Sensors, Actions, and Motion</title>
     <link>https://probabilize.dev/courses/robot-learning/lessons/rb-b1/</link>
     <guid isPermaLink="true">https://probabilize.dev/courses/robot-learning/lessons/rb-b1/</guid>
@@ -352,7 +359,7 @@
     <title>Robots Under Uncertainty: Estimating Position from Noisy Sensors</title>
     <link>https://probabilize.dev/courses/robot-learning/lessons/rb-b2/</link>
     <guid isPermaLink="true">https://probabilize.dev/courses/robot-learning/lessons/rb-b2/</guid>
-    <description>Why a sensor reading is not the truth: prediction, measurement and the weighted estimate that combines them, explained in plain language with a runnable 1-D position-tracking lab.</description>
+    <description>A rover in an aisle blends a prediction with a noisy measurement. One slider is that weight, and the estimate mark is the blend.</description>
     <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
