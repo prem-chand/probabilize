@@ -4,12 +4,19 @@
     <title>ePowerAI</title>
     <link>https://probabilize.dev/</link>
     <description>Project-based courses from Linear Algebra and Optimization through RL, Robot Learning, Physical AI, Generative Models, Probability &amp; Statistics, and Advanced Optimization — short concepts paired with hands-on builds.</description>
-    <lastBuildDate>Fri, 25 Sep 2026 03:47:45 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 04:13:18 GMT</lastBuildDate>
   <item>
     <title>Start Here: Python and the Math the Labs Use</title>
     <link>https://probabilize.dev/courses/linear-algebra/lessons/start-here/</link>
     <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/start-here/</guid>
     <description>Your first step in the Guided Foundations Path: run a browser Python cell, read its output and a traceback, use variables, lists, loops, if/else and functions, build numpy arrays, and read a sum, an average, an area under a curve, and a slope.</description>
+    <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 1: Probability Spaces and Events</title>
+    <link>https://probabilize.dev/courses/probability-statistics/lessons/ps-w1/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/probability-statistics/lessons/ps-w1/</guid>
+    <description>Build probability from sample spaces, events, and Kolmogorov's axioms, and set up discrete vs continuous models.</description>
     <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
@@ -647,13 +654,6 @@
     <link>https://probabilize.dev/courses/generative-models/lessons/gm-w14/</link>
     <guid isPermaLink="true">https://probabilize.dev/courses/generative-models/lessons/gm-w14/</guid>
     <description>Building and evaluating generative systems with scientific rigor — the generative pipeline as a system, controlled ablations and baselines, scaling laws, multi-dimensional and failure-mode evaluation, deployment engineering, and capstone project tracks.</description>
-    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-  </item>
-  <item>
-    <title>Week 1: Probability Spaces and Events</title>
-    <link>https://probabilize.dev/courses/probability-statistics/lessons/ps-w1/</link>
-    <guid isPermaLink="true">https://probabilize.dev/courses/probability-statistics/lessons/ps-w1/</guid>
-    <description>Build probability from sample spaces, events, and Kolmogorov's axioms, and set up discrete vs continuous models.</description>
     <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
