@@ -4,7 +4,7 @@
     <title>ePowerAI</title>
     <link>https://probabilize.dev/</link>
     <description>Project-based courses from Linear Algebra and Optimization through RL, Robot Learning, Physical AI, Generative Models, Probability &amp; Statistics, and Advanced Optimization — short concepts paired with hands-on builds.</description>
-    <lastBuildDate>Thu, 24 Sep 2026 19:08:37 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 03:04:53 GMT</lastBuildDate>
   <item>
     <title>Start Here: Python and the Math the Labs Use</title>
     <link>https://probabilize.dev/courses/linear-algebra/lessons/start-here/</link>
@@ -345,7 +345,7 @@
     <title>Robotics Foundations: Sensors, Actions, and Motion</title>
     <link>https://probabilize.dev/courses/robot-learning/lessons/rb-b1/</link>
     <guid isPermaLink="true">https://probabilize.dev/courses/robot-learning/lessons/rb-b1/</guid>
-    <description>The sense → decide → act loop, the parts of a robot arm, and how two joint angles decide where the hand lands — a beginner robotics lesson with a runnable 2-DOF arm lab.</description>
+    <description>A two-joint arm on a table. Move the joints, watch the hand, and see the same pose as a point in configuration space. The sense, decide, act loop is why the hand has to be measured again after it moves.</description>
     <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
