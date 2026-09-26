@@ -1,0 +1,679 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/2ok1tbheakz68.js","/_next/static/chunks/0e2cdgm8z3vhb.js","/_next/static/chunks/01tlp3o5hhc-0.js"],""]
+3:I[11468,["/_next/static/chunks/2ok1tbheakz68.js","/_next/static/chunks/0e2cdgm8z3vhb.js","/_next/static/chunks/01tlp3o5hhc-0.js"],"SearchCommandLazy"]
+8:I[22530,["/_next/static/chunks/2ok1tbheakz68.js","/_next/static/chunks/0e2cdgm8z3vhb.js","/_next/static/chunks/01tlp3o5hhc-0.js"],"ThemeToggle"]
+9:I[52017,["/_next/static/chunks/2ok1tbheakz68.js","/_next/static/chunks/0e2cdgm8z3vhb.js","/_next/static/chunks/01tlp3o5hhc-0.js"],"BuildShell"]
+12:I[97367,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+13:"$Sreact.suspense"
+15:I[86872,["/_next/static/chunks/2ok1tbheakz68.js","/_next/static/chunks/0e2cdgm8z3vhb.js","/_next/static/chunks/01tlp3o5hhc-0.js"],"BuildRail"]
+16:I[67608,["/_next/static/chunks/2ok1tbheakz68.js","/_next/static/chunks/0e2cdgm8z3vhb.js","/_next/static/chunks/01tlp3o5hhc-0.js"],"BuildStatusLine"]
+17:I[67534,["/_next/static/chunks/2ok1tbheakz68.js","/_next/static/chunks/0e2cdgm8z3vhb.js","/_next/static/chunks/01tlp3o5hhc-0.js"],"AnchorLink"]
+18:I[1653,["/_next/static/chunks/2ok1tbheakz68.js","/_next/static/chunks/0e2cdgm8z3vhb.js","/_next/static/chunks/01tlp3o5hhc-0.js"],"Blockworld"]
+3a:I[87426,["/_next/static/chunks/2ok1tbheakz68.js","/_next/static/chunks/0e2cdgm8z3vhb.js","/_next/static/chunks/01tlp3o5hhc-0.js"],"BuildCell"]
+43:I[1653,["/_next/static/chunks/2ok1tbheakz68.js","/_next/static/chunks/0e2cdgm8z3vhb.js","/_next/static/chunks/01tlp3o5hhc-0.js"],"BuildWorldPanel"]
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"children":[["$","header",null,{"className":"site-header","style":{"height":64,"background":"var(--surface-card)","borderBottom":"1px solid var(--border-subtle)","display":"flex","alignItems":"center","padding":"0 28px","gap":24,"position":"sticky","top":0,"zIndex":100},"children":[["$","$L2",null,{"href":"/","aria-label":"ePowerAI home","style":{"display":"flex","alignItems":"center","gap":8,"flexShrink":0,"textDecoration":"none"},"children":[["$","span",null,{"aria-hidden":"true","className":"lamp"}],["$","span",null,{"style":{"fontFamily":"var(--font-label)","fontWeight":700,"letterSpacing":"var(--tracking-panel)"},"children":[["$","span",null,{"style":{"fontSize":15,"color":"var(--text-strong)"},"children":"ePOWER"}],["$","span",null,{"style":{"fontSize":15},"children":"AI"}]]}]]}],["$","div",null,{"className":"site-header-divider","style":{"width":1,"height":22,"background":"var(--border-subtle)"}}],["$","nav",null,{"className":"site-header-nav","style":{"display":"flex","gap":4},"children":[["$","$L2",null,{"href":"/courses","style":{"fontFamily":"var(--font-label)","fontSize":12.5,"letterSpacing":"var(--tracking-panel)","textTransform":"uppercase","color":"var(--text-muted)","textDecoration":"none","padding":"7px 12px","borderRadius":"var(--radius-sm)"},"children":"Courses"}],["$","$L2",null,{"href":"/contact","style":"$0:rsc:props:children:0:props:children:0:props:children:2:props:children:0:props:style","children":"Contact"}]]}],["$","div",null,{"style":{"flex":1}}],["$","$L3",null,{"index":[{"courseSlug":"linear-algebra","courseShortTitle":"Linear Algebra","lessonSlug":"start-here","title":"Start Here: Python and the Math the Labs Use","description":"Your first step in the Guided Foundations Path: run a browser Python cell, read its output and a traceback, use variables, lists, loops, if/else and functions, build numpy arrays, and read a sum, an average, an area under a curve, and a slope."},{"courseSlug":"linear-algebra","courseShortTitle":"Linear Algebra","lessonSlug":"la-w1","title":"Week 1: Vectors and Linear Combinations","description":"Two arrows in the plane. Drag them to see the parallelogram of addition and the scalar the dot product reports.","week":1},{"courseSlug":"linear-algebra","courseShortTitle":"Linear Algebra","lessonSlug":"la-w2","title":"Week 2: Linear Transformations and Matrices","description":"A unit grid deforms under a 2 by 2 matrix. The signed area of the unit square is the determinant, and matrix multiplication is composition.","week":2},{"courseSlug":"linear-algebra","courseShortTitle":"Linear Algebra","lessonSlug":"la-w3","title":"Week 3: Elimination and LU Factorization","description":"Solve linear systems by Gaussian elimination, see elimination as matrix multiplication, and factor A = LU.","week":3},{"courseSlug":"linear-algebra","courseShortTitle":"Linear Algebra","lessonSlug":"la-w4","title":"Week 4: Determinants","description":"Learn the defining properties of the determinant, compute it by cofactor expansion, and use it to test invertibility and measure volume.","week":4},{"courseSlug":"linear-algebra","courseShortTitle":"Linear Algebra","lessonSlug":"la-w5","title":"Week 5: Vector Spaces, Independence, and Basis","description":"Test vector sets for linear independence, and learn how a basis pins down the dimension of a vector space.","week":5},{"courseSlug":"linear-algebra","courseShortTitle":"Linear Algebra","lessonSlug":"la-w6","title":"Week 6: The Four Fundamental Subspaces","description":"Meet the column space, null space, row space, and left null space of a matrix, and the rank-nullity formula that ties their dimensions together.","week":6},{"courseSlug":"linear-algebra","courseShortTitle":"Linear Algebra","lessonSlug":"la-w7","title":"Week 7: Orthogonality and Projections","description":"Project a vector onto a line or a subspace, and build the projection matrix that does it automatically.","week":7},{"courseSlug":"linear-algebra","courseShortTitle":"Linear Algebra","lessonSlug":"la-w8","title":"Week 8: Least Squares and QR","description":"Fit lines to noisy data with least squares, build orthonormal bases with Gram-Schmidt, and factor A = QR.","week":8},{"courseSlug":"linear-algebra","courseShortTitle":"Linear Algebra","lessonSlug":"la-w9","title":"Week 9: Eigenvalues and Eigenvectors","description":"Find the directions a matrix only stretches, not rotates — eigenvalues and eigenvectors via the characteristic equation.","week":9},{"courseSlug":"linear-algebra","courseShortTitle":"Linear Algebra","lessonSlug":"la-w10","title":"Week 10: Diagonalization and Markov Matrices","description":"Diagonalize a matrix to compute powers efficiently, and use eigenvalues to find the steady state of a Markov chain.","week":10},{"courseSlug":"linear-algebra","courseShortTitle":"Linear Algebra","lessonSlug":"la-w11","title":"Week 11: Differential Equations","description":"Solve systems of linear differential equations using eigenvalues and eigenvectors, and read off stability from their signs.","week":11},{"courseSlug":"linear-algebra","courseShortTitle":"Linear Algebra","lessonSlug":"la-w12","title":"Week 12: Symmetric and Positive Definite Matrices","description":"Meet the spectral theorem for symmetric matrices, and learn three equivalent tests for positive definiteness.","week":12},{"courseSlug":"linear-algebra","courseShortTitle":"Linear Algebra","lessonSlug":"la-w13","title":"Week 13: The SVD and Complex Matrices","description":"Generalize eigendecomposition to any matrix with the singular value decomposition, and meet the complex analogues of symmetric and orthogonal matrices.","week":13},{"courseSlug":"linear-algebra","courseShortTitle":"Linear Algebra","lessonSlug":"la-w14","title":"Week 14: The Fourier Matrix, FFT, and PCA","description":"Meet the Fourier matrix and the FFT that makes it fast, then close the course with PCA — variance-maximizing directions found via the SVD.","week":14},{"courseSlug":"optimization","courseShortTitle":"Optimization","lessonSlug":"opt-w1","title":"Week 1: Optimization for Learning","description":"Formulate empirical risk minimization, define loss surfaces, and implement gradient descent on a simple quadratic using multivariable calculus.","week":1},{"courseSlug":"optimization","courseShortTitle":"Optimization","lessonSlug":"opt-w2","title":"Week 2: Convex Sets and Functions","description":"Recognize convex sets and functions, and understand why a local minimum of a convex function is automatically global.","week":2},{"courseSlug":"optimization","courseShortTitle":"Optimization","lessonSlug":"opt-w3","title":"Week 3: Gradient Descent Theory","description":"Understand why GD converges: L-smoothness, convexity, and step-size rules that guarantee monotonic progress.","week":3},{"courseSlug":"optimization","courseShortTitle":"Optimization","lessonSlug":"opt-w4","title":"Week 4: Least Squares and Conditioning","description":"Solve least squares iteratively with GD and see how the condition number of the design matrix controls convergence speed.","week":4},{"courseSlug":"optimization","courseShortTitle":"Optimization","lessonSlug":"opt-w5","title":"Week 5: Classification Losses","description":"Differentiate logistic, softmax, and cross-entropy losses, and see why convexity extends from regression to classification.","week":5},{"courseSlug":"optimization","courseShortTitle":"Optimization","lessonSlug":"opt-w6","title":"Week 6: Stochastic Gradient Descent","description":"Replace full-batch gradients with mini-batch estimates, trade noise for speed, and tune learning rates under stochasticity.","week":6},{"courseSlug":"optimization","courseShortTitle":"Optimization","lessonSlug":"opt-w7","title":"Week 7: Momentum and Acceleration","description":"Add velocity to gradient steps with heavy-ball momentum and see why Nesterov acceleration improves convergence on convex problems.","week":7},{"courseSlug":"optimization","courseShortTitle":"Optimization","lessonSlug":"opt-w8","title":"Week 8: Adaptive First-Order Methods","description":"Let each parameter learn at its own rate with AdaGrad, RMSProp, and Adam, the methods that train deep neural networks.","week":8},{"courseSlug":"optimization","courseShortTitle":"Optimization","lessonSlug":"opt-w9","title":"Week 9: Practical Training Dynamics","description":"Diagnose training runs with learning rate schedules, warmup, gradient clipping, and the art of reading loss curves.","week":9},{"courseSlug":"optimization","courseShortTitle":"Optimization","lessonSlug":"opt-w10","title":"Week 10: Nonsmooth and Composite Objectives","description":"Handle ReLU, L1, and other nondifferentiable losses with subgradients, and see how early stopping acts as implicit regularization.","week":10},{"courseSlug":"optimization","courseShortTitle":"Optimization","lessonSlug":"opt-w11","title":"Week 11: Constraints: Projections and Penalties","description":"Enforce constraints with projected gradient descent and soft penalties, and glimpse Lagrange multipliers as constraint pricing.","week":11},{"courseSlug":"optimization","courseShortTitle":"Optimization","lessonSlug":"opt-w12","title":"Week 12: Duality for Practitioners","description":"Build the Lagrangian dual, state weak and strong duality, and compute the soft-margin SVM dual as a concrete ML example.","week":12},{"courseSlug":"optimization","courseShortTitle":"Optimization","lessonSlug":"opt-w13","title":"Week 13: Nonconvex Deep Learning","description":"Cross from convex land into the reality of deep net training: saddles, overparameterization, initialization, and normalization.","week":13},{"courseSlug":"optimization","courseShortTitle":"Optimization","lessonSlug":"opt-w14","title":"Week 14: Capstone — Theory Meets Training","description":"Diagnose a full training pipeline, choose methods and learning rates from first principles, and map course tools onto RL and generative model training.","week":14},{"courseSlug":"reinforcement-learning","courseShortTitle":"Reinforcement Learning","lessonSlug":"rl-agents-rewards-and-mdps","title":"Reinforcement Learning: Agents, Rewards, and MDPs","description":"Meet the reinforcement-learning loop in plain language — an agent acts, the world answers with a reward and a next state — and learn the five ingredients that make the problem solvable."},{"courseSlug":"reinforcement-learning","courseShortTitle":"Reinforcement Learning","lessonSlug":"rl-exploration-and-regret","title":"Bandits: Exploration, Exploitation, and Regret","description":"The simplest reinforcement-learning problem: a row of slot machines, no states, and one unavoidable trade-off. Learn why always choosing the current best is not enough — and how to measure the reward that exploring costs you."},{"courseSlug":"reinforcement-learning","courseShortTitle":"Reinforcement Learning","lessonSlug":"rl-returns-and-value","title":"Returns, Value, and the Bellman Equation","description":"Turn a stream of rewards into a single number: discounting, the return, value functions, and the one recursive equation that makes infinite-horizon problems solvable."},{"courseSlug":"reinforcement-learning","courseShortTitle":"Reinforcement Learning","lessonSlug":"rl-ucb-and-thompson","title":"Bandits: UCB1 and Thompson Sampling","description":"Two principled answers to the exploration problem: trust the optimistic edge of what you know (UCB1), or sample from what you believe (Thompson sampling). Both explore automatically, with no rate to tune."},{"courseSlug":"reinforcement-learning","courseShortTitle":"Reinforcement Learning","lessonSlug":"rl-w1","title":"Week 1: Reinforcement Learning Problem Formulation","description":"Formalize sequential decision making as Markov Decision Processes, derive value functions and the Bellman equations, and understand the reward hypothesis and its limits.","week":1},{"courseSlug":"reinforcement-learning","courseShortTitle":"Reinforcement Learning","lessonSlug":"rl-w2","title":"Week 2: Multi-Armed Bandits","description":"Formalize the exploration-exploitation trade-off as a multi-armed bandit problem, derive the Lai-Robbins lower bound, and implement UCB1 and Thompson Sampling from first principles.","week":2},{"courseSlug":"reinforcement-learning","courseShortTitle":"Reinforcement Learning","lessonSlug":"rl-w3","title":"Week 3: Dynamic Programming for Finite MDPs","description":"Master policy evaluation, policy iteration, and value iteration for finite MDPs. Understand the contraction mapping property that guarantees DP convergence, and trace the precise mappings from DP to Q-learning, actor-critic, and RLHF.","week":3},{"courseSlug":"reinforcement-learning","courseShortTitle":"Reinforcement Learning","lessonSlug":"rl-w4","title":"Week 4: Monte Carlo and Temporal-Difference Learning","description":"Master Monte Carlo and Temporal-Difference methods for learning value functions from experience. Understand the bias-variance tradeoff that defines every modern deep RL algorithm, from SARSA and Q-learning to PPO and DQN.","week":4},{"courseSlug":"reinforcement-learning","courseShortTitle":"Reinforcement Learning","lessonSlug":"rl-w5","title":"Week 5: Function Approximation in Reinforcement Learning","description":"How function approximation breaks tabular RL convergence — the MSVE objective, the deadly triad mechanism, Baird's counterexample, overestimation bias, and the neural network instabilities that DQN's target networks fix.","week":5},{"courseSlug":"reinforcement-learning","courseShortTitle":"Reinforcement Learning","lessonSlug":"rl-w6","title":"Week 6: Deep Q-Learning and Variants","description":"How DQN stabilizes deep RL with experience replay, target networks, and reward clipping, plus Double DQN, Dueling, Prioritized Replay, Distributional RL, and Rainbow.","week":6},{"courseSlug":"reinforcement-learning","courseShortTitle":"Reinforcement Learning","lessonSlug":"rl-w7","title":"Week 7: Policy Gradient and Actor–Critic Methods","description":"Derive the policy gradient theorem from first principles, build REINFORCE to actor-critic, develop GAE, and connect PPO to RLHF — the algorithmic backbone of modern language model alignment.","week":7},{"courseSlug":"reinforcement-learning","courseShortTitle":"Reinforcement Learning","lessonSlug":"rl-w8","title":"Week 8: Modern Deep Reinforcement Learning Algorithms","description":"Explore the off-policy actor-critic family — DDPG, TD3, and SAC — from deterministic policy gradients to maximum-entropy RL, with practical guidance on choosing algorithms for real-robot deployment.","week":8},{"courseSlug":"reinforcement-learning","courseShortTitle":"Reinforcement Learning","lessonSlug":"rl-w9","title":"Week 9: Exploration, Partial Observability, and Multi-Agent Reinforcement Learning","description":"Exploration strategies (count-based, ICM, RND), partial observability via POMDPs and recurrent policies, and multi-agent RL with CTDE — connecting all three to modern agentic AI systems.","week":9},{"courseSlug":"reinforcement-learning","courseShortTitle":"Reinforcement Learning","lessonSlug":"rl-w10","title":"Week 10: Model-Based Reinforcement Learning and Planning","description":"From Dyna to Dreamer to MuZero — the model-based RL design space: learned world models, receding-horizon MPC, latent-space planning, and how these connect to tree-of-thought reasoning in modern LLMs.","week":10},{"courseSlug":"reinforcement-learning","courseShortTitle":"Reinforcement Learning","lessonSlug":"rl-w11","title":"Week 11: Offline Reinforcement Learning","description":"Why standard RL fails on fixed datasets — and how conservative Q-learning (CQL), implicit Q-learning (IQL), behavior regularization, and doubly robust off-policy evaluation enable learning from offline data without environment interaction.","week":11},{"courseSlug":"reinforcement-learning","courseShortTitle":"Reinforcement Learning","lessonSlug":"rl-w12","title":"Week 12: Reinforcement Learning from Human Feedback","description":"RLHF pipeline: supervised fine-tuning, reward modeling via Bradley-Terry preferences, and KL-regularized PPO for aligning language models with human values.","week":12},{"courseSlug":"reinforcement-learning","courseShortTitle":"Reinforcement Learning","lessonSlug":"rl-w13","title":"Week 13: Direct Preference Optimization and GRPO","description":"DPO eliminates the reward model by inverting the KL-regularized optimal policy; GRPO replaces the value critic with a group-normalized empirical baseline for verifiable reasoning tasks.","week":13},{"courseSlug":"reinforcement-learning","courseShortTitle":"Reinforcement Learning","lessonSlug":"rl-w14","title":"Week 14: Agentic Systems and Course Capstone","description":"Capstone: map agentic AI architectures (ReAct, Reflexion, plan-and-execute) onto the MDP formalism, covering memory, safety constraints, process rewards, and open problems.","week":14},{"courseSlug":"robot-learning","courseShortTitle":"Robot Learning","lessonSlug":"rb-position-update","title":"The Position Update: Gain from Prediction and Measurement","description":"Where the sensor weight comes from. Prediction uncertainty and sensor spread set the gain, and a 1-D tracking lab shows what a shove does to the estimate.","week":0},{"courseSlug":"robot-learning","courseShortTitle":"Robot Learning","lessonSlug":"rb-b1","title":"Robotics Foundations: Sensors, Actions, and Motion","description":"A two-joint arm on a table. Move the joints, watch the hand, and see the same pose as a point in configuration space. The sense, decide, act loop is why the hand has to be measured again after it moves.","week":0},{"courseSlug":"robot-learning","courseShortTitle":"Robot Learning","lessonSlug":"rb-w1","title":"Week 1: Robot Modeling and Kinematics","description":"Configuration spaces, forward and inverse kinematics, and the Jacobian — the geometric foundations that map joint angles to end-effector pose in SE(3).","week":1},{"courseSlug":"robot-learning","courseShortTitle":"Robot Learning","lessonSlug":"rb-b2","title":"Robots Under Uncertainty: Estimating Position from Noisy Sensors","description":"A rover in an aisle blends a prediction with a noisy measurement. One slider is that weight, and the estimate mark is the blend.","week":0},{"courseSlug":"robot-learning","courseShortTitle":"Robot Learning","lessonSlug":"rb-w2","title":"Week 2: Dynamics and State Estimation","description":"From geometry to forces: rigid-body dynamics and state estimation, including the Kalman and extended Kalman filter for tracking robot state under noise.","week":2},{"courseSlug":"robot-learning","courseShortTitle":"Robot Learning","lessonSlug":"rb-w3","title":"Week 3: Control Fundamentals","description":"Feedback control for robots — PID, computed-torque, and the trajectory-tracking foundations that turn desired motions into stable actuator commands.","week":3},{"courseSlug":"robot-learning","courseShortTitle":"Robot Learning","lessonSlug":"rb-w4","title":"Week 4: Teleoperation and Data Collection","description":"How expert demonstration data is gathered — teleoperation interfaces, synchronized state-action logging, and the data-quality choices that determine what a policy can learn.","week":4},{"courseSlug":"robot-learning","courseShortTitle":"Robot Learning","lessonSlug":"rb-w5","title":"Week 5: Imitation Learning","description":"Learning controllers from demonstration — behavior cloning, its compounding-error failure mode, and the foundations of imitation learning from state-action trajectories.","week":5},{"courseSlug":"robot-learning","courseShortTitle":"Robot Learning","lessonSlug":"rb-w6","title":"Week 6: Reinforcement Learning for Robotics","description":"Connecting RL theory to physical robots — why imitation alone is insufficient, and how policy-gradient methods let robots improve beyond demonstrated behavior.","week":6},{"courseSlug":"robot-learning","courseShortTitle":"Robot Learning","lessonSlug":"rb-w7","title":"Week 7: Sim2Real Pipelines and IsaacLab","description":"Bridging the simulation-to-reality gap with domain randomization and the IsaacLab pipeline for training transferable robot policies at scale.","week":7},{"courseSlug":"robot-learning","courseShortTitle":"Robot Learning","lessonSlug":"rb-w8","title":"Week 8: Foundation Models for Manipulation — ACT and Action Chunking","description":"Why reactive per-timestep policies fail on long-horizon manipulation, and how Action Chunking Transformers (ACT) predict coherent sequences of future actions.","week":8},{"courseSlug":"robot-learning","courseShortTitle":"Robot Learning","lessonSlug":"rb-w9","title":"Week 9: Flow Matching and Diffusion for Robot Policies","description":"Generative robot policies — diffusion and flow-matching models that sample multimodal action trajectories for dexterous manipulation.","week":9},{"courseSlug":"robot-learning","courseShortTitle":"Robot Learning","lessonSlug":"rb-w10","title":"Week 10: Vision–Language–Action Models","description":"Vision-Language-Action models that fuse perception, language, and action into a single policy — architecture, training, and how language grounds robot behavior.","week":10},{"courseSlug":"robot-learning","courseShortTitle":"Robot Learning","lessonSlug":"rb-w11","title":"Week 11: Fine-Tuning and Adaptation","description":"Adapting pretrained VLA models to new robots and tasks — fine-tuning strategies that preserve broad manipulation priors while specializing behavior.","week":11},{"courseSlug":"robot-learning","courseShortTitle":"Robot Learning","lessonSlug":"rb-w12","title":"Week 12: Safety, Constraints, and Reliability","description":"Formal safety for learned controllers — control barrier functions, constraint enforcement, and reliability guarantees for robots acting near people.","week":12},{"courseSlug":"robot-learning","courseShortTitle":"Robot Learning","lessonSlug":"rb-w13","title":"Week 13: Multi-Robot and Multi-Task Learning","description":"Scaling beyond a single robot and task — multi-task policy learning and coordination strategies across multiple robots.","week":13},{"courseSlug":"robot-learning","courseShortTitle":"Robot Learning","lessonSlug":"rb-w14","title":"Week 14: Sim2Real Capstone","description":"A capstone synthesizing modeling, control, imitation, RL, and sim2real into an end-to-end pipeline for training and deploying a real robot policy.","week":14},{"courseSlug":"physical-ai","courseShortTitle":"Physical AI","lessonSlug":"pa-w1","title":"Week 1: Modern Vision Backbones","description":"Trace the evolution from convolutional networks to Vision Transformers, formalize self-attention over image patches, and survey native 3D representations (NeRF, Gaussian Splatting) that ground vision models in physical space.","week":1},{"courseSlug":"physical-ai","courseShortTitle":"Physical AI","lessonSlug":"pa-w2","title":"Week 2: Self-Supervised Representation Learning for Vision","description":"How VLM vision encoders are pretrained without labels — contrastive learning, masked autoencoding (MAE), and self-distillation (DINO), and why each objective yields representations with different geometric properties.","week":2},{"courseSlug":"physical-ai","courseShortTitle":"Physical AI","lessonSlug":"pa-w3","title":"Week 3: Contrastive Vision–Language Learning (CLIP)","description":"Derive the CLIP architecture and its symmetric contrastive objective, see how zero-shot classification emerges from vector similarity, and understand the limits that motivated later vision-language models.","week":3},{"courseSlug":"physical-ai","courseShortTitle":"Physical AI","lessonSlug":"pa-w4","title":"Week 4: Beyond CLIP — Captioning and Grounding","description":"Move from discriminative to generative perception: encoder-decoder captioning and cross-attention grounding that let models describe what they see and localize where objects are.","week":4},{"courseSlug":"physical-ai","courseShortTitle":"Physical AI","lessonSlug":"pa-w5","title":"Week 5: BLIP, BLIP-2, and Related Models","description":"Unify contrastive alignment with generative captioning through BLIP, then meet the Q-Former — the low-parameter bottleneck bridging frozen vision encoders and frozen LLMs without catastrophic forgetting.","week":5},{"courseSlug":"physical-ai","courseShortTitle":"Physical AI","lessonSlug":"pa-w6","title":"Week 6: LLaVA and Multimodal Instruction Tuning","description":"Multimodal instruction tuning — how LLaVA's minimalist projector design and supervised instruction-response pairs turn a captioner into a conversational visual assistant.","week":6},{"courseSlug":"physical-ai","courseShortTitle":"Physical AI","lessonSlug":"pa-w7","title":"Week 7: Alternative VLM Architectures","description":"Beyond projector-based VLMs: Flamingo's gated cross-attention, the Perceiver's latent bottleneck, PaLI's unified encoder-decoder, and extensions to tactile and non-visual modalities.","week":7},{"courseSlug":"physical-ai","courseShortTitle":"Physical AI","lessonSlug":"pa-w8","title":"Week 8: Fine-Tuning and Parameter-Efficient Methods","description":"Parameter-efficient fine-tuning for billion-parameter VLMs — the mathematics of LoRA and QLoRA, memory budgeting, and continuous learning on edge robotics hardware.","week":8},{"courseSlug":"physical-ai","courseShortTitle":"Physical AI","lessonSlug":"pa-w9","title":"Week 9: Evaluation and Robustness","description":"Why benchmark accuracy misleads — captioning, VQA, and grounding metrics, distribution shift and spurious correlations, and the adversarial testing needed before physical deployment.","week":9},{"courseSlug":"physical-ai","courseShortTitle":"Physical AI","lessonSlug":"pa-w10","title":"Week 10: ControlNet and Controlled Generation","description":"Precise geometric control over diffusion models via ControlNet and zero-initialized convolutions, and how VLMs act as System-2 controllers translating language into structured conditioning signals.","week":10},{"courseSlug":"physical-ai","courseShortTitle":"Physical AI","lessonSlug":"pa-w11","title":"Week 11: Multimodal Agents and Tool Use","description":"From passive perception to action — VLMs as the policy engine of a POMDP, grounding language intentions into tool calls and affordances to complete multi-step tasks.","week":11},{"courseSlug":"physical-ai","courseShortTitle":"Physical AI","lessonSlug":"pa-w12","title":"Week 12: Vision-Language Models for Robotics","description":"Embodying VLMs in robots: perceiving unstructured environments, interpreting natural-language instructions, and producing continuous motor commands under real-time and safety constraints.","week":12},{"courseSlug":"physical-ai","courseShortTitle":"Physical AI","lessonSlug":"pa-w13","title":"Week 13: Bias, Fairness, and Safety in VLMs","description":"How web-scale training imprints systematic representation bias, how text-to-image models amplify stereotypes, and the alignment methods (RLHF, DPO) used to constrain VLM behavior before deployment.","week":13},{"courseSlug":"physical-ai","courseShortTitle":"Physical AI","lessonSlug":"pa-w14","title":"Week 14: Vision-Language Capstone","description":"Integrate thirteen weeks of perception, generation, and embodiment into a coherent vision-language system design — architecture, alignment, and safety for a deployed VLM.","week":14},{"courseSlug":"generative-models","courseShortTitle":"Generative Models","lessonSlug":"gm-w1","title":"Week 1: Probabilistic Foundations","description":"The probabilistic vocabulary shared by every generative model — maximum likelihood, latent-variable models, the evidence lower bound, amortized inference, and score functions — and where each model class sits on the expressiveness–tractability frontier.","week":1},{"courseSlug":"generative-models","courseShortTitle":"Generative Models","lessonSlug":"gm-w2","title":"Week 2: Variational Autoencoders","description":"The VAE operationalizes the ELBO — the reparameterization trick, posterior collapse and its mitigations, β-VAE disentanglement, VQ-VAE, and hierarchical variants — the template for every latent-variable generative model.","week":2},{"courseSlug":"generative-models","courseShortTitle":"Generative Models","lessonSlug":"gm-w3","title":"Week 3: Generative Adversarial Networks","description":"The adversarial game and its divergence geometry — the min-max objective and its Jensen-Shannon interpretation, mode collapse and training instability, the Wasserstein reformulation with gradient penalty, spectral normalization, conditional and StyleGAN architectures, and FID/precision/recall evaluation.","week":3},{"courseSlug":"generative-models","courseShortTitle":"Generative Models","lessonSlug":"gm-w4","title":"Week 4: Energy-Based Models and Score Matching","description":"Energy-based models and the partition-function problem — contrastive divergence, Langevin dynamics sampling and the mixing challenge, score matching and denoising score matching, and NCSN multi-scale score estimation as the direct mathematical precursor to diffusion models.","week":4},{"courseSlug":"generative-models","courseShortTitle":"Generative Models","lessonSlug":"gm-w5","title":"Week 5: Normalizing Flows","description":"Exact-likelihood generative modeling through invertible maps — the change-of-variables formula, affine coupling layers (RealNVP, Glow), autoregressive flows and the training/sampling speed duality, continuous normalizing flows via neural ODEs, and the link to Schrödinger bridges and flow matching.","week":5},{"courseSlug":"generative-models","courseShortTitle":"Generative Models","lessonSlug":"gm-w6","title":"Week 6: Denoising Diffusion Probabilistic Models","description":"Denoising diffusion from first principles — the fixed Gaussian forward process, the variational bound on the reverse process, the simplified noise-prediction objective, the time-conditioned U-Net, ancestral and accelerated DDIM sampling, and the SDE/ODE unification with score matching.","week":6},{"courseSlug":"generative-models","courseShortTitle":"Generative Models","lessonSlug":"gm-w7","title":"Week 7: Flow Matching and Consistency Models","description":"Generative modeling as regression on a vector field — conditional flow matching, rectified flow and straight-line trajectories, optimal-transport coupling via mini-batch Sinkhorn, stochastic interpolants unifying flow matching and DDPM, and consistency models for single-step generation.","week":7},{"courseSlug":"generative-models","courseShortTitle":"Generative Models","lessonSlug":"gm-w8","title":"Week 8: Conditioning and Control","description":"Steering diffusion generation — classifier and classifier-free guidance, the implicit energy-model view and manifold-departure artifacts, cross-attention for text conditioning and its memory advantage, ControlNet structural conditioning with zero convolutions, and adaptive layer normalization.","week":8},{"courseSlug":"generative-models","courseShortTitle":"Generative Models","lessonSlug":"gm-w9","title":"Week 9: Latent Diffusion and Multimodal Generation","description":"Scaling diffusion to high resolution and beyond images — latent diffusion (Stable Diffusion), text conditioning via cross-attention, the diffusion transformer (DiT), and extensions to audio (CLAP), video (temporal attention, 3D convolutions), and multimodal generation.","week":9},{"courseSlug":"generative-models","courseShortTitle":"Generative Models","lessonSlug":"gm-w10","title":"Week 10: Evaluating Generative Models","description":"How to tell whether a generative model is good — bits-per-dimension, FID and its finite-sample bias, Inception Score, precision/recall, text-to-image faithfulness metrics (TIFA, VQAScore), task-success evaluation for robotics, and Goodhart's-law failure modes.","week":10},{"courseSlug":"generative-models","courseShortTitle":"Generative Models","lessonSlug":"gm-w11","title":"Week 11: Representation Learning with Generative Models","description":"What generative models learn internally — generative vs. contrastive self-supervision, masked autoencoders, diffusion-feature correspondence (DIFT), feature-extraction protocols, and why spatially-detailed generative representations excel at robotics perception and planning.","week":11},{"courseSlug":"generative-models","courseShortTitle":"Generative Models","lessonSlug":"gm-w12","title":"Week 12: World Models and Reinforcement Learning","description":"Generative models as learned simulators — the world-model architecture, the recurrent state-space model (RSSM), Dreamer-style latent imagination for policy optimization, latent-space model predictive control, and the sample-efficiency tradeoffs of model-based vs. model-free RL.","week":12},{"courseSlug":"generative-models","courseShortTitle":"Generative Models","lessonSlug":"gm-w13","title":"Week 13: Safety, Misuse, and Alignment","description":"The dual-use risks of generative models — deepfakes and detection, training-data memorization and extraction, differential privacy (DP-SGD), red-teaming and adversarial robustness, and the RLHF/DPO alignment techniques that steer model behavior.","week":13},{"courseSlug":"generative-models","courseShortTitle":"Generative Models","lessonSlug":"gm-w14","title":"Week 14: Generative AI Capstone","description":"Building and evaluating generative systems with scientific rigor — the generative pipeline as a system, controlled ablations and baselines, scaling laws, multi-dimensional and failure-mode evaluation, deployment engineering, and capstone project tracks.","week":14},{"courseSlug":"probability-statistics","courseShortTitle":"Prob & Stats","lessonSlug":"ps-w1","title":"Week 1: Probability Spaces and Events","description":"Build probability from sample spaces, events, and Kolmogorov's axioms, and set up discrete vs continuous models.","week":1},{"courseSlug":"probability-statistics","courseShortTitle":"Prob & Stats","lessonSlug":"ps-w2","title":"Week 2: Random Variables and Distributions","description":"Map outcomes to numbers with random variables, and work with PMFs, PDFs, CDFs, and four named distributions.","week":2},{"courseSlug":"probability-statistics","courseShortTitle":"Prob & Stats","lessonSlug":"ps-w3","title":"Week 3: Expectation, Variance, and Covariance","description":"Compute expectation, variance, and covariance, and use linearity of expectation without requiring independence.","week":3},{"courseSlug":"probability-statistics","courseShortTitle":"Prob & Stats","lessonSlug":"ps-w4","title":"Week 4: Conditioning and Independence","description":"Condition on information, factor joints with the chain rule, and separate independence from conditional independence.","week":4},{"courseSlug":"probability-statistics","courseShortTitle":"Prob & Stats","lessonSlug":"ps-w5","title":"Week 5: Bayes' Rule and Generative Classification","description":"Update beliefs with Bayes' rule and make MAP decisions in simple generative classification settings.","week":5},{"courseSlug":"probability-statistics","courseShortTitle":"Prob & Stats","lessonSlug":"ps-w6","title":"Week 6: Multivariate Gaussians","description":"Parameterize joint Gaussians with mean and covariance, and compute marginals, conditionals, and whitening transforms.","week":6},{"courseSlug":"probability-statistics","courseShortTitle":"Prob & Stats","lessonSlug":"ps-w7","title":"Week 7: Laws of Large Numbers and the CLT","description":"See sample averages concentrate with the LLN and become approximately normal with the central limit theorem.","week":7},{"courseSlug":"probability-statistics","courseShortTitle":"Prob & Stats","lessonSlug":"ps-w8","title":"Week 8: Point Estimation — Maximum Likelihood","description":"Form the likelihood, maximize it for Bernoulli and Gaussian models, and connect MLE to empirical risk.","week":8},{"courseSlug":"probability-statistics","courseShortTitle":"Prob & Stats","lessonSlug":"ps-w9","title":"Week 9: Bayesian Estimation and MAP","description":"Treat parameters as uncertain, update posteriors, and compare MAP estimates to MLE with conjugate examples.","week":9},{"courseSlug":"probability-statistics","courseShortTitle":"Prob & Stats","lessonSlug":"ps-w10","title":"Week 10: Bias, Variance, and Uncertainty","description":"Decompose estimation error into bias and variance, form simple confidence intervals, and use the bootstrap as a computational uncertainty tool.","week":10},{"courseSlug":"probability-statistics","courseShortTitle":"Prob & Stats","lessonSlug":"ps-w11","title":"Week 11: Information Theory for ML","description":"Define entropy, cross-entropy, and KL divergence, and connect them to maximum likelihood and classification losses.","week":11},{"courseSlug":"probability-statistics","courseShortTitle":"Prob & Stats","lessonSlug":"ps-w12","title":"Week 12: Exponential Families (lite)","description":"See Bernoulli, Gaussian, and categorical models as exponential families with natural parameters and sufficient statistics.","week":12},{"courseSlug":"probability-statistics","courseShortTitle":"Prob & Stats","lessonSlug":"ps-w13","title":"Week 13: Graphical Models (lite)","description":"Factor joint distributions with directed and undirected graphs, and read conditional independence from graph structure at a cartoon level.","week":13},{"courseSlug":"probability-statistics","courseShortTitle":"Prob & Stats","lessonSlug":"ps-w14","title":"Week 14: Capstone — Probabilistic Language of ML","description":"Map probability tools onto reinforcement learning and generative modeling, and audit common probabilistic modeling mistakes.","week":14},{"courseSlug":"advanced-optimization","courseShortTitle":"Adv. Optimization","lessonSlug":"ao-w1","title":"Week 1: Optimality Conditions Revisited","description":"Elevate intermediate first-order intuition into rigorous stationarity conditions and constraint qualifications that unlock KKT and duality.","week":1},{"courseSlug":"advanced-optimization","courseShortTitle":"Adv. Optimization","lessonSlug":"ao-w2","title":"Week 2: Lagrangian Duality in Depth","description":"Build the Lagrangian dual function, prove weak duality, and state Slater's condition for strong duality.","week":2},{"courseSlug":"advanced-optimization","courseShortTitle":"Adv. Optimization","lessonSlug":"ao-w3","title":"Week 3: KKT and Sensitivity","description":"State the full KKT system, use complementary slackness, and read dual variables as shadow prices.","week":3},{"courseSlug":"advanced-optimization","courseShortTitle":"Adv. Optimization","lessonSlug":"ao-w4","title":"Week 4: LP, QP, and Conic Form","description":"Write linear and quadratic programs in standard form and see second-order cone constraints as a modeling tool.","week":4},{"courseSlug":"advanced-optimization","courseShortTitle":"Adv. Optimization","lessonSlug":"ao-w5","title":"Week 5: Semidefinite Programming","description":"Formulate semidefinite programs, visualise spectrahedra at a high level, and see SDP relaxations for hard combinatorial problems.","week":5},{"courseSlug":"advanced-optimization","courseShortTitle":"Adv. Optimization","lessonSlug":"ao-w6","title":"Week 6: Interior-Point Methods","description":"Follow the central path with log barriers, sketch self-concordance at a practical level, and interpret commercial IPM solvers.","week":6},{"courseSlug":"advanced-optimization","courseShortTitle":"Adv. Optimization","lessonSlug":"ao-w7","title":"Week 7: Proximal Methods and ADMM","description":"Use proximal operators for composite objectives, run ISTA/FISTA, and split structure with ADMM.","week":7},{"courseSlug":"advanced-optimization","courseShortTitle":"Adv. Optimization","lessonSlug":"ao-w8","title":"Week 8: Newton and Quasi-Newton","description":"Derive the Newton step, add damping and line search, and use BFGS/L-BFGS when Hessians are unavailable.","week":8},{"courseSlug":"advanced-optimization","courseShortTitle":"Adv. Optimization","lessonSlug":"ao-w9","title":"Week 9: Variance Reduction","description":"Exploit finite-sum structure with SVRG and SAGA to reduce gradient noise without full-batch cost every step.","week":9},{"courseSlug":"advanced-optimization","courseShortTitle":"Adv. Optimization","lessonSlug":"ao-w10","title":"Week 10: Large-Batch and Distributed Training","description":"Scale minibatches across workers with data-parallel gradients, and separate solid theory from large-batch learning-rate folklore.","week":10},{"courseSlug":"advanced-optimization","courseShortTitle":"Adv. Optimization","lessonSlug":"ao-w11","title":"Week 11: Automatic Differentiation","description":"Contrast forward and reverse mode AD, build vector-Jacobian products on a tiny graph, and cost out reverse mode for deep nets.","week":11},{"courseSlug":"advanced-optimization","courseShortTitle":"Adv. Optimization","lessonSlug":"ao-w12","title":"Week 12: Sharpness and SAM","description":"Define sharpness of minima, connect large-batch geometry, and implement a SAM-style ascent-descent step.","week":12},{"courseSlug":"advanced-optimization","courseShortTitle":"Adv. Optimization","lessonSlug":"ao-w13","title":"Week 13: Landscapes and Implicit Bias","description":"Navigate nonconvex landscapes, saddles, and overparameterisation, and see how GD/SGD prefer particular solutions among many minimisers.","week":13},{"courseSlug":"advanced-optimization","courseShortTitle":"Adv. Optimization","lessonSlug":"ao-w14","title":"Week 14: Capstone — Structure Meets Scale","description":"Diagnose a hard problem and choose either a convex cone reformulation path or a large-scale first/second-order training recipe.","week":14}]}],"$L4"]}],"$L5"]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3bf7f9b"}
+4:["$","$L8",null,{}]
+a:T486,import json
+import os
+
+from world.blockworld import BLOCKS, REACH, Blockworld
+from world.check import expect
+
+PATH = "artifacts/teleop.json"
+expect(
+    os.path.exists(PATH),
+    "No recorded drive yet. Drive the hand onto the block you named, and the drive is saved.",
+    file=PATH,
+)
+with open(PATH) as f:
+    episode = json.load(f)
+expect(
+    isinstance(episode, dict) and {"seed", "target", "actions"} <= set(episode),
+    "The recording needs a seed, a target and a list of actions.",
+    file=PATH,
+)
+expect(episode["target"] in BLOCKS, f"The target must be one of {', '.join(BLOCKS)}.", file=PATH)
+
+world = Blockworld(seed=episode["seed"], target=episode["target"])
+closest = world.distance()
+reached = False
+for action in episode["actions"]:
+    _, _, done, info = world.step(action)
+    closest = min(closest, info["distance"])
+    reached = reached or done
+expect(
+    reached,
+    f"Replaying {len(episode['actions'])} moves never brings the hand within {REACH} "
+    f"of the {episode['target']} block; the closest it gets is {closest:.2f}.",
+    file=PATH,
+)
+print(f"Reached the {episode['target']} block in {len(episode['actions'])} moves.")
+b:T16b2,"""Blockworld: a two-link planar arm on a tabletop with three named blocks.
+
+This file is the only physics in the Build. The widget draws what it is sent
+and never computes geometry of its own, so Python and the page cannot disagree.
+"""
+import numpy as np
+
+LINK = 1.0
+MAX_DELTA = 0.2
+REACH = 0.15
+BLOCK_HALF = 0.25
+BLOCKS = ("red", "green", "blue")
+START_JOINTS = (np.pi / 2, -np.pi / 2)
+
+# The camera: a square window on the table, centred above the base so every
+# block and the reachable upper half of the workspace stay in frame.
+VIEW_CENTER = (0.0, 0.8)
+VIEW_HALF = 2.0
+
+GROUND, LINK_LABEL, JOINT, HAND, RED, GREEN, BLUE, MARKER, TARGET = range(9)
+BLOCK_LABELS = {"red": RED, "green": GREEN, "blue": BLUE}
+
+PALETTE = np.array(
+    [
+        [24, 24, 24],  # ground
+        [110, 110, 110],  # arm link
+        [170, 170, 170],  # joint
+        [240, 240, 240],  # hand
+        [214, 48, 49],  # red block
+        [46, 160, 67],  # green block
+        [40, 90, 220],  # blue block
+        [240, 170, 0],  # marker
+        [80, 80, 80],  # target outline
+    ],
+    dtype=np.uint8,
+)
+
+
+def forward_kinematics(joints):
+    """Elbow and hand positions for joint angles of shape (..., 2)."""
+    q = np.asarray(joints, dtype=np.float64)
+    q1, q12 = q[..., 0], q[..., 0] + q[..., 1]
+    elbow = np.stack([LINK * np.cos(q1), LINK * np.sin(q1)], axis=-1)
+    hand = elbow + np.stack([LINK * np.cos(q12), LINK * np.sin(q12)], axis=-1)
+    return elbow, hand
+
+
+def _segment_distance(px, py, a, b):
+    ab = b - a
+    t = ((px - a[0]) * ab[0] + (py - a[1]) * ab[1]) / max(float(ab @ ab), 1e-12)
+    t = np.clip(t, 0.0, 1.0)
+    return np.hypot(px - (a[0] + t * ab[0]), py - (a[1] + t * ab[1]))
+
+
+_GRIDS = {}
+
+
+def _grid(size):
+    if size not in _GRIDS:
+        pixel = 2 * VIEW_HALF / size
+        centers = (np.arange(size) + 0.5) * pixel
+        xs = VIEW_CENTER[0] - VIEW_HALF + centers
+        ys = VIEW_CENTER[1] + VIEW_HALF - centers
+        _GRIDS[size] = (*np.meshgrid(xs, ys), pixel)
+    return _GRIDS[size]
+
+
+class Blockworld:
+    def __init__(self, seed=0, target=None):
+        self._target = target
+        self.reset(seed)
+
+    def reset(self, seed=0):
+        rng = np.random.default_rng(seed)
+        self.seed = seed
+        self._joints = np.array(START_JOINTS, dtype=np.float64)
+        elbow, hand = forward_kinematics(self._joints)
+        base = np.zeros(2)
+        placed = []
+        while len(placed) < len(BLOCKS):
+            radius = rng.uniform(0.7, 1.8, 64)
+            angle = rng.uniform(np.radians(15), np.radians(165), 64)
+            px, py = radius * np.cos(angle), radius * np.sin(angle)
+            clear = np.minimum(
+                _segment_distance(px, py, base, elbow), _segment_distance(px, py, elbow, hand)
+            ) > 0.5
+            for i in np.flatnonzero(clear):
+                p = np.array([px[i], py[i]])
+                if len(placed) < len(BLOCKS) and all(np.hypot(*(p - q)) > 0.75 for q in placed):
+                    placed.append(p)
+        self.blocks = dict(zip(BLOCKS, placed))
+        self.target = self._target if self._target is not None else BLOCKS[int(rng.integers(3))]
+        if self.target not in BLOCKS:
+            raise ValueError(f"target must be one of {BLOCKS}, got {self.target!r}")
+        self.steps = 0
+        return self.state()
+
+    def joints(self):
+        return self._joints.copy()
+
+    def hand(self):
+        return forward_kinematics(self._joints)[1]
+
+    def distance(self):
+        return float(np.linalg.norm(self.hand() - self.blocks[self.target]))
+
+    def reached(self):
+        return self.distance() <= REACH
+
+    def state(self):
+        """Joint angles, then red, green and blue block positions: shape (8,)."""
+        return np.concatenate([self._joints, *(self.blocks[name] for name in BLOCKS)])
+
+    def step(self, action):
+        delta = np.clip(np.asarray(action, dtype=np.float64).reshape(2), -MAX_DELTA, MAX_DELTA)
+        self._joints = (self._joints + delta + np.pi) % (2 * np.pi) - np.pi
+        self.steps += 1
+        distance = self.distance()
+        done = distance <= REACH
+        return self.state(), -distance, done, {"distance": distance, "reached": done}
+
+    def labels(self, size, markers=()):
+        x, y, pixel = _grid(size)
+        out = np.zeros((size, size), dtype=np.uint8)
+        target = self.blocks[self.target]
+        ring = BLOCK_HALF + max(0.06, pixel)
+        near = np.maximum(np.abs(x - target[0]), np.abs(y - target[1]))
+        out[near <= ring] = TARGET
+        for name in BLOCKS:
+            bx, by = self.blocks[name]
+            out[(np.abs(x - bx) <= BLOCK_HALF) & (np.abs(y - by) <= BLOCK_HALF)] = BLOCK_LABELS[name]
+        base = np.zeros(2)
+        elbow, hand = forward_kinematics(self._joints)
+        width = max(0.05, 0.5 * pixel)
+        for a, b in ((base, elbow), (elbow, hand)):
+            out[_segment_distance(x, y, a, b) <= width] = LINK_LABEL
+        joint_radius = max(0.09, 0.6 * pixel)
+        for c in (base, elbow):
+            out[np.hypot(x - c[0], y - c[1]) <= joint_radius] = JOINT
+        out[np.hypot(x - hand[0], y - hand[1]) <= joint_radius] = HAND
+        marker_radius = max(0.07, 0.6 * pixel)
+        for m in markers:
+            mx, my = np.asarray(m, dtype=np.float64).reshape(2)
+            out[np.hypot(x - mx, y - my) <= marker_radius] = MARKER
+        return out
+
+    def rgb(self, size):
+        return PALETTE[self.labels(size)]
+
+    def summary(self):
+        r = lambda v: [round(float(c), 3) for c in v]
+        return {
+            "target": self.target,
+            "hand": r(self.hand()),
+            "joints": r(np.degrees(self._joints)),
+            "blocks": {name: r(self.blocks[name]) for name in BLOCKS},
+            "distance": round(self.distance(), 3),
+            "reached": self.reached(),
+        }
+c:Tf69,"""The check harness shared by the browser and the ladder gate."""
+import importlib
+import os
+import re
+import traceback
+
+LEARNER_ROOTS = ("mine",)
+
+
+class CheckFailed(Exception):
+    def __init__(self, message, file=None, symbol=None):
+        super().__init__(message)
+        self.message = message
+        self.file = file
+        self.symbol = symbol
+
+
+def expect(condition, message, file=None):
+    if not condition:
+        raise CheckFailed(message, file=file)
+
+
+def _module_file(module):
+    return module.replace(".", "/") + ".py"
+
+
+def require(module, *symbols):
+    """Import a learner module and fail naming the file and first missing symbol."""
+    file = _module_file(module)
+    try:
+        loaded = importlib.import_module(module)
+    except ModuleNotFoundError as error:
+        if error.name is not None and (module == error.name or module.startswith(error.name + ".")):
+            raise CheckFailed(f"{file} is missing from your workspace.", file=file) from None
+        raise
+    for symbol in symbols:
+        if not hasattr(loaded, symbol):
+            raise CheckFailed(f"{file} does not define {symbol}.", file=file, symbol=symbol)
+    return loaded
+
+
+def _learner_file(filename):
+    """`mine/nn.py` for a frame inside a learner file, else None."""
+    parts = os.path.normpath(filename).split(os.sep)
+    for i, part in enumerate(parts[:-1]):
+        if part in LEARNER_ROOTS:
+            return "/".join(parts[i:])
+    return None
+
+
+def _innermost_learner_frame(tb):
+    found = None
+    for frame, _ in traceback.walk_tb(tb):
+        file = _learner_file(frame.f_code.co_filename)
+        if file is not None:
+            name = getattr(frame.f_code, "co_qualname", frame.f_code.co_name)
+            found = (file, None if name == "<module>" else name)
+    return found
+
+
+_CANNOT_IMPORT = re.compile(r"cannot import name '(\w+)' from '([\w.]+)'")
+_NO_MODULE = re.compile(r"No module named '([\w.]+)'")
+
+
+def _result(ok, message, file=None, symbol=None, trace=None):
+    return {"ok": ok, "message": message, "file": file, "symbol": symbol, "traceback": trace}
+
+
+def run_check(source):
+    """Run a check's source in a fresh namespace and describe the outcome."""
+    try:
+        exec(compile(source, "<check>", "exec"), {"__name__": "__check__"})
+    except CheckFailed as failure:
+        return _result(False, failure.message, failure.file, failure.symbol, traceback.format_exc())
+    except ImportError as error:
+        text = str(error)
+        match = _CANNOT_IMPORT.search(text)
+        if match and match.group(2).split(".")[0] in LEARNER_ROOTS:
+            file = _module_file(match.group(2))
+            return _result(False, f"{file} does not define {match.group(1)}.", file, match.group(1), traceback.format_exc())
+        match = _NO_MODULE.search(text)
+        if match and match.group(1).split(".")[0] in LEARNER_ROOTS:
+            file = _module_file(match.group(1))
+            return _result(False, f"{file} is missing from your workspace.", file, None, traceback.format_exc())
+        return _result(False, f"ImportError: {text}", None, None, traceback.format_exc())
+    except NotImplementedError as error:
+        where = _innermost_learner_frame(error.__traceback__)
+        if where is None:
+            return _result(False, f"NotImplementedError: {error}", None, None, traceback.format_exc())
+        file, symbol = where
+        detail = f": {error}" if str(error) else ""
+        label = f"{symbol} in {file}" if symbol else file
+        return _result(False, f"{label} is not written yet{detail}.", file, symbol, traceback.format_exc())
+    except Exception as error:
+        where = _innermost_learner_frame(error.__traceback__)
+        file, symbol = where if where else (None, None)
+        prefix = f"{file}: " if file else ""
+        return _result(False, f"{prefix}{type(error).__name__}: {error}", file, symbol, traceback.format_exc())
+    return _result(True, "Check passed.")
+d:T486,import json
+import os
+
+from world.blockworld import BLOCKS, REACH, Blockworld
+from world.check import expect
+
+PATH = "artifacts/teleop.json"
+expect(
+    os.path.exists(PATH),
+    "No recorded drive yet. Drive the hand onto the block you named, and the drive is saved.",
+    file=PATH,
+)
+with open(PATH) as f:
+    episode = json.load(f)
+expect(
+    isinstance(episode, dict) and {"seed", "target", "actions"} <= set(episode),
+    "The recording needs a seed, a target and a list of actions.",
+    file=PATH,
+)
+expect(episode["target"] in BLOCKS, f"The target must be one of {', '.join(BLOCKS)}.", file=PATH)
+
+world = Blockworld(seed=episode["seed"], target=episode["target"])
+closest = world.distance()
+reached = False
+for action in episode["actions"]:
+    _, _, done, info = world.step(action)
+    closest = min(closest, info["distance"])
+    reached = reached or done
+expect(
+    reached,
+    f"Replaying {len(episode['actions'])} moves never brings the hand within {REACH} "
+    f"of the {episode['target']} block; the closest it gets is {closest:.2f}.",
+    file=PATH,
+)
+print(f"Reached the {episode['target']} block in {len(episode['actions'])} moves.")
+e:T1248,import numpy as np
+
+from world.check import expect, require
+
+FILE = "mine/autograd.py"
+Tensor = require("mine.autograd", "Tensor").Tensor
+rng = np.random.default_rng(0)
+
+
+def numeric_grad(f, arrays, i, h=1e-6):
+    x = arrays[i]
+    grad = np.zeros_like(x)
+    for idx in np.ndindex(x.shape):
+        old = x[idx]
+        x[idx] = old + h
+        hi = f(*arrays)
+        x[idx] = old - h
+        lo = f(*arrays)
+        x[idx] = old
+        grad[idx] = (hi - lo) / (2 * h)
+    return grad
+
+
+def gradcheck(name, build, *shapes, positive=False):
+    arrays = [rng.normal(size=s) for s in shapes]
+    if positive:
+        arrays = [np.abs(a) + 0.5 for a in arrays]
+    tensors = [Tensor(a.copy()) for a in arrays]
+    out = build(*tensors)
+    expect(isinstance(out, Tensor), f"{name}: expected a Tensor, got {type(out).__name__}", file=FILE)
+    expect(out.shape == (), f"{name}: .sum() should give a scalar, got shape {out.shape}", file=FILE)
+    out.backward()
+    value = lambda *xs: float(build(*[Tensor(x) for x in xs]).data)
+    for i, t in enumerate(tensors):
+        want = numeric_grad(value, arrays, i)
+        expect(t.grad is not None, f"{name}: input {i + 1} got no gradient", file=FILE)
+        got = np.asarray(t.grad)
+        expect(got.shape == want.shape, f"{name}: gradient of input {i + 1} has shape {got.shape}, expected {want.shape}", file=FILE)
+        err = float(np.max(np.abs(got - want)))
+        expect(np.allclose(got, want, rtol=1e-4, atol=1e-6), f"{name}: gradient of input {i + 1} is off by up to {err:.3g}", file=FILE)
+
+
+gradcheck("a + b", lambda a, b: ((a + b) * (a + b)).sum(), (3, 4), (3, 4))
+gradcheck("a - b", lambda a, b: ((a - b) * a).sum(), (3, 4), (3, 4))
+gradcheck("a * b", lambda a, b: (a * b).sum(), (3, 4), (3, 4))
+gradcheck("a / b", lambda a, b: (a / b).sum(), (3, 4), (3, 4), positive=True)
+gradcheck("-a", lambda a: (-a * a).sum(), (5,))
+gradcheck("a ** 3", lambda a: (a ** 3).sum(), (5,))
+gradcheck("numbers on both sides", lambda a: (2.0 * a + 1.0 - a / 4.0 + 3.0 / (a * a + 1.0) - (1.0 - a)).sum(), (4,))
+gradcheck("a @ b", lambda a, b, c: ((a @ b) * c).sum(), (3, 4), (4, 2), (3, 2))
+gradcheck("matrix @ vector", lambda a, v: ((a @ v) * (a @ v)).sum(), (3, 4), (4,))
+gradcheck("batch @ matrix", lambda a, b: ((a @ b).tanh()).sum(), (2, 3, 4), (4, 5))
+gradcheck("broadcast (4,3) + (3,)", lambda a, b, c: ((a + b) * c).sum(), (4, 3), (3,), (4, 3))
+gradcheck("broadcast (4,3) * (4,1)", lambda a, b, c: ((a * b) * c).sum(), (4, 3), (4, 1), (4, 3))
+gradcheck("broadcast (1,3) - (4,1)", lambda a, b, c: ((a - b) * c).sum(), (1, 3), (4, 1), (4, 3))
+gradcheck("sum(axis=0)", lambda a, c: (a.sum(axis=0) * c).sum(), (4, 3), (3,))
+gradcheck("sum(axis=-1, keepdims)", lambda a, c: (a.sum(axis=-1, keepdims=True) * c).sum(), (4, 3), (4, 1))
+gradcheck("mean(axis=1)", lambda a, c: (a.mean(axis=1) * c).sum(), (4, 3), (4,))
+gradcheck("mean()", lambda a: a.mean() * a.mean(), (4, 3))
+gradcheck("exp", lambda a: a.exp().sum(), (5,))
+gradcheck("log", lambda a: a.log().sum(), (5,), positive=True)
+gradcheck("relu", lambda a, c: (a.relu() * c).sum(), (6,), (6,))
+gradcheck("tanh", lambda a: a.tanh().sum(), (6,))
+gradcheck("reshape", lambda a, c: (a.reshape(3, 4) * c).sum(), (2, 6), (3, 4))
+gradcheck("transpose", lambda a, c: (a.transpose(1, 0, 2) * c).sum(), (2, 3, 4), (3, 2, 4))
+gradcheck(".T", lambda a, c: (a.T * c).sum(), (2, 5), (5, 2))
+gradcheck("a small network", lambda x, w, b: ((x @ w + b).tanh() * (x @ w + b).relu()).mean(), (5, 3), (3, 4), (4,))
+
+x = Tensor([2.0, -3.0])
+(x * x + x).sum().backward()
+expect(
+    np.allclose(x.grad, [5.0, -5.0]),
+    f"x*x + x uses x three times, so its gradient is 2x + 1 = [5, -5]; got {np.round(x.grad, 4).tolist()}. "
+    "Accumulate into .grad instead of overwriting it.",
+    file=FILE,
+)
+
+x = Tensor(1.5)
+y = x * 2.0
+z = y * y + y
+z.backward()
+expect(np.allclose(x.grad, 14.0), f"z = y*y + y with y = 2x: dz/dx = 2(2y + 1) = 14 at x = 1.5; got {x.grad}", file=FILE)
+
+
+def sin(t):
+    return Tensor.op(np.sin, lambda g, a: (g * np.cos(a),), t)
+
+
+a = Tensor([0.3, 1.2, -0.7])
+(sin(a) * a).sum().backward()
+want = np.cos(a.data) * a.data + np.sin(a.data)
+expect(np.allclose(a.grad, want), f"sin added through Tensor.op gives the wrong gradient: {np.round(a.grad, 4).tolist()}", file=FILE)
+
+m = Tensor(np.ones((2, 3)))
+v = Tensor(np.ones(3))
+Tensor.op(np.add, lambda g, p, q: (g, g), m, v).sum().backward()
+expect(
+    v.grad is not None and np.asarray(v.grad).shape == (3,) and np.allclose(v.grad, 2.0),
+    "Tensor.op must unbroadcast what backward returns: adding a (3,) to a (2, 3) gives the (3,) a gradient of 2s.",
+    file=FILE,
+)
+print("Every gradient matches its numerical estimate.")
+f:Teef,import numpy as np
+
+from world.blockworld import REACH, forward_kinematics
+from world.check import expect, require
+
+FILE = "mine/nn.py"
+nn = require("mine.nn", "Linear", "MLP", "SGD", "Adam")
+Tensor = require("mine.autograd", "Tensor").Tensor
+
+layer = nn.Linear(3, 4, seed=0)
+x = np.arange(15.0).reshape(5, 3) / 10
+out = layer(Tensor(x))
+expect(isinstance(out, Tensor) and out.shape == (5, 4), f"Linear(3, 4) on a (5, 3) batch should give (5, 4), got {getattr(out, 'shape', out)}", file=FILE)
+params = layer.parameters()
+expect(
+    [p.shape for p in params] == [(3, 4), (4,)],
+    f"Linear(3, 4).parameters() should be [weight (3, 4), bias (4,)], got {[p.shape for p in params]}",
+    file=FILE,
+)
+expect(np.allclose(out.data, x @ layer.weight.data + layer.bias.data), "Linear should compute x @ weight + bias", file=FILE)
+bound = np.abs(layer.weight.data).max()
+expect(0 < bound <= 1 / np.sqrt(3), f"Linear(3, 4) weights should lie within 1/sqrt(3) = 0.577, got a largest of {bound:.3f}", file=FILE)
+(out * out).mean().backward()
+expect(layer.weight.grad is not None and np.shape(layer.weight.grad) == (3, 4), "the weight got no gradient", file=FILE)
+
+net = nn.MLP([4, 8, 8, 2], activation="tanh", seed=0)
+out = net(Tensor(np.zeros((7, 4))))
+expect(out.shape == (7, 2), f"MLP([4, 8, 8, 2]) on (7, 4) should give (7, 2), got {out.shape}", file=FILE)
+expect(len(net.parameters()) == 6, f"MLP([4, 8, 8, 2]) has three layers, so six parameters; got {len(net.parameters())}", file=FILE)
+twin = nn.MLP([4, 8, 8, 2], activation="tanh", seed=0)
+expect(
+    all(np.array_equal(p.data, q.data) for p, q in zip(net.parameters(), twin.parameters())),
+    "two MLPs built with the same seed should be identical",
+    file=FILE,
+)
+relu = nn.MLP([1, 1, 1], activation="relu", seed=0)
+relu.layers[0].weight.data[:] = 1.0
+relu.layers[1].weight.data[:] = 1.0
+expect(
+    np.allclose(relu(Tensor([[-2.0], [3.0]])).data, [[0.0], [3.0]]),
+    "MLP(activation='relu') should apply max(0, x) between layers",
+    file=FILE,
+)
+
+p = Tensor([1.0, 2.0])
+p.grad = np.array([0.5, -1.0])
+sgd = nn.SGD([p], lr=0.1)
+sgd.step()
+expect(np.allclose(p.data, [0.95, 2.1]), f"one SGD step with lr 0.1 and grad [0.5, -1] should give [0.95, 2.1], got {p.data.tolist()}", file=FILE)
+sgd.zero_grad()
+expect(p.grad is None or not np.any(p.grad), "zero_grad should clear the gradient", file=FILE)
+
+p = Tensor([1.0, 2.0])
+adam = nn.Adam([p], lr=0.1)
+for step, want in ((1, [0.9, 2.1]), (2, [0.8, 2.2])):
+    p.grad = np.array([0.5, -1.0])
+    adam.step()
+    expect(
+        np.allclose(p.data, want, atol=1e-6),
+        f"Adam step {step} with lr 0.1 and grad [0.5, -1] should give {want}, got {np.round(p.data, 4).tolist()}. "
+        "Check the bias correction: the first step should move each parameter by lr.",
+        file=FILE,
+    )
+
+
+def features(q):
+    return np.stack([np.cos(q[:, 0]), np.sin(q[:, 0]), np.cos(q[:, 1]), np.sin(q[:, 1])], axis=1)
+
+
+rng = np.random.default_rng(2)
+q_train, q_test = rng.uniform(-np.pi, np.pi, (512, 2)), rng.uniform(-np.pi, np.pi, (256, 2))
+x_train, y_train = features(q_train), forward_kinematics(q_train)[1]
+x_test, y_test = features(q_test), forward_kinematics(q_test)[1]
+
+model = nn.MLP([4, 32, 2], activation="tanh", seed=0)
+optimizer = nn.Adam(model.parameters(), lr=0.02)
+for _ in range(200):
+    batch = rng.integers(0, len(x_train), 128)
+    loss = ((model(Tensor(x_train[batch])) - Tensor(y_train[batch])) ** 2).sum(axis=1).mean()
+    optimizer.zero_grad()
+    loss.backward()
+    optimizer.step()
+
+error = float(np.linalg.norm(model(Tensor(x_test)).data - y_test, axis=1).mean())
+expect(
+    error < REACH,
+    f"after 200 steps the network's held-out hand error is {error:.3f}; it needs to be under {REACH}.",
+    file=FILE,
+)
+print(f"Held-out hand error after 200 Adam steps: {error:.3f} (reach is {REACH}).")
+10:Tc58,import numpy as np
+
+from world.blockworld import BLOCKS, Blockworld
+from world.check import expect, require
+
+FILE = "mine/obs.py"
+obs = require("mine.obs", "state_obs", "pixel_obs")
+nn = require("mine.nn", "MLP", "Adam")
+Tensor = require("mine.autograd", "Tensor").Tensor
+
+world = Blockworld(seed=3, target="green")
+world.step([0.1, -0.2])
+before = world.state().copy()
+
+s = obs.state_obs(world)
+expect(isinstance(s, np.ndarray), f"state_obs should return a NumPy array, got {type(s).__name__}", file=FILE)
+expect(s.shape == (13,), f"state_obs should have shape (13,), got {s.shape}", file=FILE)
+expect(s.dtype == np.float32, f"state_obs should be float32, got {s.dtype}", file=FILE)
+q = world.joints()
+want = np.concatenate(
+    [[np.cos(q[0]), np.sin(q[0]), np.cos(q[1]), np.sin(q[1])], *(world.blocks[b] for b in BLOCKS), [0.0, 1.0, 0.0]]
+).astype(np.float32)
+wrong = np.flatnonzero(~np.isclose(s, want, atol=1e-5))
+expect(not wrong.size, f"state_obs differs from the documented layout at index {wrong[:1].tolist()}: got {s[wrong[:1]]}, expected {want[wrong[:1]]}", file=FILE)
+
+p = obs.pixel_obs(world)
+expect(isinstance(p, np.ndarray) and p.shape == (16, 16, 3), f"pixel_obs should have shape (16, 16, 3), got {getattr(p, 'shape', type(p).__name__)}", file=FILE)
+expect(p.dtype == np.float32, f"pixel_obs should be float32, got {p.dtype}", file=FILE)
+expect(p.min() >= 0.0 and p.max() <= 1.0, f"pixel_obs should lie in [0, 1], got {p.min():.3f} to {p.max():.3f}", file=FILE)
+expect(np.allclose(p, world.rgb(16) / 255.0, atol=1e-6), "pixel_obs should be world.rgb(16) scaled to [0, 1]", file=FILE)
+expect(np.array_equal(obs.pixel_obs(world), p), "pixel_obs should give the same image twice for the same world", file=FILE)
+expect(not np.array_equal(obs.pixel_obs(Blockworld(seed=4)), p), "pixel_obs gave the same image for two different tables", file=FILE)
+expect(np.array_equal(world.state(), before), "an observation changed the world; observations must only read it", file=FILE)
+
+
+def dataset(seeds):
+    images, red = [], []
+    for seed in seeds:
+        w = Blockworld(seed=seed)
+        images.append(obs.pixel_obs(w).reshape(-1))
+        red.append(w.blocks["red"])
+    return np.array(images), np.array(red)
+
+
+x_train, y_train = dataset(range(1000, 1384))
+x_test, y_test = dataset(range(5000, 5128))
+rng = np.random.default_rng(1)
+model = nn.MLP([768, 32, 2], activation="relu", seed=0)
+optimizer = nn.Adam(model.parameters(), lr=0.01)
+for _ in range(300):
+    batch = rng.integers(0, len(x_train), 64)
+    loss = ((model(Tensor(x_train[batch])) - Tensor(y_train[batch])) ** 2).sum(axis=1).mean()
+    optimizer.zero_grad()
+    loss.backward()
+    optimizer.step()
+
+error = float(np.linalg.norm(model(Tensor(x_test)).data - y_test, axis=1).mean())
+guess = float(np.linalg.norm(y_test - y_train.mean(axis=0), axis=1).mean())
+expect(
+    error < 0.35,
+    f"from pixels, the network's held-out error on the red block is {error:.3f}; it needs to be under 0.35 "
+    f"(always guessing the average position scores {guess:.3f}).",
+    file=FILE,
+)
+print(f"Red block from pixels: held-out error {error:.3f}, against {guess:.3f} for guessing the average.")
+5:["$","$L9",null,{"data":{"rung":0,"slug":"rung-00","title":"Meet Blockworld: drive the arm by hand","contractHash":"1338c09389e53cd395779f3a78a97f0184f2d8399cbec94fdf0a298543508e2c","check":"$a","provides":[],"files":{},"world":{"world/blockworld.py":"$b","world/build.py":"\"\"\"Hooks from learner code to the page.\"\"\"\nimport json\n\nFRAME_SIZE = 128\n\n\ndef show(world, markers=()):\n    \"\"\"Send the world to the Blockworld widget. A no-op outside the browser.\"\"\"\n    try:\n        import buildhost\n    except ImportError:\n        return\n    labels = world.labels(FRAME_SIZE, markers)\n    buildhost.frame(labels.tobytes(), FRAME_SIZE, json.dumps(world.summary()))\n","world/check.py":"$c"},"ladder":[{"rung":0,"slug":"rung-00","title":"Meet Blockworld: drive the arm by hand","description":"Drive a two-link arm onto the block you name, and learn the world every later rung runs in.","contractHash":"1338c09389e53cd395779f3a78a97f0184f2d8399cbec94fdf0a298543508e2c","check":"$d","provides":"$5:props:data:provides","closure":[],"closureFiles":[]},{"rung":1,"slug":"rung-01","title":"Autograd from scratch","description":"Write the Tensor every later rung trains with, then let its gradients steer the arm.","contractHash":"cc1d63f9718281081f74fc0b077ef6a2cf6c6683e43572ef76cbe37df43a349c","check":"$e","provides":["mine/autograd.py"],"closure":[],"closureFiles":["mine/autograd.py"]},{"rung":2,"slug":"rung-02","title":"Networks and training: learn the arm's forward kinematics","description":"Write layers and optimizers on your Tensor, and train a network that knows where the hand is from the joint angles alone.","contractHash":"1ce9399320a25195a2c9709cd53986dd32ff5f50c9e120ec8f924555adf4ef17","check":"$f","provides":["mine/nn.py"],"closure":[1],"closureFiles":["mine/nn.py","mine/autograd.py"]},{"rung":3,"slug":"rung-03","title":"Observations: state and pixels","description":"Decide what a policy sees of the world, as an exact state vector or as a small camera image, and teach a network to find a block in the pixels.","contractHash":"09ddaacc4581fd6c501c820f2efb8b83c7dcb8d0d6e721e5f555e5da5803f2ff","check":"$10","provides":["mine/obs.py"],"closure":[2,1],"closureFiles":["mine/obs.py","mine/nn.py","mine/autograd.py"]}]},"artifactPaths":["artifacts/teleop.json"],"children":"$L11"}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/01tlp3o5hhc-0.js","async":true}]
+7:["$","$L12",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@14"}]}]
+11:["$","div",null,{"className":"lesson-shell","children":[["$","$L15",null,{}],["$","main",null,{"id":"main-content","tabIndex":-1,"style":{"minWidth":0,"outline":"none"},"children":[["$","header",null,{"className":"build-head","children":[["$","div",null,{"className":"build-kicker","children":[["$","span",null,{"aria-hidden":"true","className":"lamp"}],"The Build · Rung ","00"," of 12"]}],["$","h1",null,{"className":"build-title","children":"Meet Blockworld: drive the arm by hand"}],["$","p",null,{"className":"build-outcome","children":"Drive a two-link arm onto the block you name, and learn the world every later rung runs in."}]]}],["$","$L16",null,{}],["$","div",null,{"className":"build-body","children":[["$","article",null,{"className":"build-article","children":[[["$","p",null,{"style":{"fontSize":"1rem","color":"var(--text-body)","lineHeight":1.7,"marginBottom":"1.25em","marginTop":0},"children":"The Build is one project in thirteen rungs. Each rung asks you for one Python file, checks it, and keeps it: the autograd you write on rung 1 is the one that trains every network after it. All of it runs in one small world, and this rung is where you meet it."}],"\n",["$","h2",null,{"id":"the-failure","className":"heading-linked","style":{"fontFamily":"var(--font-display)","fontWeight":600,"fontSize":"0.9375rem","textTransform":"uppercase","letterSpacing":"0.02em","color":"var(--text-strong)","lineHeight":1.3,"marginBottom":"0.6em","marginTop":"2.5em","paddingTop":"1.2em","borderTop":"1px solid var(--border-subtle)","scrollMarginTop":"90px"},"children":["The failure",["$","$L17",null,{"id":"the-failure"}]]}],"\n",["$","p",null,{"style":{"fontSize":"1rem","color":"var(--text-body)","lineHeight":1.7,"marginBottom":"1.25em","marginTop":0},"children":"You cannot reach the block you name. Nothing in this workspace knows how to move the arm toward anything: there is no model, no policy and no gradient yet. The only controller is you."}],"\n",["$","p",null,{"style":{"fontSize":"1rem","color":"var(--text-body)","lineHeight":1.7,"marginBottom":"1.25em","marginTop":0},"children":[["$","strong",null,{"style":{"color":"var(--text-strong)","fontWeight":600},"children":"Goal:"}]," name a block, then drive the hand onto it."]}],"\n",["$","$L18",null,{"teleop":true}],"\n",["$","p",null,{"style":{"fontSize":"1rem","color":"var(--text-body)","lineHeight":1.7,"marginBottom":"1.25em","marginTop":0},"children":["Every move you make is recorded. When the hand reaches the block you named, the drive is saved to your workspace as ",["$","code",null,{"style":{"fontFamily":"var(--font-mono)","fontSize":"0.875em","background":"var(--surface-raised)","border":"1px solid var(--border-subtle)","borderRadius":"var(--radius-xs)","padding":"1px 5px","color":"var(--text-strong)"},"children":"artifacts/teleop.json"}],", and the check below replays it."]}],"\n",["$","h2",null,{"id":"what-you-are-driving","className":"heading-linked","style":{"fontFamily":"var(--font-display)","fontWeight":600,"fontSize":"0.9375rem","textTransform":"uppercase","letterSpacing":"0.02em","color":"var(--text-strong)","lineHeight":1.3,"marginBottom":"0.6em","marginTop":"2.5em","paddingTop":"1.2em","borderTop":"1px solid var(--border-subtle)","scrollMarginTop":"90px"},"children":["What you are driving",["$","$L17",null,{"id":"what-you-are-driving"}]]}],"\n",["$","p",null,{"style":{"fontSize":"1rem","color":"var(--text-body)","lineHeight":1.7,"marginBottom":"1.25em","marginTop":0},"children":["The arm has two links of length 1, joined at an elbow, with its base at the origin. Its whole configuration is two joint angles, ",["$","span",null,{"className":"katex","children":[["$","span",null,{"className":"katex-mathml","children":["$","math",null,{"xmlns":"http://www.w3.org/1998/Math/MathML","children":["$","semantics",null,{"children":[["$","mrow",null,{"children":["$","msub",null,{"children":[["$","mi",null,{"children":"q"}],["$","mn",null,{"children":"1"}]]}]}],["$","annotation",null,{"encoding":"application/x-tex","children":"q_1"}]]}]}]}],["$","span",null,{"className":"katex-html","aria-hidden":"true","children":["$","span",null,{"className":"base","children":[["$","span",null,{"className":"strut","style":{"height":"0.625em","verticalAlign":"-0.1944em"}}],["$","span",null,{"className":"mord","children":[["$","span",null,{"className":"mord mathnormal","style":{"marginRight":"0.0359em"},"children":"q"}],"$L19"]}]]}]}]]}]," at the base and ","$L1a"," at the elbow, measured in radians. Where the hand ends up is fixed by those two numbers:"]}],"\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c"],false]}],"$L2d"]}]]}]]}]
+14:null
+19:["$","span",null,{"className":"msupsub","children":["$","span",null,{"className":"vlist-t vlist-t2","children":[["$","span",null,{"className":"vlist-r","children":[["$","span",null,{"className":"vlist","style":{"height":"0.3011em"},"children":["$","span",null,{"style":{"top":"-2.55em","marginLeft":"-0.0359em","marginRight":"0.05em"},"children":[["$","span",null,{"className":"pstrut","style":{"height":"2.7em"}}],["$","span",null,{"className":"sizing reset-size6 size3 mtight","children":["$","span",null,{"className":"mord mtight","children":"1"}]}]]}]}],["$","span",null,{"className":"vlist-s","children":"​"}]]}],["$","span",null,{"className":"vlist-r","children":["$","span",null,{"className":"vlist","style":{"height":"0.15em"},"children":["$","span",null,{}]}]}]]}]}]
+1a:["$","span",null,{"className":"katex","children":[["$","span",null,{"className":"katex-mathml","children":["$","math",null,{"xmlns":"http://www.w3.org/1998/Math/MathML","children":["$","semantics",null,{"children":[["$","mrow",null,{"children":["$","msub",null,{"children":[["$","mi",null,{"children":"q"}],["$","mn",null,{"children":"2"}]]}]}],["$","annotation",null,{"encoding":"application/x-tex","children":"q_2"}]]}]}]}],["$","span",null,{"className":"katex-html","aria-hidden":"true","children":["$","span",null,{"className":"base","children":[["$","span",null,{"className":"strut","style":{"height":"0.625em","verticalAlign":"-0.1944em"}}],["$","span",null,{"className":"mord","children":[["$","span",null,{"className":"mord mathnormal","style":{"marginRight":"0.0359em"},"children":"q"}],["$","span",null,{"className":"msupsub","children":["$","span",null,{"className":"vlist-t vlist-t2","children":[["$","span",null,{"className":"vlist-r","children":[["$","span",null,{"className":"vlist","style":{"height":"0.3011em"},"children":["$","span",null,{"style":{"top":"-2.55em","marginLeft":"-0.0359em","marginRight":"0.05em"},"children":[["$","span",null,{"className":"pstrut","style":{"height":"2.7em"}}],["$","span",null,{"className":"sizing reset-size6 size3 mtight","children":["$","span",null,{"className":"mord mtight","children":"2"}]}]]}]}],["$","span",null,{"className":"vlist-s","children":"​"}]]}],["$","span",null,{"className":"vlist-r","children":["$","span",null,{"className":"vlist","style":{"height":"0.15em"},"children":["$","span",null,{}]}]}]]}]}]]}]]}]}]]}]
+1b:["$","span",null,{"className":"katex-display","tabIndex":"0","children":["$","span",null,{"className":"katex","children":[["$","span",null,{"className":"katex-mathml","children":["$","math",null,{"xmlns":"http://www.w3.org/1998/Math/MathML","display":"block","children":["$","semantics",null,{"children":[["$","mrow",null,{"children":[["$","mi",null,{"children":"x"}],["$","mo",null,{"children":"="}],["$","mi",null,{"children":"cos"}],["$","mo",null,{"children":"⁡"}],["$","msub",null,{"children":[["$","mi",null,{"children":"q"}],["$","mn",null,{"children":"1"}]]}],["$","mo",null,{"children":"+"}],["$","mi",null,{"children":"cos"}],["$","mo",null,{"children":"⁡"}],["$","mo",null,{"stretchy":"false","children":"("}],["$","msub",null,{"children":[["$","mi",null,{"children":"q"}],["$","mn",null,{"children":"1"}]]}],["$","mo",null,{"children":"+"}],["$","msub",null,{"children":[["$","mi",null,{"children":"q"}],["$","mn",null,{"children":"2"}]]}],["$","mo",null,{"stretchy":"false","children":")"}],["$","mo",null,{"separator":"true","children":","}],["$","mspace",null,{"width":"2em"}],["$","mi",null,{"children":"y"}],["$","mo",null,{"children":"="}],["$","mi",null,{"children":"sin"}],["$","mo",null,{"children":"⁡"}],["$","msub",null,{"children":[["$","mi",null,{"children":"q"}],["$","mn",null,{"children":"1"}]]}],["$","mo",null,{"children":"+"}],["$","mi",null,{"children":"sin"}],["$","mo",null,{"children":"⁡"}],["$","mo",null,{"stretchy":"false","children":"("}],["$","msub",null,{"children":[["$","mi",null,{"children":"q"}],["$","mn",null,{"children":"1"}]]}],["$","mo",null,{"children":"+"}],["$","msub",null,{"children":[["$","mi",null,{"children":"q"}],["$","mn",null,{"children":"2"}]]}],["$","mo",null,{"stretchy":"false","children":")"}],["$","mi",null,{"mathvariant":"normal","children":"."}]]}],["$","annotation",null,{"encoding":"application/x-tex","children":"x = \\cos q_1 + \\cos(q_1 + q_2), \\qquad y = \\sin q_1 + \\sin(q_1 + q_2)."}]]}]}]}],["$","span",null,{"className":"katex-html","aria-hidden":"true","children":[["$","span",null,{"className":"base","children":[["$","span",null,{"className":"strut","style":{"height":"0.4306em"}}],["$","span",null,{"className":"mord mathnormal","children":"x"}],["$","span",null,{"className":"mspace","style":{"marginRight":"0.2778em"}}],["$","span",null,{"className":"mrel","children":"="}],["$","span",null,{"className":"mspace","style":{"marginRight":"0.2778em"}}]]}],["$","span",null,{"className":"base","children":[["$","span",null,{"className":"strut","style":{"height":"0.7778em","verticalAlign":"-0.1944em"}}],["$","span",null,{"className":"mop","children":"cos"}],["$","span",null,{"className":"mspace","style":{"marginRight":"0.1667em"}}],["$","span",null,{"className":"mord","children":[["$","span",null,{"className":"mord mathnormal","style":{"marginRight":"0.0359em"},"children":"q"}],["$","span",null,{"className":"msupsub","children":["$","span",null,{"className":"vlist-t vlist-t2","children":[["$","span",null,{"className":"vlist-r","children":[["$","span",null,{"className":"vlist","style":{"height":"0.3011em"},"children":["$","span",null,{"style":{"top":"-2.55em","marginLeft":"-0.0359em","marginRight":"0.05em"},"children":[["$","span",null,{"className":"pstrut","style":{"height":"2.7em"}}],["$","span",null,{"className":"sizing reset-size6 size3 mtight","children":["$","span",null,{"className":"mord mtight","children":"1"}]}]]}]}],["$","span",null,{"className":"vlist-s","children":"​"}]]}],["$","span",null,{"className":"vlist-r","children":["$","span",null,{"className":"vlist","style":{"height":"0.15em"},"children":["$","span",null,{}]}]}]]}]}]]}],["$","span",null,{"className":"mspace","style":{"marginRight":"0.2222em"}}],["$","span",null,{"className":"mbin","children":"+"}],["$","span",null,{"className":"mspace","style":{"marginRight":"0.2222em"}}]]}],["$","span",null,{"className":"base","children":[["$","span",null,{"className":"strut","style":{"height":"1em","verticalAlign":"-0.25em"}}],["$","span",null,{"className":"mop","children":"cos"}],["$","span",null,{"className":"mopen","children":"("}],["$","span",null,{"className":"mord","children":[["$","span",null,{"className":"mord mathnormal","style":{"marginRight":"0.0359em"},"children":"q"}],["$","span",null,{"className":"msupsub","children":["$","span",null,{"className":"vlist-t vlist-t2","children":[["$","span",null,{"className":"vlist-r","children":[["$","span",null,{"className":"vlist","style":{"height":"0.3011em"},"children":["$","span",null,{"style":{"top":"-2.55em","marginLeft":"-0.0359em","marginRight":"0.05em"},"children":[["$","span",null,{"className":"pstrut","style":{"height":"2.7em"}}],["$","span",null,{"className":"sizing reset-size6 size3 mtight","children":["$","span",null,{"className":"mord mtight","children":"1"}]}]]}]}],["$","span",null,{"className":"vlist-s","children":"​"}]]}],["$","span",null,{"className":"vlist-r","children":["$","span",null,{"className":"vlist","style":{"height":"0.15em"},"children":["$","span",null,{}]}]}]]}]}]]}],["$","span",null,{"className":"mspace","style":{"marginRight":"0.2222em"}}],["$","span",null,{"className":"mbin","children":"+"}],["$","span",null,{"className":"mspace","style":{"marginRight":"0.2222em"}}]]}],["$","span",null,{"className":"base","children":[["$","span",null,{"className":"strut","style":{"height":"1em","verticalAlign":"-0.25em"}}],"$L2e","$L2f","$L30","$L31","$L32","$L33","$L34","$L35","$L36"]}],"$L37","$L38","$L39"]}]]}]}]
+1c:["$","p",null,{"style":{"fontSize":"1rem","color":"var(--text-body)","lineHeight":1.7,"marginBottom":"1.25em","marginTop":0},"children":"That map from joint angles to hand position is the arm's forward kinematics. It is the reason driving by hand feels awkward. Turning the base joint swings the whole arm along a circle; turning the elbow bends only the outer link, so the hand moves along a smaller circle centred on the elbow. Neither control moves the hand in a straight line, and the direction each one pushes changes as the arm moves."}]
+1d:["$","p",null,{"style":{"fontSize":"1rem","color":"var(--text-body)","lineHeight":1.7,"marginBottom":"1.25em","marginTop":0},"children":["An action is a change to the two joint angles. Each step clips it to at most ",["$","span",null,{"className":"katex","children":[["$","span",null,{"className":"katex-mathml","children":["$","math",null,{"xmlns":"http://www.w3.org/1998/Math/MathML","children":["$","semantics",null,{"children":[["$","mrow",null,{"children":["$","mn",null,{"children":"0.2"}]}],["$","annotation",null,{"encoding":"application/x-tex","children":"0.2"}]]}]}]}],["$","span",null,{"className":"katex-html","aria-hidden":"true","children":["$","span",null,{"className":"base","children":[["$","span",null,{"className":"strut","style":{"height":"0.6444em"}}],["$","span",null,{"className":"mord","children":"0.2"}]]}]}]]}]," rad per joint, so a long reach takes many steps. The hand has reached a block when its centre is within ",["$","span",null,{"className":"katex","children":[["$","span",null,{"className":"katex-mathml","children":["$","math",null,{"xmlns":"http://www.w3.org/1998/Math/MathML","children":["$","semantics",null,{"children":[["$","mrow",null,{"children":["$","mn",null,{"children":"0.15"}]}],["$","annotation",null,{"encoding":"application/x-tex","children":"0.15"}]]}]}]}],["$","span",null,{"className":"katex-html","aria-hidden":"true","children":["$","span",null,{"className":"base","children":[["$","span",null,{"className":"strut","style":{"height":"0.6444em"}}],["$","span",null,{"className":"mord","children":"0.15"}]]}]}]]}]," of the block's centre."]}]
+1e:["$","p",null,{"style":{"fontSize":"1rem","color":"var(--text-body)","lineHeight":1.7,"marginBottom":"1.25em","marginTop":0},"children":["The arm starts at ",["$","span",null,{"className":"katex","children":[["$","span",null,{"className":"katex-mathml","children":["$","math",null,{"xmlns":"http://www.w3.org/1998/Math/MathML","children":["$","semantics",null,{"children":[["$","mrow",null,{"children":[["$","mi",null,{"children":"q"}],["$","mo",null,{"children":"="}],["$","mo",null,{"stretchy":"false","children":"("}],["$","mi",null,{"children":"π"}],["$","mi",null,{"mathvariant":"normal","children":"/"}],["$","mn",null,{"children":"2"}],["$","mo",null,{"separator":"true","children":","}],["$","mo",null,{"children":"−"}],["$","mi",null,{"children":"π"}],["$","mi",null,{"mathvariant":"normal","children":"/"}],["$","mn",null,{"children":"2"}],["$","mo",null,{"stretchy":"false","children":")"}]]}],["$","annotation",null,{"encoding":"application/x-tex","children":"q = (\\pi/2, -\\pi/2)"}]]}]}]}],["$","span",null,{"className":"katex-html","aria-hidden":"true","children":[["$","span",null,{"className":"base","children":[["$","span",null,{"className":"strut","style":{"height":"0.625em","verticalAlign":"-0.1944em"}}],["$","span",null,{"className":"mord mathnormal","style":{"marginRight":"0.0359em"},"children":"q"}],["$","span",null,{"className":"mspace","style":{"marginRight":"0.2778em"}}],["$","span",null,{"className":"mrel","children":"="}],["$","span",null,{"className":"mspace","style":{"marginRight":"0.2778em"}}]]}],["$","span",null,{"className":"base","children":[["$","span",null,{"className":"strut","style":{"height":"1em","verticalAlign":"-0.25em"}}],["$","span",null,{"className":"mopen","children":"("}],["$","span",null,{"className":"mord mathnormal","style":{"marginRight":"0.0359em"},"children":"π"}],["$","span",null,{"className":"mord","children":"/2"}],["$","span",null,{"className":"mpunct","children":","}],["$","span",null,{"className":"mspace","style":{"marginRight":"0.1667em"}}],["$","span",null,{"className":"mord","children":"−"}],["$","span",null,{"className":"mord mathnormal","style":{"marginRight":"0.0359em"},"children":"π"}],["$","span",null,{"className":"mord","children":"/2"}],["$","span",null,{"className":"mclose","children":")"}]]}]]}]]}],": upper link straight up, lower link pointing right, hand at ",["$","span",null,{"className":"katex","children":[["$","span",null,{"className":"katex-mathml","children":["$","math",null,{"xmlns":"http://www.w3.org/1998/Math/MathML","children":["$","semantics",null,{"children":[["$","mrow",null,{"children":[["$","mo",null,{"stretchy":"false","children":"("}],["$","mn",null,{"children":"1"}],["$","mo",null,{"separator":"true","children":","}],["$","mn",null,{"children":"1"}],["$","mo",null,{"stretchy":"false","children":")"}]]}],["$","annotation",null,{"encoding":"application/x-tex","children":"(1, 1)"}]]}]}]}],["$","span",null,{"className":"katex-html","aria-hidden":"true","children":["$","span",null,{"className":"base","children":[["$","span",null,{"className":"strut","style":{"height":"1em","verticalAlign":"-0.25em"}}],["$","span",null,{"className":"mopen","children":"("}],["$","span",null,{"className":"mord","children":"1"}],["$","span",null,{"className":"mpunct","children":","}],["$","span",null,{"className":"mspace","style":{"marginRight":"0.1667em"}}],["$","span",null,{"className":"mord","children":"1"}],["$","span",null,{"className":"mclose","children":")"}]]}]}]]}],". The three blocks, red, green and blue, are placed by a seed, always within reach and clear of the arm's starting pose. The same seed always gives the same table."]}]
+1f:["$","h2",null,{"id":"the-check","className":"heading-linked","style":{"fontFamily":"var(--font-display)","fontWeight":600,"fontSize":"0.9375rem","textTransform":"uppercase","letterSpacing":"0.02em","color":"var(--text-strong)","lineHeight":1.3,"marginBottom":"0.6em","marginTop":"2.5em","paddingTop":"1.2em","borderTop":"1px solid var(--border-subtle)","scrollMarginTop":"90px"},"children":["The check",["$","$L17",null,{"id":"the-check"}]]}]
+20:["$","p",null,{"style":{"fontSize":"1rem","color":"var(--text-body)","lineHeight":1.7,"marginBottom":"1.25em","marginTop":0},"children":["The check replays your recorded moves from the same seed, one step at a time, and passes if the hand ever reaches the block you named. It uses the world's own ",["$","code",null,{"style":{"fontFamily":"var(--font-mono)","fontSize":"0.875em","background":"var(--surface-raised)","border":"1px solid var(--border-subtle)","borderRadius":"var(--radius-xs)","padding":"1px 5px","color":"var(--text-strong)"},"children":"step"}],", so a drive that worked on screen works here."]}]
+3b:T485,import json
+import os
+
+from world.blockworld import BLOCKS, REACH, Blockworld
+from world.check import expect
+
+PATH = "artifacts/teleop.json"
+expect(
+    os.path.exists(PATH),
+    "No recorded drive yet. Drive the hand onto the block you named, and the drive is saved.",
+    file=PATH,
+)
+with open(PATH) as f:
+    episode = json.load(f)
+expect(
+    isinstance(episode, dict) and {"seed", "target", "actions"} <= set(episode),
+    "The recording needs a seed, a target and a list of actions.",
+    file=PATH,
+)
+expect(episode["target"] in BLOCKS, f"The target must be one of {', '.join(BLOCKS)}.", file=PATH)
+
+world = Blockworld(seed=episode["seed"], target=episode["target"])
+closest = world.distance()
+reached = False
+for action in episode["actions"]:
+    _, _, done, info = world.step(action)
+    closest = min(closest, info["distance"])
+    reached = reached or done
+expect(
+    reached,
+    f"Replaying {len(episode['actions'])} moves never brings the hand within {REACH} "
+    f"of the {episode['target']} block; the closest it gets is {closest:.2f}.",
+    file=PATH,
+)
+print(f"Reached the {episode['target']} block in {len(episode['actions'])} moves.")21:["$","$L3a",null,{"fence":{"kind":"check"},"source":"$3b","children":["$","code",null,{"className":"hljs language-python","children":[["$","span",null,{"className":"hljs-keyword","children":"import"}]," json\n",["$","span",null,{"className":"hljs-keyword","children":"import"}]," os\n\n",["$","span",null,{"className":"hljs-keyword","children":"from"}]," world.blockworld ",["$","span",null,{"className":"hljs-keyword","children":"import"}]," BLOCKS, REACH, Blockworld\n",["$","span",null,{"className":"hljs-keyword","children":"from"}]," world.check ",["$","span",null,{"className":"hljs-keyword","children":"import"}]," expect\n\nPATH = ",["$","span",null,{"className":"hljs-string","children":"\"artifacts/teleop.json\""}],"\nexpect(\n    os.path.exists(PATH),\n    ",["$","span",null,{"className":"hljs-string","children":"\"No recorded drive yet. Drive the hand onto the block you named, and the drive is saved.\""}],",\n    file=PATH,\n)\n",["$","span",null,{"className":"hljs-keyword","children":"with"}]," ",["$","span",null,{"className":"hljs-built_in","children":"open"}],"(PATH) ",["$","span",null,{"className":"hljs-keyword","children":"as"}]," f:\n    episode = json.load(f)\nexpect(\n    ",["$","span",null,{"className":"hljs-built_in","children":"isinstance"}],"(episode, ",["$","span",null,{"className":"hljs-built_in","children":"dict"}],") ",["$","span",null,{"className":"hljs-keyword","children":"and"}]," {",["$","span",null,{"className":"hljs-string","children":"\"seed\""}],", ",["$","span",null,{"className":"hljs-string","children":"\"target\""}],", ",["$","span",null,{"className":"hljs-string","children":"\"actions\""}],"} <= ",["$","span",null,{"className":"hljs-built_in","children":"set"}],"(episode),\n    ",["$","span",null,{"className":"hljs-string","children":"\"The recording needs a seed, a target and a list of actions.\""}],",\n    file=PATH,\n)\nexpect(episode[",["$","span",null,{"className":"hljs-string","children":"\"target\""}],"] ",["$","span",null,{"className":"hljs-keyword","children":"in"}]," BLOCKS, ",["$","span",null,{"className":"hljs-string","children":["f\"The target must be one of ",["$","span",null,{"className":"hljs-subst","children":["{",["$","span",null,{"className":"hljs-string","children":"', '"}],".join(BLOCKS)}"]}],".\""]}],", file=PATH)\n\nworld = Blockworld(seed=episode[",["$","span",null,{"className":"hljs-string","children":"\"seed\""}],"], target=episode[",["$","span",null,{"className":"hljs-string","children":"\"target\""}],"])\nclosest = world.distance()\nreached = ",["$","span",null,{"className":"hljs-literal","children":"False"}],"\n",["$","span",null,{"className":"hljs-keyword","children":"for"}]," action ",["$","span",null,{"className":"hljs-keyword","children":"in"}]," episode[",["$","span",null,{"className":"hljs-string","children":"\"actions\""}],"]:\n    _, _, done, info = world.step(action)\n    closest = ","$L3c","(closest, info[","$L3d","])\n    reached = reached ","$L3e"," done\nexpect(\n    reached,\n    ","$L3f","\n    ","$L40",",\n    file=PATH,\n)\n","$L41","(","$L42",")\n"]}]}]
+22:["$","h2",null,{"id":"the-world-from-python","className":"heading-linked","style":{"fontFamily":"var(--font-display)","fontWeight":600,"fontSize":"0.9375rem","textTransform":"uppercase","letterSpacing":"0.02em","color":"var(--text-strong)","lineHeight":1.3,"marginBottom":"0.6em","marginTop":"2.5em","paddingTop":"1.2em","borderTop":"1px solid var(--border-subtle)","scrollMarginTop":"90px"},"children":["The world from Python",["$","$L17",null,{"id":"the-world-from-python"}]]}]
+23:["$","p",null,{"style":{"fontSize":"1rem","color":"var(--text-body)","lineHeight":1.7,"marginBottom":"1.25em","marginTop":0},"children":["The widget draws what Python sends it and computes nothing itself; ",["$","code",null,{"style":{"fontFamily":"var(--font-mono)","fontSize":"0.875em","background":"var(--surface-raised)","border":"1px solid var(--border-subtle)","borderRadius":"var(--radius-xs)","padding":"1px 5px","color":"var(--text-strong)"},"children":"world/blockworld.py"}]," is the only physics. You can drive the same world from code. ",["$","code",null,{"style":{"fontFamily":"var(--font-mono)","fontSize":"0.875em","background":"var(--surface-raised)","border":"1px solid var(--border-subtle)","borderRadius":"var(--radius-xs)","padding":"1px 5px","color":"var(--text-strong)"},"children":"show(world)"}]," sends the current frame to the widget, and ",["$","code",null,{"style":{"fontFamily":"var(--font-mono)","fontSize":"0.875em","background":"var(--surface-raised)","border":"1px solid var(--border-subtle)","borderRadius":"var(--radius-xs)","padding":"1px 5px","color":"var(--text-strong)"},"children":"summary()"}]," is the text version of what it shows."]}]
+24:["$","$L3a",null,{"fence":{"kind":"scratch"},"source":"from world.blockworld import Blockworld\nfrom world.build import show\n\nworld = Blockworld(seed=0, target=\"blue\")\nprint(world.summary())\nshow(world)","children":["$","code",null,{"className":"hljs language-python","children":[["$","span",null,{"className":"hljs-keyword","children":"from"}]," world.blockworld ",["$","span",null,{"className":"hljs-keyword","children":"import"}]," Blockworld\n",["$","span",null,{"className":"hljs-keyword","children":"from"}]," world.build ",["$","span",null,{"className":"hljs-keyword","children":"import"}]," show\n\nworld = Blockworld(seed=",["$","span",null,{"className":"hljs-number","children":"0"}],", target=",["$","span",null,{"className":"hljs-string","children":"\"blue\""}],")\n",["$","span",null,{"className":"hljs-built_in","children":"print"}],"(world.summary())\nshow(world)\n"]}]}]
+25:["$","p",null,{"style":{"fontSize":"1rem","color":"var(--text-body)","lineHeight":1.7,"marginBottom":"1.25em","marginTop":0},"children":["A scripted drive is a loop of ",["$","code",null,{"style":{"fontFamily":"var(--font-mono)","fontSize":"0.875em","background":"var(--surface-raised)","border":"1px solid var(--border-subtle)","borderRadius":"var(--radius-xs)","padding":"1px 5px","color":"var(--text-strong)"},"children":"step"}]," calls. This one turns only the base joint, which swings the hand around a circle of radius ",["$","span",null,{"className":"katex","children":[["$","span",null,{"className":"katex-mathml","children":["$","math",null,{"xmlns":"http://www.w3.org/1998/Math/MathML","children":["$","semantics",null,{"children":[["$","mrow",null,{"children":["$","msqrt",null,{"children":["$","mn",null,{"children":"2"}]}]}],["$","annotation",null,{"encoding":"application/x-tex","children":"\\sqrt{2}"}]]}]}]}],["$","span",null,{"className":"katex-html","aria-hidden":"true","children":["$","span",null,{"className":"base","children":[["$","span",null,{"className":"strut","style":{"height":"1.04em","verticalAlign":"-0.1328em"}}],["$","span",null,{"className":"mord sqrt","children":["$","span",null,{"className":"vlist-t vlist-t2","children":[["$","span",null,{"className":"vlist-r","children":[["$","span",null,{"className":"vlist","style":{"height":"0.9072em"},"children":[["$","span",null,{"className":"svg-align","style":{"top":"-3em"},"children":[["$","span",null,{"className":"pstrut","style":{"height":"3em"}}],["$","span",null,{"className":"mord","style":{"paddingLeft":"0.833em"},"children":["$","span",null,{"className":"mord","children":"2"}]}]]}],["$","span",null,{"style":{"top":"-2.8672em"},"children":[["$","span",null,{"className":"pstrut","style":{"height":"3em"}}],["$","span",null,{"className":"hide-tail","style":{"minWidth":"0.853em","height":"1.08em"},"children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":"400em","height":"1.08em","viewBox":"0 0 400000 1080","preserveAspectRatio":"xMinYMin slice","children":["$","path",null,{"d":"M95,702\nc-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,-10,-9.5,-14\nc0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54\nc44.2,-33.3,65.8,-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10\ns173,378,173,378c0.7,0,35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429\nc69,-144,104.5,-217.7,106.5,-221\nl0 -0\nc5.3,-9.3,12,-14,20,-14\nH400000v40H845.2724\ns-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7\nc-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47z\nM834 80h400000v40h-400000z"}]}]}]]}]]}],["$","span",null,{"className":"vlist-s","children":"​"}]]}],["$","span",null,{"className":"vlist-r","children":["$","span",null,{"className":"vlist","style":{"height":"0.1328em"},"children":["$","span",null,{}]}]}]]}]}]]}]}]]}]," about the base, since the elbow stays bent at a right angle. The blue block sits at radius ",["$","span",null,{"className":"katex","children":[["$","span",null,{"className":"katex-mathml","children":["$","math",null,{"xmlns":"http://www.w3.org/1998/Math/MathML","children":["$","semantics",null,{"children":[["$","mrow",null,{"children":["$","mn",null,{"children":"1.50"}]}],["$","annotation",null,{"encoding":"application/x-tex","children":"1.50"}]]}]}]}],["$","span",null,{"className":"katex-html","aria-hidden":"true","children":["$","span",null,{"className":"base","children":[["$","span",null,{"className":"strut","style":{"height":"0.6444em"}}],["$","span",null,{"className":"mord","children":"1.50"}]]}]}]]}],", close enough to that circle that the hand passes within reach of it, and then keeps going: reaching a block does not stop the arm."]}]
+26:["$","$L3a",null,{"fence":{"kind":"scratch"},"source":"closest = world.distance()\nfor _ in range(24):\n    state, reward, done, info = world.step([0.1, 0.0])\n    closest = min(closest, info[\"distance\"])\n    show(world)\nprint(f\"closest {closest:.3f}, final {info['distance']:.3f}\")","children":["$","code",null,{"className":"hljs language-python","children":["closest = world.distance()\n",["$","span",null,{"className":"hljs-keyword","children":"for"}]," _ ",["$","span",null,{"className":"hljs-keyword","children":"in"}]," ",["$","span",null,{"className":"hljs-built_in","children":"range"}],"(",["$","span",null,{"className":"hljs-number","children":"24"}],"):\n    state, reward, done, info = world.step([",["$","span",null,{"className":"hljs-number","children":"0.1"}],", ",["$","span",null,{"className":"hljs-number","children":"0.0"}],"])\n    closest = ",["$","span",null,{"className":"hljs-built_in","children":"min"}],"(closest, info[",["$","span",null,{"className":"hljs-string","children":"\"distance\""}],"])\n    show(world)\n",["$","span",null,{"className":"hljs-built_in","children":"print"}],"(",["$","span",null,{"className":"hljs-string","children":["f\"closest ",["$","span",null,{"className":"hljs-subst","children":["{closest:",["$","span",null,{"className":"hljs-number","children":".3"}],"f}"]}],", final ",["$","span",null,{"className":"hljs-subst","children":["{info[",["$","span",null,{"className":"hljs-string","children":"'distance'"}],"]:",["$","span",null,{"className":"hljs-number","children":".3"}],"f}"]}],"\""]}],")\n"]}]}]
+27:["$","p",null,{"style":{"fontSize":"1rem","color":"var(--text-body)","lineHeight":1.7,"marginBottom":"1.25em","marginTop":0},"children":[["$","code",null,{"style":{"fontFamily":"var(--font-mono)","fontSize":"0.875em","background":"var(--surface-raised)","border":"1px solid var(--border-subtle)","borderRadius":"var(--radius-xs)","padding":"1px 5px","color":"var(--text-strong)"},"children":"state"}]," is the vector a policy will read on later rungs: the two joint angles, then the red, green and blue block positions, eight numbers in all."]}]
+28:["$","$L3a",null,{"fence":{"kind":"scratch"},"source":"print(world.state().round(3))","children":["$","code",null,{"className":"hljs language-python","children":[["$","span",null,{"className":"hljs-built_in","children":"print"}],"(world.state().",["$","span",null,{"className":"hljs-built_in","children":"round"}],"(",["$","span",null,{"className":"hljs-number","children":"3"}],"))\n"]}]}]
+29:["$","h2",null,{"id":"key-takeaways","className":"heading-linked","style":{"fontFamily":"var(--font-display)","fontWeight":600,"fontSize":"0.9375rem","textTransform":"uppercase","letterSpacing":"0.02em","color":"var(--text-strong)","lineHeight":1.3,"marginBottom":"0.6em","marginTop":"2.5em","paddingTop":"1.2em","borderTop":"1px solid var(--border-subtle)","scrollMarginTop":"90px"},"children":["Key takeaways",["$","$L17",null,{"id":"key-takeaways"}]]}]
+2a:["$","ul",null,{"style":{"paddingLeft":"1.5em","marginBottom":"1.25em","color":"var(--text-body)","lineHeight":1.75},"children":["\n",["$","li",null,{"style":{"marginBottom":"0.35em","fontSize":"1rem"},"children":"The arm is two numbers, the joint angles. The hand position follows from them through forward kinematics, and that map is not linear."}],"\n",["$","li",null,{"style":{"marginBottom":"0.35em","fontSize":"1rem"},"children":"Driving by hand is hard because each joint pushes the hand in a direction that changes as the arm moves. Every later rung replaces you with something that learns that relationship."}],"\n",["$","li",null,{"style":{"marginBottom":"0.35em","fontSize":"1rem"},"children":"The world is deterministic under a seed, and the widget holds no physics of its own, so what you see and what the checks measure never disagree."}],"\n"]}]
+2b:["$","h2",null,{"id":"reference-depth","className":"heading-linked","style":{"fontFamily":"var(--font-display)","fontWeight":600,"fontSize":"0.9375rem","textTransform":"uppercase","letterSpacing":"0.02em","color":"var(--text-strong)","lineHeight":1.3,"marginBottom":"0.6em","marginTop":"2.5em","paddingTop":"1.2em","borderTop":"1px solid var(--border-subtle)","scrollMarginTop":"90px"},"children":["Reference depth",["$","$L17",null,{"id":"reference-depth"}]]}]
+2c:["$","ul",null,{"style":{"paddingLeft":"1.5em","marginBottom":"1.25em","color":"var(--text-body)","lineHeight":1.75},"children":["\n",["$","li",null,{"style":{"marginBottom":"0.35em","fontSize":"1rem"},"children":[["$","a",null,{"href":"/courses/robot-learning/lessons/rb-w1","target":"_blank","rel":"noopener","style":{"color":"var(--text-link)","textDecoration":"underline","textDecorationColor":"var(--border-focus)","textUnderlineOffset":2},"children":"Robot Modeling and Kinematics"}]," derives forward kinematics for serial arms, including this two-link case."]}],"\n",["$","li",null,{"style":{"marginBottom":"0.35em","fontSize":"1rem"},"children":[["$","a",null,{"href":"/courses/linear-algebra/lessons/la-w1","target":"_blank","rel":"noopener","style":"$2c:props:children:1:props:children:0:props:style","children":"Vectors and Linear Combinations"}]," covers the vector arithmetic behind positions and joint-angle deltas."]}],"\n",["$","li",null,{"style":{"marginBottom":"0.35em","fontSize":"1rem"},"children":[["$","a",null,{"href":"/courses/robot-learning/lessons/rb-w4","target":"_blank","rel":"noopener","style":"$2c:props:children:1:props:children:0:props:style","children":"Teleoperation and Data Collection"}]," is where recorded human drives become training data, which is what rung 4 does with this widget."]}],"\n"]}]
+2d:["$","aside",null,{"className":"build-side","aria-label":"Latest Blockworld frame","children":["$","$L43",null,{}]}]
+2e:["$","span",null,{"className":"mord","children":[["$","span",null,{"className":"mord mathnormal","style":{"marginRight":"0.0359em"},"children":"q"}],["$","span",null,{"className":"msupsub","children":["$","span",null,{"className":"vlist-t vlist-t2","children":[["$","span",null,{"className":"vlist-r","children":[["$","span",null,{"className":"vlist","style":{"height":"0.3011em"},"children":["$","span",null,{"style":{"top":"-2.55em","marginLeft":"-0.0359em","marginRight":"0.05em"},"children":[["$","span",null,{"className":"pstrut","style":{"height":"2.7em"}}],["$","span",null,{"className":"sizing reset-size6 size3 mtight","children":["$","span",null,{"className":"mord mtight","children":"2"}]}]]}]}],["$","span",null,{"className":"vlist-s","children":"​"}]]}],["$","span",null,{"className":"vlist-r","children":["$","span",null,{"className":"vlist","style":{"height":"0.15em"},"children":["$","span",null,{}]}]}]]}]}]]}]
+2f:["$","span",null,{"className":"mclose","children":")"}]
+30:["$","span",null,{"className":"mpunct","children":","}]
+31:["$","span",null,{"className":"mspace","style":{"marginRight":"2em"}}]
+32:["$","span",null,{"className":"mspace","style":{"marginRight":"0.1667em"}}]
+33:["$","span",null,{"className":"mord mathnormal","style":{"marginRight":"0.0359em"},"children":"y"}]
+34:["$","span",null,{"className":"mspace","style":{"marginRight":"0.2778em"}}]
+35:["$","span",null,{"className":"mrel","children":"="}]
+36:["$","span",null,{"className":"mspace","style":{"marginRight":"0.2778em"}}]
+37:["$","span",null,{"className":"base","children":[["$","span",null,{"className":"strut","style":{"height":"0.8623em","verticalAlign":"-0.1944em"}}],["$","span",null,{"className":"mop","children":"sin"}],["$","span",null,{"className":"mspace","style":{"marginRight":"0.1667em"}}],["$","span",null,{"className":"mord","children":[["$","span",null,{"className":"mord mathnormal","style":{"marginRight":"0.0359em"},"children":"q"}],["$","span",null,{"className":"msupsub","children":["$","span",null,{"className":"vlist-t vlist-t2","children":[["$","span",null,{"className":"vlist-r","children":[["$","span",null,{"className":"vlist","style":{"height":"0.3011em"},"children":["$","span",null,{"style":{"top":"-2.55em","marginLeft":"-0.0359em","marginRight":"0.05em"},"children":[["$","span",null,{"className":"pstrut","style":{"height":"2.7em"}}],["$","span",null,{"className":"sizing reset-size6 size3 mtight","children":["$","span",null,{"className":"mord mtight","children":"1"}]}]]}]}],["$","span",null,{"className":"vlist-s","children":"​"}]]}],["$","span",null,{"className":"vlist-r","children":["$","span",null,{"className":"vlist","style":{"height":"0.15em"},"children":["$","span",null,{}]}]}]]}]}]]}],["$","span",null,{"className":"mspace","style":{"marginRight":"0.2222em"}}],["$","span",null,{"className":"mbin","children":"+"}],["$","span",null,{"className":"mspace","style":{"marginRight":"0.2222em"}}]]}]
+38:["$","span",null,{"className":"base","children":[["$","span",null,{"className":"strut","style":{"height":"1em","verticalAlign":"-0.25em"}}],["$","span",null,{"className":"mop","children":"sin"}],["$","span",null,{"className":"mopen","children":"("}],["$","span",null,{"className":"mord","children":[["$","span",null,{"className":"mord mathnormal","style":{"marginRight":"0.0359em"},"children":"q"}],["$","span",null,{"className":"msupsub","children":["$","span",null,{"className":"vlist-t vlist-t2","children":[["$","span",null,{"className":"vlist-r","children":[["$","span",null,{"className":"vlist","style":{"height":"0.3011em"},"children":["$","span",null,{"style":{"top":"-2.55em","marginLeft":"-0.0359em","marginRight":"0.05em"},"children":[["$","span",null,{"className":"pstrut","style":{"height":"2.7em"}}],["$","span",null,{"className":"sizing reset-size6 size3 mtight","children":["$","span",null,{"className":"mord mtight","children":"1"}]}]]}]}],["$","span",null,{"className":"vlist-s","children":"​"}]]}],["$","span",null,{"className":"vlist-r","children":["$","span",null,{"className":"vlist","style":{"height":"0.15em"},"children":["$","span",null,{}]}]}]]}]}]]}],["$","span",null,{"className":"mspace","style":{"marginRight":"0.2222em"}}],["$","span",null,{"className":"mbin","children":"+"}],["$","span",null,{"className":"mspace","style":{"marginRight":"0.2222em"}}]]}]
+39:["$","span",null,{"className":"base","children":[["$","span",null,{"className":"strut","style":{"height":"1em","verticalAlign":"-0.25em"}}],["$","span",null,{"className":"mord","children":[["$","span",null,{"className":"mord mathnormal","style":{"marginRight":"0.0359em"},"children":"q"}],["$","span",null,{"className":"msupsub","children":["$","span",null,{"className":"vlist-t vlist-t2","children":[["$","span",null,{"className":"vlist-r","children":[["$","span",null,{"className":"vlist","style":{"height":"0.3011em"},"children":["$","span",null,{"style":{"top":"-2.55em","marginLeft":"-0.0359em","marginRight":"0.05em"},"children":[["$","span",null,{"className":"pstrut","style":{"height":"2.7em"}}],["$","span",null,{"className":"sizing reset-size6 size3 mtight","children":["$","span",null,{"className":"mord mtight","children":"2"}]}]]}]}],["$","span",null,{"className":"vlist-s","children":"​"}]]}],["$","span",null,{"className":"vlist-r","children":["$","span",null,{"className":"vlist","style":{"height":"0.15em"},"children":["$","span",null,{}]}]}]]}]}]]}],["$","span",null,{"className":"mclose","children":")"}],["$","span",null,{"className":"mord","children":"."}]]}]
+3c:["$","span",null,{"className":"hljs-built_in","children":"min"}]
+3d:["$","span",null,{"className":"hljs-string","children":"\"distance\""}]
+3e:["$","span",null,{"className":"hljs-keyword","children":"or"}]
+3f:["$","span",null,{"className":"hljs-string","children":["f\"Replaying ",["$","span",null,{"className":"hljs-subst","children":["{",["$","span",null,{"className":"hljs-built_in","children":"len"}],"(episode[",["$","span",null,{"className":"hljs-string","children":"'actions'"}],"])}"]}]," moves never brings the hand within ",["$","span",null,{"className":"hljs-subst","children":"{REACH}"}]," \""]}]
+40:["$","span",null,{"className":"hljs-string","children":["f\"of the ",["$","span",null,{"className":"hljs-subst","children":["{episode[",["$","span",null,{"className":"hljs-string","children":"'target'"}],"]}"]}]," block; the closest it gets is ",["$","span",null,{"className":"hljs-subst","children":["{closest:",["$","span",null,{"className":"hljs-number","children":".2"}],"f}"]}],".\""]}]
+41:["$","span",null,{"className":"hljs-built_in","children":"print"}]
+42:["$","span",null,{"className":"hljs-string","children":["f\"Reached the ",["$","span",null,{"className":"hljs-subst","children":["{episode[",["$","span",null,{"className":"hljs-string","children":"'target'"}],"]}"]}]," block in ",["$","span",null,{"className":"hljs-subst","children":["{",["$","span",null,{"className":"hljs-built_in","children":"len"}],"(episode[",["$","span",null,{"className":"hljs-string","children":"'actions'"}],"])}"]}]," moves.\""]}]
