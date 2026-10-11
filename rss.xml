@@ -4,7 +4,7 @@
     <title>ePowerAI</title>
     <link>https://probabilize.dev/</link>
     <description>Project-based courses from Linear Algebra and Optimization through RL, Robot Learning, Physical AI, Generative Models, Probability &amp; Statistics, and Advanced Optimization — short concepts paired with hands-on builds.</description>
-    <lastBuildDate>Sat, 10 Oct 2026 21:12:53 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 04:27:17 GMT</lastBuildDate>
   <item>
     <title>Start Here: Python and the Math the Labs Use</title>
     <link>https://probabilize.dev/courses/linear-algebra/lessons/start-here/</link>
@@ -135,7 +135,7 @@
     <title>Week 3: Gradient Descent Theory</title>
     <link>https://probabilize.dev/courses/optimization/lessons/opt-w3/</link>
     <guid isPermaLink="true">https://probabilize.dev/courses/optimization/lessons/opt-w3/</guid>
-    <description>Understand why GD converges: L-smoothness, convexity, and step-size rules that guarantee monotonic progress.</description>
+    <description>Why GD converges or blows up: L-smoothness, the 2/L step-size limit, strong convexity, and how the condition number sets the fastest step.</description>
     <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
