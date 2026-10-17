@@ -4,7 +4,14 @@
     <title>ePowerAI</title>
     <link>https://probabilize.dev/</link>
     <description>Project-based courses from Linear Algebra and Optimization through RL, Robot Learning, Physical AI, Generative Models, Probability &amp; Statistics, and Advanced Optimization — short concepts paired with hands-on builds.</description>
-    <lastBuildDate>Sat, 17 Oct 2026 07:52:05 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 14:20:32 GMT</lastBuildDate>
+  <item>
+    <title>Week 4: Determinants</title>
+    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w4/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w4/</guid>
+    <description>Watch a 3 × 3 matrix turn the unit cube into a box whose signed volume is det A: lean it with a shear, flatten it with no parallel columns, mirror it, and scale it by k³.</description>
+    <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
   <item>
     <title>Week 3: Elimination and LU Factorization</title>
     <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w3/</link>
@@ -52,13 +59,6 @@
     <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w2/</link>
     <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w2/</guid>
     <description>A unit grid deforms under a 2 by 2 matrix. The signed area of the unit square is the determinant, and matrix multiplication is composition.</description>
-    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-  </item>
-  <item>
-    <title>Week 4: Determinants</title>
-    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w4/</link>
-    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w4/</guid>
-    <description>Learn the defining properties of the determinant, compute it by cofactor expansion, and use it to test invertibility and measure volume.</description>
     <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
