@@ -4,7 +4,28 @@
     <title>ePowerAI</title>
     <link>https://probabilize.dev/</link>
     <description>Project-based courses from Linear Algebra and Optimization through RL, Robot Learning, Physical AI, Generative Models, Probability &amp; Statistics, and Advanced Optimization — short concepts paired with hands-on builds.</description>
-    <lastBuildDate>Sun, 11 Oct 2026 10:42:06 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 03:44:58 GMT</lastBuildDate>
+  <item>
+    <title>Week 3: Elimination and LU Factorization</title>
+    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w3/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w3/</guid>
+    <description>Watch elimination swing three planes about their crossing lines while the solution stays put, read a zero pivot as a picture, and factor A = LU.</description>
+    <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 13: The SVD and Complex Matrices</title>
+    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w13/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w13/</guid>
+    <description>Watch the unit sphere turn, stretch and turn into an ellipsoid, and read the singular value decomposition off the picture. Then meet the complex analogues of symmetric and orthogonal matrices.</description>
+    <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Week 14: PCA, the Fourier Matrix and the FFT</title>
+    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w14/</link>
+    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w14/</guid>
+    <description>Flatten a 3D point cloud onto its principal plane and watch how little variance it loses, then meet the Fourier matrix and the FFT, and close the course.</description>
+    <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
   <item>
     <title>Start Here: Python and the Math the Labs Use</title>
     <link>https://probabilize.dev/courses/linear-algebra/lessons/start-here/</link>
@@ -31,13 +52,6 @@
     <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w2/</link>
     <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w2/</guid>
     <description>A unit grid deforms under a 2 by 2 matrix. The signed area of the unit square is the determinant, and matrix multiplication is composition.</description>
-    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-  </item>
-  <item>
-    <title>Week 3: Elimination and LU Factorization</title>
-    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w3/</link>
-    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w3/</guid>
-    <description>Solve linear systems by Gaussian elimination, see elimination as matrix multiplication, and factor A = LU.</description>
     <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
@@ -100,21 +114,7 @@
     <title>Week 12: Symmetric and Positive Definite Matrices</title>
     <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w12/</link>
     <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w12/</guid>
-    <description>Meet the spectral theorem for symmetric matrices, and learn three equivalent tests for positive definiteness.</description>
-    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-  </item>
-  <item>
-    <title>Week 13: The SVD and Complex Matrices</title>
-    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w13/</link>
-    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w13/</guid>
-    <description>Generalize eigendecomposition to any matrix with the singular value decomposition, and meet the complex analogues of symmetric and orthogonal matrices.</description>
-    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-  </item>
-  <item>
-    <title>Week 14: The Fourier Matrix, FFT, and PCA</title>
-    <link>https://probabilize.dev/courses/linear-algebra/lessons/la-w14/</link>
-    <guid isPermaLink="true">https://probabilize.dev/courses/linear-algebra/lessons/la-w14/</guid>
-    <description>Meet the Fourier matrix and the FFT that makes it fast, then close the course with PCA — variance-maximizing directions found via the SVD.</description>
+    <description>Read the shape of x^T A x from the signs of A's eigenvalues: a bowl, a trough or a saddle. Then test for positive definiteness three ways, and see why positive entries prove nothing.</description>
     <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
@@ -128,7 +128,7 @@
     <title>Week 2: Convex Sets and Functions</title>
     <link>https://probabilize.dev/courses/optimization/lessons/opt-w2/</link>
     <guid isPermaLink="true">https://probabilize.dev/courses/optimization/lessons/opt-w2/</guid>
-    <description>Recognize convex sets and functions, and understand why a local minimum of a convex function is automatically global.</description>
+    <description>Test convexity with the chord between two points, read it off the Hessian, and see why a local minimum of a convex function is automatically global.</description>
     <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
@@ -205,7 +205,7 @@
     <title>Week 13: Nonconvex Deep Learning</title>
     <link>https://probabilize.dev/courses/optimization/lessons/opt-w13/</link>
     <guid isPermaLink="true">https://probabilize.dev/courses/optimization/lessons/opt-w13/</guid>
-    <description>Cross from convex land into the reality of deep net training: saddles, overparameterization, initialization, and normalization.</description>
+    <description>Why training stalls on plateaus: saddle points, how long gradient descent takes to escape them, and what overparameterization, initialization and normalization change.</description>
     <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
@@ -688,7 +688,7 @@
     <title>Week 6: Multivariate Gaussians</title>
     <link>https://probabilize.dev/courses/probability-statistics/lessons/ps-w6/</link>
     <guid isPermaLink="true">https://probabilize.dev/courses/probability-statistics/lessons/ps-w6/</guid>
-    <description>Parameterize joint Gaussians with mean and covariance, and compute marginals, conditionals, and whitening transforms.</description>
+    <description>Read a joint Gaussian from its mean and covariance, slice it to get a conditional, and see why the conditional's width never depends on what you observed.</description>
     <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
